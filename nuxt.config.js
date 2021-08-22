@@ -51,8 +51,20 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/buefy
-    'nuxt-buefy'
+    'nuxt-buefy',
+    '@nuxtjs/google-gtag',
   ],
+
+  'google-gtag': {
+    id: 'G-DV6R9X8V7F',
+    config: {
+      anonymize_ip: true,
+      send_page_view: false,
+      linker: {
+        domains: ['domain.com','domain.org']
+      }
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
