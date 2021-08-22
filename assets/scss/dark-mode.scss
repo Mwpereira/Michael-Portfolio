@@ -2,18 +2,24 @@ html {
   &.is-dark-mode-active {
     background-color: $dark-mode-background-color;
 
-    .card {
-      .card-header {
-        .button {
-          border-color: $dark-mode-card-header-button-color !important;
-          color: $dark-mode-card-header-button-color;
+    h2 {
+      color: #2d3140 !important;
+    }
 
-          &:hover {
-            background-color: $dark-mode-card-header-button-color;
-            color: $dark-mode-card-header-button-hover-color;
-          }
-        }
-      }
+    .box {
+      background-color: $dark-mode-background-color;
+    }
+
+    p, i {
+      color: $dark-mode-color;
+    }
+
+    .vertical {
+      border-color: $dark-mode-color;
+    }
+
+    .card {
+      background-color: $dark-mode-background-color;
     }
 
     .button {
@@ -21,7 +27,7 @@ html {
       border-color: $dark-mode-button-color !important;
       color: $dark-mode-button-color !important;
 
-      &:hover:not([disabled]) {
+      &:hover:not([disabled]):not(.is-dark) {
         background-color: $dark-mode-button-color;
         color: $dark-mode-button-hover-color !important;
       }
@@ -39,6 +45,17 @@ html {
       }
     }
 
+
+    button.is-dark {
+      background-color: white !important;
+
+      &:hover {
+        background-color: transparent !important;
+        border-color: white !important;
+        color: white !important;
+      }
+    }
+
     .label {
       color: $grey-lighter;
     }
@@ -52,24 +69,8 @@ html {
       }
     }
 
-    .select {
-      &:not(.is-multiple):not(.is-loading)::after {
-        border-color: $dark-mode-color;
-      }
-
-      select {
-        color: $dark-mode-color;
-      }
-    }
-
-    .b-checkbox.checkbox input[type=checkbox], .b-radio.radio input[type=radio] {
-      & + .check {
-        border: $dark-mode-border !important;
-      }
-    }
-
-    .b-slider .b-slider-thumb-wrapper .b-slider-thumb {
-      background: $dark-mode-background-color;
+    .help.counter {
+      color: $dark-mode-color;
     }
 
     .title {
@@ -101,8 +102,7 @@ html {
     }
 
     nav.navbar {
-      background-color: $dark-mode-background-color;
-      box-shadow: 0 1px $dark-mode-light-border-color;
+      background-color: $dark-mode-navbar-background-color;
 
       .navbar-item {
         color: $dark-mode-link-color;
@@ -122,32 +122,28 @@ html {
         &.has-divider {
           border-color: $dark-mode-light-border-color;
         }
-
-        &.is-active {
-          color: $dark-mode-link-active-color;
-        }
       }
+    }
+
+    .navbar-menu {
+      background-color: $dark-mode-navbar-hover-color;
+    }
+
+    .navbar-menu.is-active .navbar-item:hover {
+      border-color: transparent !important;
+      color: $dark-mode-color;
+    }
+
+    .navbar-item:hover {
+      background-color: $dark-mode-navbar-hover-color;
+      border-color: white;
     }
 
     .navbar-dropdown {
-      background-color: $dark-mode-background-color;
+      background-color: $dark-mode-navbar-hover-color;
 
       .navbar-item:hover {
         color: $dark-mode-color;
-      }
-    }
-
-    aside.aside {
-      background-color: $dark-mode-background-color;
-      box-shadow: 1px 0 $dark-mode-light-border-color;
-
-      .aside-tools {
-        color: $dark-mode-color;
-        box-shadow: 0 1px $dark-mode-light-border-color;
-
-        .aside-close {
-          color: $dark-mode-color;
-        }
       }
     }
 
@@ -172,11 +168,6 @@ html {
           color: $grey-light;
         }
       }
-
-      .notification {
-        background-color: $dark-mode-light-border-color;
-        color: $grey-lighter;
-      }
     }
 
     section {
@@ -196,6 +187,7 @@ html {
     }
 
     footer.footer {
+      background-color: $dark-mode-footer-background-color;
       border-color: $dark-mode-light-border-color;
 
       .logo svg path {

@@ -6,6 +6,8 @@
     <Projects />
     <Certifications />
     <Contact />
+    <Socials class='is-hidden-mobile' />
+    <Email class='is-hidden-mobile' />
   </section>
 </template>
 
@@ -18,6 +20,8 @@ import Contact from '~/components/sections/Contact.vue'
 import About from '~/components/sections/About.vue'
 import Jobs from '~/components/sections/Work.vue'
 import Certifications from '~/components/sections/Certifications.vue'
+import Socials from '~/components/general/Socials.vue'
+import Email from '~/components/general/Email.vue'
 
 @Component({
   components: {
@@ -26,10 +30,15 @@ import Certifications from '~/components/sections/Certifications.vue'
     Projects,
     Jobs,
     Certifications,
-    Contact
+    Contact,
+    Socials,
+    Email
   }
 })
 export default class HomePage extends Vue {
+  mounted() {
+    this.$store.commit('LOAD_THEME')
+  }
 }
 </script>
 
@@ -49,5 +58,11 @@ html, body {
 
 p, i {
   color: #323232;
+}
+
+@media screen and (max-width: 1100px) {
+  Socials, Email {
+    display: none;
+  }
 }
 </style>

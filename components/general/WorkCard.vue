@@ -3,8 +3,7 @@
     <p class='is-size-5'>{{ position }} <b>@ {{ company }}</b></p>
     <p class='mt-2'>{{ dateWorked }}</p>
     <div v-for='point in points' :key='point' class='my-5'>
-      <i class='fas fa-angle-right'></i>
-      {{ point }}
+      <p><i class='fas fa-angle-right mr-2'></i>{{ point }}</p>
       <br />
     </div>
     <div v-if='referenceLetter'>

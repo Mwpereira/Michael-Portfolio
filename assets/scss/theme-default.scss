@@ -9,7 +9,7 @@ $default-padding: $size-base * 1.5;
 $family-sans-serif: "Nunito", sans-serif;
 
 /* Base color */
-$base-color: #2e323a;
+$base-color: #ffffff;
 $base-color-light: #f1f2f2;
 
 /* General overrides */
@@ -36,95 +36,14 @@ $navbar-input-placeholder-color: $grey-lighter;
 $navbar-box-shadow: 0 1px $base-color-light;
 $navbar-divider-border: 1px solid $base-color-light;
 $navbar-item-h-padding: $default-padding * .75;
-$navbar-avatar-size: 1.75rem;
-
-/* Aside: Bulma override */
-$menu-item-radius: 0;
-$menu-list-link-padding: $size-base * .5 0;
-$menu-label-color: lighten($base-color, 25%);
-$menu-item-color: $link;
-$menu-item-hover-color: $black;
-$menu-item-hover-background-color: transparent;
-$menu-item-active-color: $black-ter;
-$menu-item-active-background-color: transparent;
-
-/* Aside: specifics */
-$aside-width: $size-base * 14;
-$aside-mobile-width: $size-base * 15;
-$aside-icon-width: $size-base * 3;
-$aside-submenu-font-size: $size-base * .95;
-$aside-box-shadow: 1px 0 $base-color-light;
-$aside-background-color: $white;
-$aside-tools-background-color: transparent;
-$aside-tools-color: $black-ter;
-$aside-dropdown-background-color: transparent;
-
-/* Title Bar: specifics */
-$title-bar-color: $grey;
-$title-bar-active-color: $black-ter;
-
-/* Hero Bar: specifics */
-$hero-bar-background: transparent;
-
-/* Card: Bulma override */
-$card-shadow: none;
-$card-header-shadow: none;
-$card-background-color: transparent;
-
-/* Card: specifics */
-$card-border: 1px solid $base-color-light;
-$card-header-border-bottom-color: $base-color-light;
-
-/* Table: Bulma override */
-$table-cell-border: 1px solid $white-bis;
-
-/* Table: specifics */
-$table-avatar-size: $size-base * 1.5;
-$table-avatar-size-mobile: 25vw;
-
-/* Form */
-$checkbox-border: 1px solid $base-color;
-
-/* Overlay: specifics */
-$overlay-background-color: rgba($white, .85);
-
-/* Modal card: Bulma override */
-$modal-z: 60;
-$modal-background-background-color: $overlay-background-color;
-$modal-card-head-background-color: $white;
-$modal-card-title-size: $size-base;
-$modal-card-body-padding: $default-padding 20px;
-$modal-card-head-border-bottom: 1px solid $white-ter;
-
-/* Modal card: specifics */
-$modal-card-width: 40vw;
-$modal-card-width-mobile: 90vw;
-$modal-card-foot-background-color: $white;
-
-/* Notification: Bulma override */
-$notification-background-color: $white;
-$notification-padding: $default-padding * .75 $default-padding;
 
 /* Footer: Bulma override */
 $footer-background-color: transparent;
 $footer-padding: $default-padding * .33 $default-padding;
 
-/* Footer: specifics */
-$footer-logo-height: $size-base * 2;
-
-/* Progress: Bulma override */
-//$progress-bar-background-color: transparent;
-
-/* Icon: specifics */
-$icon-update-mark-size: $size-base * .5;
-$icon-update-mark-color: $yellow;
-
-/* Slider: Buefy override */
-$slider-track-background: transparent;
-
 /* Status/State colors (based on Bulma's) */
 $state-colors:
-    ('primary', $red, $white),
+    ('primary', $white, $white),
     ('info', $blue, $white),
     ('success', $green, $white),
     ('warning', $yellow, $grey-darker),
@@ -133,19 +52,19 @@ $state-colors:
     ('white', $white, $black-ter);
 
 /* Dark Mode */
-$dark-mode-background-color: #191C28;
+$dark-mode-color: #DBDBDB;
+$dark-mode-background-color: #181C27;
+$dark-mode-navbar-background-color: #141720;
+$dark-mode-navbar-hover-color: transparent;
 $dark-mode-lighter-background-color: $grey-darker;
-$dark-mode-color: $red;
 $dark-mode-border-color: $white-ter;
 $dark-mode-border: 1px solid $dark-mode-border-color;
-$dark-mode-light-border-color: $grey-darker;
+$dark-mode-light-border-color: white;
 $dark-mode-light-border: 1px solid $dark-mode-light-border-color;
 $dark-mode-link-color: $white;
-
-$dark-mode-link-active-color: $orange;
-$dark-mode-link-hover-color: $orange;
 $dark-mode-overlay-background-color: rgba($black, .85);
 $dark-mode-button-color: $white-ter;
 $dark-mode-button-hover-color: $black-ter;
 $dark-mode-card-header-button-color: $grey;
 $dark-mode-card-header-button-hover-color: $black-ter;
+$dark-mode-footer-background-color: #181b26;

@@ -14,15 +14,11 @@
           </div>
         </div>
         <div class='is-grouped mt-3'>
-          <a class='is-size-2 mr-2' href='https://github.com/Mwpereira' target='_blank' rel='noopener'>
-            <i class='fab fa-github-square'></i>
-          </a>
-          <a class='is-size-2 mr-2' href='https://www.linkedin.com/in/michael-pereira-07/' target='_blank'
-             rel='noopener'>
-            <i class='fab fa-linkedin'></i>
+          <a href='#contact' rel='noopener'>
+            <b-button class='is-size-6 mt-3 has-text-weight-bold'>Contact Me</b-button>
           </a>
           <a href='/resume.pdf' target='_blank' rel='noopener'>
-            <b-button class='is-size-6 mt-3 has-text-weight-bold'>Resume</b-button>
+            <b-button class='is-size-6 is-dark mt-3'>Resume</b-button>
           </a>
         </div>
       </div>
@@ -63,10 +59,6 @@ h2 {
 
 .hero-section {
   padding-top: 100px;
-}
-
-i:hover {
-  color: #908d90;
 }
 
 @media screen and (max-width: 768px) {

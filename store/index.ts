@@ -1,7 +1,7 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import Vue from 'vue'
+import Vuex from 'vuex'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 export const state = () => {
   return {
@@ -10,17 +10,29 @@ export const state = () => {
 }
 
 export const mutations = {
-    DARKMODE_TOGGLE: (state: any) => {
-      const htmlClassName = 'is-dark-mode-active';
+  DARKMODE_TOGGLE: (state: any) => {
+    state.isDarkModeActive = !state.isDarkModeActive
 
-      state.isDarkModeActive = !state.isDarkModeActive;
+    mutations.UPDATE_THEME(state)
 
-      if (state.isDarkModeActive) {
-        document.documentElement.classList.add(htmlClassName);
-      } else {
-        document.documentElement.classList.remove(htmlClassName);
-      }
+    localStorage.setItem('mwpereira::darkMode', state.isDarkModeActive)
+  },
+  LOAD_THEME: (state: any) => {
+    if (localStorage.getItem('mwpereira::darkMode') === 'true') {
+      state.isDarkModeActive = true
     }
+
+    mutations.UPDATE_THEME(state)
+  },
+  UPDATE_THEME: (state: any) => {
+    const htmlClassName = 'is-dark-mode-active'
+
+    if (state.isDarkModeActive) {
+      document.documentElement.classList.add(htmlClassName)
+    } else {
+      document.documentElement.classList.remove(htmlClassName)
+    }
+  }
 }
 
 export const getters = {
