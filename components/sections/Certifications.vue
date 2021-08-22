@@ -2,7 +2,7 @@
   <div id='projects' class='section my-6'>
     <p class='title'>Certifications</p>
     <hr>
-    <div class='columns is-vcentered is-multiline'>
+    <div class='columns is-vcentered is-multiline mb-6'>
       <div v-for='certificate in certificates' :key='certificate'
            class='column is-half-tablet-only is-half-desktop-only is-6-widescreen is-6-fullhd'>
         <CertificationCard :title='certificate.title' :credential-id='certificate.credentialId'
