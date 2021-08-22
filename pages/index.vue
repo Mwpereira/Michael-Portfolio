@@ -4,6 +4,7 @@
     <About />
     <Jobs />
     <Projects />
+    <Certifications />
     <Contact />
   </section>
 </template>
@@ -16,6 +17,7 @@ import Projects from '~/components/sections/Projects.vue'
 import Contact from '~/components/sections/Contact.vue'
 import About from '~/components/sections/About.vue'
 import Jobs from '~/components/sections/Work.vue'
+import Certifications from '~/components/sections/Certifications.vue'
 
 @Component({
   components: {
@@ -23,6 +25,7 @@ import Jobs from '~/components/sections/Work.vue'
     About,
     Projects,
     Jobs,
+    Certifications,
     Contact
   }
 })
