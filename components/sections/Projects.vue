@@ -2,7 +2,7 @@
   <div id='projects' class='section my-6'>
     <p class='title'>Side Projects</p>
     <hr>
-    <div class='columns is-vcentered is-multiline mt-6'>
+    <div class='columns is-vcentered is-multiline'>
       <div v-for='project in projects' :key='project.name' class='column is-half-tablet-only is-half-desktop-only'>
         <ProjectCard :project='project.name' :desc='project.desc' :tags='project.tags' :github='project.github' :link='project.link' />
       </div>

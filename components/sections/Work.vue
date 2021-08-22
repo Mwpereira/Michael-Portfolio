@@ -1,5 +1,5 @@
 <template>
-  <div id='work' class='section my-6 '>
+  <div id='work' class='section my-6'>
     <p class='title'>Experience</p>
     <hr>
     <div v-for='place in work' :key='place.company' class='mb-6'>
