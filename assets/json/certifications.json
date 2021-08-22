@@ -1,0 +1,37 @@
+{
+  "uxDesignFundamentals" : {
+    "title": "User Experience Design Fundamentals",
+    "provider": "Udemy",
+    "dateIssued": "Issued August 2021",
+    "credentialId": "UC-71ca5f8a-18eb-44d8-a0e1-fe1b8df912af",
+    "link": "https://ude.my/UC-71ca5f8a-18eb-44d8-a0e1-fe1b8df912af/"
+  },
+  "jamStackTheCompleteGuide" : {
+    "title": "JAMStack: The Complete Guide",
+    "provider": "Udemy",
+    "dateIssued": "Issued Jul 2021",
+    "credentialId": "UC-97924aad-4e3d-4038-9757-344412d01682",
+    "link": "https://ude.my/UC-97924aad-4e3d-4038-9757-344412d01682/"
+  },
+  "understandingTS" : {
+    "title": "Understanding TypeScript - 2021 Edition",
+    "provider": "Udemy",
+    "dateIssued": "Issued Jun 2021",
+    "credentialId": "UC-f24d9edc-0876-4639-8958-271c6f1c9efe",
+    "link": "https://ude.my/UC-f24d9edc-0876-4639-8958-271c6f1c9efe/"
+  },
+  "webdevBootcamp" : {
+    "title": "The Web Developer Bootcamp",
+    "provider": "Udemy",
+    "dateIssued": "Issued Jun 2021",
+    "credentialId": "UC-f8159de1-011b-498c-9a94-af718399ec84",
+    "link": "https://ude.my/UC-f8159de1-011b-498c-9a94-af718399ec84/"
+  },
+  "cSharpMasterClass" : {
+    "title": "C# Masterclass",
+    "provider": "Udemy",
+    "dateIssued": "Issued Jan 2020",
+    "credentialId": "UC-KXQECQB3",
+    "link": "http://ude.my/UC-KXQECQB3"
+  }
+}

@@ -1,0 +1,206 @@
+html {
+  &.is-dark-mode-active {
+    background-color: $dark-mode-background-color;
+
+    .card {
+      .card-header {
+        .button {
+          border-color: $dark-mode-card-header-button-color !important;
+          color: $dark-mode-card-header-button-color;
+
+          &:hover {
+            background-color: $dark-mode-card-header-button-color;
+            color: $dark-mode-card-header-button-hover-color;
+          }
+        }
+      }
+    }
+
+    .button {
+      background-color: transparent;
+      border-color: $dark-mode-button-color !important;
+      color: $dark-mode-button-color !important;
+
+      &:hover:not([disabled]) {
+        background-color: $dark-mode-button-color;
+        color: $dark-mode-button-hover-color !important;
+      }
+
+      @each $state-class, $state-color, $state-text in $state-colors {
+        &.is-#{$state-class} {
+          border-color: $state-color !important;
+          color: $state-color !important;
+
+          &:hover {
+            background-color: $state-color;
+            color: $state-text;
+          }
+        }
+      }
+    }
+
+    .label {
+      color: $grey-lighter;
+    }
+
+    .input, .textarea, .select select {
+      color: $dark-mode-color;
+      background-color: transparent;
+
+      &::placeholder {
+        color: $grey-light;
+      }
+    }
+
+    .select {
+      &:not(.is-multiple):not(.is-loading)::after {
+        border-color: $dark-mode-color;
+      }
+
+      select {
+        color: $dark-mode-color;
+      }
+    }
+
+    .b-checkbox.checkbox input[type=checkbox], .b-radio.radio input[type=radio] {
+      & + .check {
+        border: $dark-mode-border !important;
+      }
+    }
+
+    .b-slider .b-slider-thumb-wrapper .b-slider-thumb {
+      background: $dark-mode-background-color;
+    }
+
+    .title {
+      color: $grey-lighter;
+    }
+
+    .subtitle {
+      color: $grey-lighter;
+    }
+
+    body {
+      color: $grey-lighter;
+    }
+
+    strong {
+      color: $dark-mode-color;
+    }
+
+    hr {
+      background-color: $dark-mode-light-border-color;
+    }
+
+    a {
+      color: $dark-mode-link-color;
+    }
+
+    .media {
+      border-color: $dark-mode-light-border-color;
+    }
+
+    nav.navbar {
+      background-color: $dark-mode-background-color;
+      box-shadow: 0 1px $dark-mode-light-border-color;
+
+      .navbar-item {
+        color: $dark-mode-link-color;
+
+        .navbar-link {
+          color: $dark-mode-link-color;
+        }
+
+        .input {
+          color: $dark-mode-color;
+
+          &::placeholder {
+            color: $grey-light;
+          }
+        }
+
+        &.has-divider {
+          border-color: $dark-mode-light-border-color;
+        }
+
+        &.is-active {
+          color: $dark-mode-link-active-color;
+        }
+      }
+    }
+
+    .navbar-dropdown {
+      background-color: $dark-mode-background-color;
+
+      .navbar-item:hover {
+        color: $dark-mode-color;
+      }
+    }
+
+    aside.aside {
+      background-color: $dark-mode-background-color;
+      box-shadow: 1px 0 $dark-mode-light-border-color;
+
+      .aside-tools {
+        color: $dark-mode-color;
+        box-shadow: 0 1px $dark-mode-light-border-color;
+
+        .aside-close {
+          color: $dark-mode-color;
+        }
+      }
+    }
+
+    .card {
+      border-color: $dark-mode-light-border-color;
+      color: $grey-lighter;
+
+      .card-header {
+        border-color: $dark-mode-light-border-color;
+      }
+
+      .card-header-title {
+        color: $grey-lighter;
+      }
+
+      .card-footer {
+        border-color: $dark-mode-light-border-color;
+      }
+
+      .is-widget-label {
+        .subtitle {
+          color: $grey-light;
+        }
+      }
+
+      .notification {
+        background-color: $dark-mode-light-border-color;
+        color: $grey-lighter;
+      }
+    }
+
+    section {
+      &.section.is-title-bar, &.hero.is-hero-bar {
+        border-color: $dark-mode-light-border-color;
+      }
+
+      &.section.is-title-bar {
+        ul li {
+          color: $grey-light;
+
+          &:last-child {
+            color: $grey-lighter;
+          }
+        }
+      }
+    }
+
+    footer.footer {
+      border-color: $dark-mode-light-border-color;
+
+      .logo svg path {
+        fill: $dark-mode-color;
+      }
+    }
+  }
+}

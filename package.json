@@ -1,0 +1,35 @@
+{
+  "name": "michael-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:ts": "eslint --ext \".ts,.vue,.js\" --ignore-path .gitignore .",
+    "lint:ts fix": "npm run lint:ts -- --fix"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "nuxt-buefy": "^0.4.8",
+    "nuxt-property-decorator": "^2.9.1",
+    "sass": "^1.38.0",
+    "sass-loader": "^12.1.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "prettier": "^2.3.2"
+  }
+}

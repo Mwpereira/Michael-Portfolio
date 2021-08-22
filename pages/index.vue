@@ -1,0 +1,46 @@
+<template>
+  <section>
+    <Hero />
+    <About />
+    <Jobs />
+    <Projects />
+    <Contact />
+  </section>
+</template>
+
+<script lang='ts'>
+import { Vue } from 'vue-property-decorator'
+import Component from 'vue-class-component'
+import Hero from '~/components/sections/Hero.vue'
+import Projects from '~/components/sections/Projects.vue'
+import Contact from '~/components/sections/Contact.vue'
+import About from '~/components/sections/About.vue'
+import Jobs from '~/components/sections/Work.vue'
+
+@Component({
+  components: {
+    Hero,
+    About,
+    Projects,
+    Jobs,
+    Contact
+  }
+})
+export default class HomePage extends Vue {
+}
+</script>
+
+<style>
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 75px 0 0 50px;
+}
+
+p, i {
+  color: #323232;
+}
+</style>
