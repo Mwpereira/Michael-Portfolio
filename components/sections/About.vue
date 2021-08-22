@@ -88,8 +88,8 @@ i {
 }
 
 img {
-  border-radius: 6px;
   width: auto;
+  border-radius: 12px;
 }
 
 #technologies {

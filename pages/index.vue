@@ -40,6 +40,10 @@ html {
   scroll-padding: 75px 0 0 50px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 p, i {
   color: #323232;
 }

@@ -1,6 +1,6 @@
 <template>
   <div class='card'>
-    <div class='card-content p-5'>
+    <div class='card-content'>
       <div class='content'>
         <p class='has-text-weight-bold is-size-5 card-desc'>
           {{ project }}
@@ -71,10 +71,6 @@ i:hover {
   line-height: 16px;
 }
 
-.content {
-  height: 4.5rem;
-}
-
 #desc {
   font-size: 14px;
 }
@@ -92,12 +88,6 @@ i:hover {
 @media screen and (max-width: 1100px) {
   .card {
     min-width: 300px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .card-content.p-5 {
-    padding: 0 5px 0px 5px !important;
   }
 }
 </style>
