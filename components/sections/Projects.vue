@@ -8,7 +8,8 @@
       </div>
     </div>
     <div class='my-6'>
-      <p class='is-size-4 mb-5'>Certifications</p>
+      <p class='title'>Certifications</p>
+      <hr>
       <div class='columns is-vcentered is-multiline'>
         <div v-for='certificate in certificates' :key='certificate' class='column is-half-tablet-only is-half-desktop-only is-6-widescreen is-6-fullhd'>
           <CertificationCard :title='certificate.title' :credential-id='certificate.credentialId'
