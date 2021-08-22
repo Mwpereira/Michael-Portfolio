@@ -1,19 +1,19 @@
 <template>
   <section class='box p-5'>
-    <form class='form' name='contact' method='POST'>
+    <form class='form' name='contact' method='POST' data-netlify="true">
       <b-field label='Name'>
-        <b-input placeholder='name' type='text' name='name'></b-input>
+        <b-input placeholder='name' type='text' name='Name'></b-input>
       </b-field>
 
       <b-field label='Email' class='mt-5 mb-5'>
-        <b-input placeholder='email' type='email' name='email'></b-input>
+        <b-input placeholder='email' type='email' name='Email'></b-input>
       </b-field>
 
       <b-field label='Message' class='mb-1'>
-        <b-input maxlength='250' type='textarea' name='message' placeholder='message'></b-input>
+        <b-input maxlength='250' type='textarea' name='Message' placeholder='message'></b-input>
       </b-field>
 
-      <b-button class='is-dark' type='submit'>Send Message</b-button>
+      <button class='button is-dark'>Send Message</button>
     </form>
   </section>
 </template>
@@ -26,7 +26,3 @@ import Component from 'vue-class-component'
 export default class ContactForm extends Vue {
 }
 </script>
-
-<style scoped>
-
-</style>
