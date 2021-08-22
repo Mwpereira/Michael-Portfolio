@@ -12,9 +12,13 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Full Stack Engineer Portfolio' },
+      { name: 'og:title', content: 'Michael Pereira'},
+      { name: 'og:description', content: 'Full Stack Engineer Portfolio'},
+      { name: 'og:image', content: '/site.png'},
+      { name: 'og:site_name', content: 'Michael Pereira'},
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'msapplication', content: '#da532c' },
-      { name: 'theme-color', content: '#ffffff' }
+      { name: 'theme-color', content: '#ffffff' },
     ],
     link: [
       { rel: 'apple-touch-icon', size: '180x180', href: '/icons/apple-touch-icon.png' },
