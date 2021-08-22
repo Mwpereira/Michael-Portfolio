@@ -2,18 +2,18 @@
   <section class='box p-5'>
     <form class='form' name='contact' method='POST'>
       <b-field label='Name'>
-        <b-input placeholder='name'></b-input>
+        <b-input placeholder='name' type='text' name='name'></b-input>
       </b-field>
 
       <b-field label='Email' class='mt-5 mb-5'>
-        <b-input type='email' placeholder='email'></b-input>
+        <b-input placeholder='email' type='email' name='email'></b-input>
       </b-field>
 
       <b-field label='Message' class='mb-1'>
-        <b-input maxlength='250' type='textarea'  placeholder='message'></b-input>
+        <b-input maxlength='250' type='textarea' name='message' placeholder='message'></b-input>
       </b-field>
 
-      <b-button class='is-dark'>Send Message</b-button>
+      <b-button class='is-dark' type='submit'>Send Message</b-button>
     </form>
   </section>
 </template>
