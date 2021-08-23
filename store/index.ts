@@ -10,19 +10,19 @@ export const state = () => {
 }
 
 export const mutations = {
-  DARKMODE_TOGGLE: (state: any) => {
+  DARKMODE_TOGGLE: (state: { isDarkModeActive: boolean }) => {
     state.isDarkModeActive = !state.isDarkModeActive
 
     mutations.UPDATE_THEME(state)
 
-    localStorage.setItem('mwpereira::darkMode', state.isDarkModeActive)
+    localStorage.setItem('mwpereira::darkMode', String(state.isDarkModeActive))
   },
-  LOAD_THEME: (state: any) => {
+  LOAD_THEME: (state: { isDarkModeActive: boolean }) => {
     state.isDarkModeActive = localStorage.getItem('mwpereira::darkMode') === 'true';
 
     mutations.UPDATE_THEME(state)
   },
-  UPDATE_THEME: (state: any) => {
+  UPDATE_THEME: (state: { isDarkModeActive: any }) => {
     const htmlClassName = 'is-dark-mode-active'
 
     if (state.isDarkModeActive) {
