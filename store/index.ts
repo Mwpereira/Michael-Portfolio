@@ -5,12 +5,13 @@ Vue.use(Vuex)
 
 export const state = () => {
   return {
-    isDarkModeActive: localStorage.getItem('mwpereira::darkMode') === 'true'
+    isDarkModeActive: false
   }
 }
 
 export const mutations = {
   DARKMODE_TOGGLE: (state: { isDarkModeActive: boolean }) => {
+    state.isDarkModeActive = localStorage.getItem('mwpereira::darkMode') === 'true';
     state.isDarkModeActive = !state.isDarkModeActive
 
     mutations.UPDATE_THEME(state)
