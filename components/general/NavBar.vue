@@ -67,7 +67,7 @@ export default class NavBar extends Vue {
   }
 
   darkModeToggle() {
-    this.$store.commit('DARKMODE_TOGGLE')
+    this.$store.commit('darkModeToggle')
   }
 
   mounted() {
