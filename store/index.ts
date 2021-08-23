@@ -30,7 +30,7 @@ export const mutations = {
       console.log("state is set to true")
       document.documentElement.classList.add(htmlClassName)
     } else {
-      console.log("state is set to true")
+      console.log("state is set to false")
       document.documentElement.classList.remove(htmlClassName)
     }
   }
