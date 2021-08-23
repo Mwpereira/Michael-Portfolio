@@ -6,7 +6,7 @@
       <p><i class='fas fa-angle-right mr-2'></i>{{ point }}</p>
       <br />
     </div>
-    <div v-if='referenceLetter'>
+    <div v-if='referenceLetter' class='mb-5'>
       <a :href='referenceLetter' target='_blank' rel='noopener'>
         <b-button class='is-dark'>Reference Letter</b-button>
       </a>
