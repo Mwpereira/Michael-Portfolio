@@ -36,7 +36,7 @@ import Email from '~/components/general/Email.vue'
   }
 })
 export default class HomePage extends Vue {
-  beforeCreate() {
+  created() {
     this.$store.commit('INITIALIZE_STORE')
   }
 
