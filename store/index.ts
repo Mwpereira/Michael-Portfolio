@@ -14,9 +14,9 @@ export const mutations = {
     state.isDarkModeActive = localStorage.getItem('mwpereira::darkMode') === 'true';
     state.isDarkModeActive = !state.isDarkModeActive
 
-    mutations.UPDATE_THEME(state)
-
     localStorage.setItem('mwpereira::darkMode', String(state.isDarkModeActive))
+
+    mutations.UPDATE_THEME(state)
   },
   LOAD_THEME: (state: { isDarkModeActive: boolean }) => {
     state.isDarkModeActive = localStorage.getItem('mwpereira::darkMode') === 'true';
