@@ -27,8 +27,10 @@ export const mutations = {
     const htmlClassName = 'is-dark-mode-active'
 
     if (state.isDarkModeActive) {
+      console.log("state is set to true")
       document.documentElement.classList.add(htmlClassName)
     } else {
+      console.log("state is set to true")
       document.documentElement.classList.remove(htmlClassName)
     }
   }
