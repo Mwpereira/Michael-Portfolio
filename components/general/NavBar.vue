@@ -46,7 +46,7 @@
           <i class='far fa-moon'></i>
         </div>
         <div v-else>
-          <i id='sun' class='far fa-sun'></i>
+          <i class="fas fa-sun"></i>
         </div>
       </a>
     </template>
