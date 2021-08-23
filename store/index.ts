@@ -21,16 +21,16 @@ export const mutations = {
   LOAD_THEME: (state: { isDarkModeActive: boolean }) => {
     state.isDarkModeActive = localStorage.getItem('mwpereira::darkMode') === 'true';
 
+    console.log("state")
+    console.log(localStorage.getItem('mwpereira::darkMode'))
     mutations.UPDATE_THEME(state)
   },
   UPDATE_THEME: (state: { isDarkModeActive: any }) => {
     const htmlClassName = 'is-dark-mode-active'
 
     if (state.isDarkModeActive) {
-      console.log("state is set to true")
       document.documentElement.classList.add(htmlClassName)
     } else {
-      console.log("state is set to false")
       document.documentElement.classList.remove(htmlClassName)
     }
   }
