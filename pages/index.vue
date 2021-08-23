@@ -36,6 +36,9 @@ import Email from '~/components/general/Email.vue'
   }
 })
 export default class HomePage extends Vue {
+  mounted() {
+    this.$store.commit('loadTheme')
+  }
 }
 </script>
 

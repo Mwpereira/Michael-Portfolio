@@ -71,7 +71,6 @@ export default class NavBar extends Vue {
   }
 
   mounted() {
-    this.$store.commit('LOAD_THEME')
     window.addEventListener('scroll', this.onScroll)
   }
 
