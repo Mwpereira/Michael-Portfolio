@@ -19,9 +19,9 @@ export default {
         content: 'michael, pereira, michaelpereira, mwpereira, portfolio, full-stack, developer, vuejs, nuxt, typescript, development, software'
       },
       { hid: 'og:title', name: 'og:title', content: 'Michael Pereira' },
-      { hid: 'og:title', name: 'og:description', content: 'Full Stack Engineer Portfolio' },
-      { hid: 'og:title', name: 'og:image', content: '/site.png' },
-      { hid: 'og:title', name: 'og:site_name', content: 'Michael Pereira' },
+      { hid: 'og:description', name: 'og:description', content: 'Full Stack Engineer Portfolio' },
+      { hid: 'og:image', name: 'og:image', content: '/site.png' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Michael Pereira' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'msapplication', content: '#da532c' },
       { name: 'theme-color', content: '#ffffff' }
