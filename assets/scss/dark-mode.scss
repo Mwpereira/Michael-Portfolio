@@ -8,6 +8,7 @@ html {
 
     .box {
       background-color: $dark-mode-background-color;
+      box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 35%), 0 0 0 1px rgb(10 10 10 / 2%);
     }
 
     p, i {
@@ -20,6 +21,7 @@ html {
 
     .card {
       background-color: $dark-mode-background-color;
+      box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 35%), 0 0 0 1px rgb(10 10 10 / 2%);
     }
 
     .button {
@@ -48,6 +50,7 @@ html {
 
     button.is-dark {
       background-color: white !important;
+      font-weight: bold;
 
       &:hover {
         background-color: transparent !important;

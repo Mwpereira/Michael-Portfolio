@@ -26,7 +26,7 @@
   },
   "currencyConverter": {
     "name": "Currency Converter",
-    "desc": "Simple and easy to use live currency exchange converter.",
+    "desc": "Simple and easy to use live currency converter.",
     "tags": "Bulma JavaScript jQuery",
     "github": "https://github.com/Mwpereira/Currency-Converter",
     "link": "https://cc.mwpereira.ca"
