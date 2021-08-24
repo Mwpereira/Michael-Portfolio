@@ -11,7 +11,6 @@ export const state = () => {
 
 export const mutations = {
   darkModeToggle: (state: { isDarkModeActive: boolean }) => {
-    state.isDarkModeActive = localStorage.getItem('mwpereira::darkMode') === 'true'
     state.isDarkModeActive = !state.isDarkModeActive
 
     localStorage.setItem('mwpereira::darkMode', String(state.isDarkModeActive))
