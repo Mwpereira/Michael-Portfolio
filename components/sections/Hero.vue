@@ -61,9 +61,15 @@ h2 {
   padding-top: 100px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   .hero-section {
     padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .hero-section {
+    padding-top: 25px;
   }
 }
 
