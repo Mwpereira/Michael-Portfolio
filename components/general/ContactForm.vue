@@ -13,7 +13,7 @@
         <b-input maxlength='250' type='textarea' name='Message' placeholder='message'></b-input>
       </b-field>
 
-      <button class='button is-dark'>Send Message</button>
+      <button class='button is-dark' type='submit'>Send Message</button>
     </form>
   </section>
 </template>
