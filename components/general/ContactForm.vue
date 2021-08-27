@@ -1,6 +1,8 @@
 <template>
   <section class='box p-5'>
-    <form class='form' name='contact' method='POST' data-netlify='true' data-netlify-honeypot='bot-field' netlify>
+    <form class='form' name='contact' method='POST' data-netlify='true' data-netlify-honeypot='bot-field'>
+      <input type="hidden" name="contact" value="contact" />
+
       <b-field label='Name'>
         <b-input placeholder='name' type='text' name='Name' />
       </b-field>
