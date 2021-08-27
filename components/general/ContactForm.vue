@@ -1,6 +1,6 @@
 <template>
   <section class='box p-5'>
-    <form class='form' name='contact' method='POST' data-netlify='true' data-netlify-honeypot='bot-field'>
+    <form class='form' name='contact' method='POST' data-netlify='true' data-netlify-honeypot='bot-field' netlify>
       <b-field label='Name'>
         <b-input placeholder='name' type='text' name='Name'></b-input>
       </b-field>
@@ -13,7 +13,7 @@
         <b-input maxlength='250' type='textarea' name='Message' placeholder='message'></b-input>
       </b-field>
 
-      <button class='button is-dark' type='submit'>Send Message</button>
+      <button class='button is-dark'>Send Message</button>
     </form>
   </section>
 </template>
