@@ -2,15 +2,15 @@
   <section class='box p-5'>
     <form class='form' name='contact' method='POST' data-netlify='true' data-netlify-honeypot='bot-field' netlify>
       <b-field label='Name'>
-        <b-input placeholder='name' type='text' name='Name'></b-input>
+        <b-input placeholder='name' type='text' name='Name' />
       </b-field>
 
       <b-field label='Email' class='mt-5 mb-5'>
-        <b-input placeholder='email' type='email' name='Email'></b-input>
+        <b-input placeholder='email' type='email' name='Email' />
       </b-field>
 
       <b-field label='Message' class='mb-1'>
-        <b-input maxlength='250' type='textarea' name='Message' placeholder='message'></b-input>
+        <b-input maxlength='250' type='textarea' name='Message' placeholder='message' />
       </b-field>
 
       <button class='button is-dark'>Send Message</button>
