@@ -1,4 +1,11 @@
 {
+  "jsBasic" : {
+    "title": "JavaScript (Basic)",
+    "provider": "HackerRank",
+    "dateIssued": "Issued August 2021",
+    "credentialId": "a4732de67970",
+    "link": "https://www.hackerrank.com/certificates/a4732de67970"
+  },
   "uxDesignFundamentals" : {
     "title": "User Experience Design Fundamentals",
     "provider": "Udemy",
