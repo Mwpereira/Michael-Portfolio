@@ -1,4 +1,11 @@
 {
+  "jsIntermediate" : {
+    "title": "JavaScript (Intermediate)",
+    "provider": "HackerRank",
+    "dateIssued": "Issued August 2021",
+    "credentialId": "75127ba580cd",
+    "link": "https://www.hackerrank.com/certificates/75127ba580cd"
+  },
   "jsBasic" : {
     "title": "JavaScript (Basic)",
     "provider": "HackerRank",
