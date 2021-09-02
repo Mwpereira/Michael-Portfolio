@@ -1,4 +1,11 @@
 {
+  "sqlBasic" : {
+    "title": "SQL (Basic)",
+    "provider": "HackerRank",
+    "dateIssued": "Issued September 2021",
+    "credentialId": "7fa8ab83fa17",
+    "link": "https://www.hackerrank.com/certificates/7fa8ab83fa17"
+  },
   "javaBasic" : {
     "title": "Java (Basic)",
     "provider": "HackerRank",
