@@ -110,16 +110,19 @@ export default class NavBar extends Vue {
 
 .navbar-item:focus {
   color: #323232;
+  background-color: transparent;
 }
 
 .navbar-item:hover {
   color: #323232;
   border-bottom: 2px solid #323232;
+  background-color: transparent;
 }
 
 .navbar-menu.is-active .navbar-item:hover {
   border-color: transparent !important;
-  color: #808080;
+  color: #323232;
+  background-color: transparent;
 }
 
 .scrolled-down {
