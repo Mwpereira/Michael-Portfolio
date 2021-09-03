@@ -1,6 +1,6 @@
 export default {
-  target: 'static',
   ssr: false,
+  target: 'static',
   head: {
     title: 'Michael Pereira',
     htmlAttrs: {
@@ -48,7 +48,6 @@ export default {
     '@nuxtjs/google-gtag',
     '@nuxtjs/style-resources'
   ],
-
   'google-gtag': {
     id: 'G-DV6R9X8V7F',
     config: {
