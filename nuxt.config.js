@@ -54,7 +54,7 @@ export default {
       anonymize_ip: true,
       send_page_view: false,
       linker: {
-        domains: ['mwpereira.ca']
+        domains: ['mwpereira.ca', 'michaelpereira.dev']
       }
     }
   },
