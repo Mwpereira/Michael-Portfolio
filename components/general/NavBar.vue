@@ -139,10 +139,6 @@ export default class NavBar extends Vue {
   border-bottom: none;
 }
 
-#sun {
-  color: white;
-}
-
 #darkModeToggle:hover {
   border-bottom: none;
   color: black;
