@@ -1,7 +1,7 @@
 <template>
   <b-navbar class='box' :class="{ 'scrolled-up': showNavbar,  'scrolled-down': !showNavbar }">
     <template #brand>
-      <b-navbar-item id='logo' tag='router-link' :to="{ path: '/' }">
+      <b-navbar-item id='logo' href='/'>
         <svg data-v-fde0c5aa='' xmlns='http://www.w3.org/2000/svg' width='300' height='50' viewBox='100 100 100 100'
              class='iconAbove'><!---->
           <defs data-v-fde0c5aa=''><!----></defs>

@@ -5,7 +5,7 @@
     <div class='columns'>
       <div class='column'>
         <p class='mb-5'>Hello! My name is Michael Pereira from Toronto, Canada and I am an aspiring full stack
-          engineer. I have been
+          developer. I have been
           extremely interested in web development since the start of high school, when I would create websites for
           friends
           and
