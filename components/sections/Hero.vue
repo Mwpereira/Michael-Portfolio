@@ -9,7 +9,7 @@
           <div class='column is-5-fullhd is-6-widescreen is-7-desktop is-8-tablet is-12-mobile'>
             <p class='is-size-6 mt-5'>I am an enthusiastic full stack developer with a passion for creating extraordinary
               software and apps. As of right now, I'm building and delivering flawless code through my side projects
-              and I am currently <b>seeking a Winter 2022 internship position</b>.
+              and <b>I am currently seeking a Winter 2022 internship position</b>.
             </p>
           </div>
         </div>
