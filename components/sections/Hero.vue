@@ -54,7 +54,7 @@ h2 {
 }
 
 .is-size-3-mobile {
-  font-size: 1.85rem !important;
+  font-size: 1.8rem !important;
 }
 
 .title {
