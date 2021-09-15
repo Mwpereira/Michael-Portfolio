@@ -7,9 +7,9 @@
         <h2 class='title is-size-3-mobile'>Full Stack Developer</h2>
         <div class='columns'>
           <div class='column is-5-fullhd is-6-widescreen is-7-desktop is-8-tablet is-12-mobile'>
-            <p class='is-size-6 mt-5'>I am an enthusiastic full stack developer with a passion for creating extraordinary
-              software and apps. Currently I am building and developing flawless code through my many side projects
-              while <b>I am currently seeking a Winter 2022 internship position</b>.
+            <p class='is-size-6 mt-5'>I am an enthusiastic software engineer with a passion for creating extraordinary
+              software and apps. As of right now I am building and developing flawless code within my side projects
+              while I am <b>currently seeking a Winter 2022 internship position</b>.
             </p>
           </div>
         </div>
@@ -53,10 +53,6 @@ h2 {
   color: #b2b0b3;
 }
 
-.is-size-3-mobile {
-  font-size: 1.8rem !important;
-}
-
 .title {
   margin-bottom: 10px;
 }
@@ -83,8 +79,12 @@ h2 {
     line-height: 2rem;
   }
 
+  .is-size-3-mobile {
+    font-size: 1.8rem !important;
+  }
+
   .hero-section {
-    padding-top: 0px;
+    padding-top: 0;
   }
 }
 </style>

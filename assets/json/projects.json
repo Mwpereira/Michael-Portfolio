@@ -6,18 +6,25 @@
     "github": "https://github.com/Mwpereira/Arc",
     "link": "https://arc.mwpereira.ca"
   },
-  "atlaWebScraper": {
-    "name": "ATLA WebScraper",
-    "desc": "Demonstrating web scraping to preview any of your favourite Avatar characters.",
-    "tags": "Bulma Serverless Puppeteer",
-    "github": "https://github.com/Mwpereira/ATLA-WebScraper"
-  },
   "hmDashboard": {
     "name": "HM Dashboard",
     "desc": "Minimalistic and modern user interface to display your HNT miner's data.",
     "tags": "Nuxt Buefy TypeScript Ky",
     "github": "https://github.com/Mwpereira/HNT-Widget",
     "link": "https://hmdashboard.mwpereira.ca"
+  },
+  "atlaWebScraper": {
+    "name": "ATLA WebScraper",
+    "desc": "Demonstrating web scraping to preview any of your favourite Avatar characters.",
+    "tags": "Bulma Serverless Puppeteer",
+    "github": "https://github.com/Mwpereira/ATLA-WebScraper"
+  },
+  "portfolio": {
+    "name": "Michael Portfolio",
+    "desc": "The portfolio you are currently viewing :)",
+    "tags": "Nuxt Buefy TypeScript",
+    "github": "https://github.com/Mwpereira/Michael-Portfolio",
+    "link": "https://mwpereira.ca"
   },
   "hntWidget": {
     "name": "HNT Widget",
@@ -37,13 +44,6 @@
     "tags": "Bulma JavaScript jQuery",
     "github": "https://github.com/Mwpereira/Currency-Converter",
     "link": "https://cc.mwpereira.ca"
-  },
-  "portfolio": {
-    "name": "Michael Portfolio",
-    "desc": "The portfolio you are currently viewing :)",
-    "tags": "Nuxt Buefy TypeScript",
-    "github": "https://github.com/Mwpereira/Michael-Portfolio",
-    "link": "https://mwpereira.ca"
   },
   "comingSoon1": {
     "name": "Coming Soon",
