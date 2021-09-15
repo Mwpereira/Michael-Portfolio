@@ -65,4 +65,10 @@ p, i {
     display: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  p.title {
+    font-size: 1.75rem;
+  }
+}
 </style>

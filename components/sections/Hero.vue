@@ -53,6 +53,10 @@ h2 {
   color: #b2b0b3;
 }
 
+.is-size-3-mobile {
+  font-size: 1.85rem !important;
+}
+
 .title {
   margin-bottom: 10px;
 }
