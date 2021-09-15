@@ -1,7 +1,7 @@
 {
   "caseware": {
     "company": "CaseWare",
-    "position": "Full Stack Engineer Intern",
+    "position": "Full Stack Developer Intern",
     "dateWorked": "May 2021 - August 2021",
     "points": ["Developing with Angular, Typescript, Spring, Java, C#, and AWS", "Created and executed migration scripts, stored, and retrieved data using MSSQL and MongoDB", "Collaborated closely and effectively with a team of 11 software engineers", "Consistently beat the end of sprint deadlines for bug fixes/feature requests and received appreciation from distributors/clients", "Helped spot and debug any errors before production deployment"],
     "referenceLetter": "/reference_letter_caseware.pdf"

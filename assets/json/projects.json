@@ -12,6 +12,13 @@
     "tags": "Bulma Serverless Puppeteer",
     "github": "https://github.com/Mwpereira/ATLA-WebScraper"
   },
+  "hmDashboard": {
+    "name": "HM Dashboard",
+    "desc": "Minimalistic and modern user interface to display your HNT miner's data.",
+    "tags": "Nuxt Buefy TypeScript Ky",
+    "github": "https://github.com/Mwpereira/HNT-Widget",
+    "link": "https://hmdashboard.mwpereira.ca"
+  },
   "hntWidget": {
     "name": "HNT Widget",
     "desc": "A desktop widget to view the latest information on Helium (HNT) coin.",
@@ -37,5 +44,17 @@
     "tags": "Nuxt Buefy TypeScript",
     "github": "https://github.com/Mwpereira/Michael-Portfolio",
     "link": "https://mwpereira.ca"
+  },
+  "comingSoon1": {
+    "name": "Coming Soon",
+    "desc": "TBA",
+    "tags": "Nuxt Buefy Typescript Ky",
+    "github": "https://github.com/Mwpereira/"
+  },
+  "comingSoon2": {
+    "name": "Coming Soon",
+    "desc": "TBA",
+    "tags": "Nuxt Buefy Typescript Ky",
+    "github": "https://github.com/Mwpereira/"
   }
 }

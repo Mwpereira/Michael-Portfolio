@@ -3,13 +3,13 @@
     <div class='hero-head section mt-6 pt-6'>
       <div class='hero-section'>
         <h3 class='mt-6 mb-5 '>Welcome, my name is</h3>
-        <h1 class='title is-size-2-mobile'>Michael Pereira</h1>
-        <h2 class='title is-size-2-mobile'>I innovate the web.</h2>
+        <h1 class='title is-size-4-mobile'>Michael Pereira</h1>
+        <h2 class='title is-size-4-mobile'>Full Stack Developer</h2>
         <div class='columns'>
           <div class='column is-5-fullhd is-6-widescreen is-7-desktop is-8-tablet is-12-mobile'>
             <p class='is-size-6 mt-5'>I am an enthusiastic full stack developer with a passion for creating extraordinary
-              software and apps. As of right now, I'm building and delivering flawless code through my side projects
-              and <b>I am currently seeking a Winter 2022 internship position</b>.
+              software and apps. Currently I am building and developing flawless code through my many side projects
+              while <b>I am currently seeking a Winter 2022 internship position</b>.
             </p>
           </div>
         </div>
