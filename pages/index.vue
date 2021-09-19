@@ -12,8 +12,7 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from 'vue-property-decorator'
-import Component from 'vue-class-component'
+import { Component, Vue } from 'nuxt-property-decorator'
 import Hero from '~/components/sections/Hero.vue'
 import Projects from '~/components/sections/Projects.vue'
 import Contact from '~/components/sections/Contact.vue'

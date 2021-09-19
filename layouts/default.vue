@@ -11,8 +11,7 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from "vue-property-decorator";
-import Component from "vue-class-component";
+import { Component, Vue } from 'nuxt-property-decorator'
 import NavBar from '~/components/general/NavBar.vue'
 import Footer from '~/components/general/Footer.vue'
 
