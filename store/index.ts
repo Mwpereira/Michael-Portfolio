@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export const state = () => {
   return {
-    isDarkModeActive: false
+    isDarkModeActive: true
   }
 }
 

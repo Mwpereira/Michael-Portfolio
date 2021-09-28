@@ -9,14 +9,14 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Full Stack Engineer Portfolio' },
+      { hid: 'description', name: 'description', content: 'Full Stack Developer Portfolio' },
       {
         hid: 'keywords',
         name: 'keywords',
         content: 'michael, pereira, michaelpereira, mwpereira, portfolio, full-stack, developer, vuejs, nuxt, typescript, development, software'
       },
       { hid: 'og:title', name: 'og:title', content: 'Michael Pereira' },
-      { hid: 'og:description', name: 'og:description', content: 'Full Stack Engineer Portfolio' },
+      { hid: 'og:description', name: 'og:description', content: 'Full Stack Developer Portfolio' },
       { hid: 'og:image', name: 'og:image', content: '/site.png' },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Michael Pereira' },
       { name: 'format-detection', content: 'telephone=no' },
