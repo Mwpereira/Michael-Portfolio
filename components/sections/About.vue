@@ -19,31 +19,31 @@
             <i class='far fa-file-code'></i>
             <i class='fas fa-angle-right'></i>
             Typescript
-            <i class='fas fa-angle-right'></i>
+            <i class='fas fa-angle-right mx-1'></i>
             Java
-            <i class='fas fa-angle-right'></i>
+            <i class='fas fa-angle-right mx-1'></i>
             Vue
-            <i class='fas fa-angle-right'></i>
+            <i class='fas fa-angle-right mx-1'></i>
             React
           </p>
           <p class='mt-3'>
             <i class='fab fa-medapps'></i>
             <i class='fas fa-angle-right'></i>
             AWS
-            <i class='fas fa-angle-right'></i>
+            <i class='fas fa-angle-right mx-1'></i>
             Git
-            <i class='fas fa-angle-right'></i>
+            <i class='fas fa-angle-right mx-1'></i>
             Figma
-            <i class='fas fa-angle-right'></i>
+            <i class='fas fa-angle-right mx-1'></i>
             Linux
           </p>
           <p class='mt-3'>
             <i class='fas fa-database'></i>
             <i class='fas fa-angle-right'></i>
             MongoDB
-            <i class='fas fa-angle-right'></i>
+            <i class='fas fa-angle-right mx-1'></i>
             DynamoDB
-            <i class='fas fa-angle-right'></i>
+            <i class='fas fa-angle-right mx-1'></i>
             MSSQL
           </p>
         </div>
