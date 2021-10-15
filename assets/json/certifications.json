@@ -1,61 +1,68 @@
 {
-  "sqlBasic" : {
+  "reactCompleteGuide": {
+    "title": "React - The Complete Guide",
+    "provider": "Udemy",
+    "dateIssued": "Issued October 2021",
+    "credentialId": "UC-8b177050-79c1-4140-aa58-05bf8881432d",
+    "link": "https://ude.my/UC-8b177050-79c1-4140-aa58-05bf8881432d/"
+  },
+  "sqlBasic": {
     "title": "SQL (Basic)",
     "provider": "HackerRank",
     "dateIssued": "Issued September 2021",
     "credentialId": "7fa8ab83fa17",
     "link": "https://www.hackerrank.com/certificates/7fa8ab83fa17"
   },
-  "javaBasic" : {
+  "javaBasic": {
     "title": "Java (Basic)",
     "provider": "HackerRank",
     "dateIssued": "Issued September 2021",
     "credentialId": "5c5633f946ec",
     "link": "https://www.hackerrank.com/certificates/5c5633f946ec"
   },
-  "jsIntermediate" : {
+  "jsIntermediate": {
     "title": "JavaScript (Intermediate)",
     "provider": "HackerRank",
     "dateIssued": "Issued August 2021",
     "credentialId": "75127ba580cd",
     "link": "https://www.hackerrank.com/certificates/75127ba580cd"
   },
-  "jsBasic" : {
+  "jsBasic": {
     "title": "JavaScript (Basic)",
     "provider": "HackerRank",
     "dateIssued": "Issued August 2021",
     "credentialId": "a4732de67970",
     "link": "https://www.hackerrank.com/certificates/a4732de67970"
   },
-  "uxDesignFundamentals" : {
+  "uxDesignFundamentals": {
     "title": "User Experience Design Fundamentals",
     "provider": "Udemy",
     "dateIssued": "Issued August 2021",
     "credentialId": "UC-71ca5f8a-18eb-44d8-a0e1-fe1b8df912af",
     "link": "https://ude.my/UC-71ca5f8a-18eb-44d8-a0e1-fe1b8df912af/"
   },
-  "jamStackTheCompleteGuide" : {
+  "jamStackTheCompleteGuide": {
     "title": "JAMStack: The Complete Guide",
     "provider": "Udemy",
     "dateIssued": "Issued Jul 2021",
     "credentialId": "UC-97924aad-4e3d-4038-9757-344412d01682",
     "link": "https://ude.my/UC-97924aad-4e3d-4038-9757-344412d01682/"
   },
-  "understandingTS" : {
+  "understandingTS": {
     "title": "Understanding TypeScript - 2021 Edition",
     "provider": "Udemy",
     "dateIssued": "Issued Jun 2021",
     "credentialId": "UC-f24d9edc-0876-4639-8958-271c6f1c9efe",
     "link": "https://ude.my/UC-f24d9edc-0876-4639-8958-271c6f1c9efe/"
   },
-  "webdevBootcamp" : {
+  "webdevBootcamp": {
     "title": "The Web Developer Bootcamp",
     "provider": "Udemy",
     "dateIssued": "Issued Jun 2021",
     "credentialId": "UC-f8159de1-011b-498c-9a94-af718399ec84",
     "link": "https://ude.my/UC-f8159de1-011b-498c-9a94-af718399ec84/"
   },
-  "cSharpMasterClass" : {
+  "cSharpMasterClass": {
     "title": "C# Masterclass",
     "provider": "Udemy",
     "dateIssued": "Issued Jan 2020",
