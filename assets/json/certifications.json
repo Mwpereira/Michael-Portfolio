@@ -1,4 +1,18 @@
 {
+  "mernStackFrontToBack": {
+    "title": "MERN Stack Front To Back",
+    "provider": "Udemy",
+    "dateIssued": "Issued October 2021",
+    "credentialId": "UC-78636652-beef-4d6a-b4a6-9198371b8281",
+    "link": "https://ude.my/UC-78636652-beef-4d6a-b4a6-9198371b8281/"
+  },
+  "nuxtVueOnSteroids": {
+    "title": "Nuxt.js - Vue.js on Steroids",
+    "provider": "Udemy",
+    "dateIssued": "Issued October 2021",
+    "credentialId": "UC-34b638ba-b348-457e-b1b4-5c316a07bace",
+    "link": "https://ude.my/UC-34b638ba-b348-457e-b1b4-5c316a07bace/"
+  },
   "reactCompleteGuide": {
     "title": "React - The Complete Guide",
     "provider": "Udemy",
