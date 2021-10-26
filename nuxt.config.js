@@ -19,8 +19,8 @@ export default {
       { hid: 'og:description', name: 'og:description', content: 'Full Stack Developer Portfolio' },
       { hid: 'og:image', name: 'og:image', content: '/site.PNG' },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Michael Pereira' },
-      { hid: 'article:author', name: 'og:site_name', content: 'Michael Pereira' },
-      { hid: 'article:publisher', name: 'og:site_name', content: 'Michael Pereira' },
+      { hid: 'article:author', name: 'og:site_name', content: 'https://mwpereira.ca/' },
+      { hid: 'article:publisher', name: 'og:site_name', content: 'https://mwpereira.ca/' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'msapplication', content: '#da532c' },
       { name: 'theme-color', content: '#ffffff' }
