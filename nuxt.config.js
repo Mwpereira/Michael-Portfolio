@@ -1,5 +1,4 @@
 export default {
-  ssr: true,
   target: 'static',
   head: {
     title: 'Michael Pereira',
