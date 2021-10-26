@@ -17,7 +17,7 @@ export default {
       },
       { hid: 'og:title', name: 'og:title', content: 'Michael Pereira' },
       { hid: 'og:description', name: 'og:description', content: 'Full Stack Developer Portfolio' },
-      { hid: 'og:image', name: 'og:image', content: '/site.PNG' },
+      { hid: 'og:image', name: 'og:image', content: 'https://mwpereira.ca/site.PNG' },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Michael Pereira' },
       { hid: 'article:author', name: 'article:author', content: 'https://mwpereira.ca/' },
       { hid: 'article:publisher', name: 'article:publisher', content: 'https://mwpereira.ca/' },
@@ -26,7 +26,7 @@ export default {
       { name: 'theme-color', content: '#ffffff' }
     ],
     link: [
-      { rel: 'alternate', type: 'application/json+oembed', href: '/site.PNG' },
+      { rel: 'alternate', type: 'application/json+oembed', href: 'https://mwpereira.ca/site.PNG' },
       { rel: 'apple-touch-icon', size: '180x180', href: '/icons/apple-touch-icon.png' },
       { rel: 'icon', type: 'image/png', size: '32x32', href: '/icons/favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', size: '16x16', href: '/icons/favicon-16x16.png' },
