@@ -26,7 +26,6 @@ export default {
       { name: 'theme-color', content: '#ffffff' }
     ],
     link: [
-      { rel: 'alternate', type: 'application/json+oembed', href: 'https://mwpereira.ca/site.PNG' },
       { rel: 'apple-touch-icon', size: '180x180', href: '/icons/apple-touch-icon.png' },
       { rel: 'icon', type: 'image/png', size: '32x32', href: '/icons/favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', size: '16x16', href: '/icons/favicon-16x16.png' },
