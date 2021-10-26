@@ -1,6 +1,6 @@
 export default {
   ssr: true,
-  target: 'universal',
+  target: 'static',
   head: {
     title: 'Michael Pereira',
     htmlAttrs: {
