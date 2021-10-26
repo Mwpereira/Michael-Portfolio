@@ -17,13 +17,16 @@ export default {
       },
       { hid: 'og:title', name: 'og:title', content: 'Michael Pereira' },
       { hid: 'og:description', name: 'og:description', content: 'Full Stack Developer Portfolio' },
-      { hid: 'og:image', name: 'og:image', content: '/site.png' },
+      { hid: 'og:image', name: 'og:image', content: '/site.PNG' },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Michael Pereira' },
+      { hid: 'article:author', name: 'og:site_name', content: 'Michael Pereira' },
+      { hid: 'article:publisher', name: 'og:site_name', content: 'Michael Pereira' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'msapplication', content: '#da532c' },
       { name: 'theme-color', content: '#ffffff' }
     ],
     link: [
+      { rel: 'alternate', type: 'application/json+oembed', href: '/site.PNG' },
       { rel: 'apple-touch-icon', size: '180x180', href: '/icons/apple-touch-icon.png' },
       { rel: 'icon', type: 'image/png', size: '32x32', href: '/icons/favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', size: '16x16', href: '/icons/favicon-16x16.png' },
