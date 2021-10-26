@@ -50,7 +50,7 @@
       </div>
       <div class='column has-text-centered mb-6'>
         <div class='img-container'>
-          <img src='/mwp.jpg' alt='Michael Pereira' />
+          <img src='/mwp.jpg' alt='Profile Image' />
         </div>
       </div>
     </div>
