@@ -14,12 +14,12 @@ export default {
         name: 'keywords',
         content: 'michael, pereira, michaelpereira, mwpereira, portfolio, full-stack, developer, vuejs, nuxt, typescript, development, software'
       },
-      { hid: 'og:title', name: 'og:title', content: 'Michael Pereira' },
-      { hid: 'og:description', name: 'og:description', content: 'Full Stack Developer Portfolio' },
-      { hid: 'og:image', name: 'og:image', content: 'https://mwpereira.ca/site.PNG' },
-      { hid: 'og:site_name', name: 'og:site_name', content: 'Michael Pereira' },
-      { hid: 'article:author', name: 'article:author', content: 'https://mwpereira.ca/' },
-      { hid: 'article:publisher', name: 'article:publisher', content: 'https://mwpereira.ca/' },
+      { hid: 'og:title', property: 'og:title', content: 'Michael Pereira' },
+      { hid: 'og:description', property: 'og:description', content: 'Full Stack Developer Portfolio' },
+      { hid: 'og:image', property: 'og:image', content: 'https://mwpereira.ca/site.PNG' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Michael Pereira' },
+      { hid: 'article:author', property: 'article:author', content: 'https://mwpereira.ca/' },
+      { hid: 'article:publisher', property: 'article:publisher', content: 'https://mwpereira.ca/' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'msapplication', content: '#da532c' },
       { name: 'theme-color', content: '#ffffff' }
