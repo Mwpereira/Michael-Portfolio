@@ -8,8 +8,8 @@
         <div class='columns'>
           <div class='column is-5-fullhd is-6-widescreen is-7-desktop is-8-tablet is-12-mobile'>
             <p class='is-size-6 mt-5'>I am an enthusiastic software engineer with a passion for creating extraordinary
-              software and apps. Right now I am building and developing flawless code within my side projects
-              while I am <b>currently seeking a Winter 2022 internship position</b>.
+              software and apps. Right now I am developing flawless code within my side projects
+              while I am awaiting my upcoming <b>Full Stack Developer Intern position @ IBM</b>.
             </p>
           </div>
         </div>
