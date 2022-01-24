@@ -24,9 +24,7 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from 'vue-property-decorator'
-import Component from 'vue-class-component'
-import { Prop } from 'nuxt-property-decorator'
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class CertificationTab extends Vue {
@@ -56,20 +54,12 @@ i:hover {
   transform: scale(1.025);
 }
 
-.tag {
-  margin-right: 5px;
-}
-
 .card-desc {
   line-height: 20px;
 }
 
 .desc {
   font-size: 14px;
-}
-
-#tags {
-  font-size: 12px;
 }
 
 @media screen and (min-width: 1100px) {

@@ -60,4 +60,7 @@ export default {
     }
   },
   build: {},
+  server: {
+    port: 8080
+  }
 }

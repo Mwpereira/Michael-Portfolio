@@ -8,8 +8,7 @@
         <div class='columns'>
           <div class='column is-5-fullhd is-6-widescreen is-7-desktop is-8-tablet is-12-mobile'>
             <p class='is-size-6 mt-5'>I am an enthusiastic software engineer with a passion for creating extraordinary
-              software and apps. Right now I am developing flawless code within my side projects
-              while I am awaiting my upcoming <b>Full Stack Developer Intern position @ IBM</b>.
+              software and apps. Right now I am developing and delivering flawless code on the <b>Cognos Analytics Mobile team</b> while I am working as <b>Full Stack Developer Intern position @ IBM</b>.
             </p>
           </div>
         </div>
@@ -27,8 +26,7 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from 'vue-property-decorator'
-import Component from 'vue-class-component'
+import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class Hero extends Vue {

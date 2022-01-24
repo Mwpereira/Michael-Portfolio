@@ -31,9 +31,7 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from 'vue-property-decorator'
-import Component from 'vue-class-component'
-import { Prop } from 'nuxt-property-decorator'
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class ProjectCard extends Vue {

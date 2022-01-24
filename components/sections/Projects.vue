@@ -12,10 +12,9 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from 'vue-property-decorator'
-import Component from 'vue-class-component'
+import { Component, Vue } from 'nuxt-property-decorator'
 import ProjectCard from '~/components/general/ProjectCard.vue'
-import projects from '@/assets/json/projects.json'
+import projects from '@/content/json/projects.json'
 
 @Component({
   components: { ProjectCard }

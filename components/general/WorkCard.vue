@@ -1,5 +1,5 @@
 <template>
-  <div class='box'>
+  <div class='box p-5'>
     <p class='is-size-5'>{{ position }} <b>@ {{ company }}</b></p>
     <p class='mt-2'>{{ dateWorked }}</p>
     <div v-for='point in points' :key='point' class='my-5'>
@@ -15,9 +15,7 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from 'vue-property-decorator'
-import Component from 'vue-class-component'
-import { Prop } from 'nuxt-property-decorator'
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class WorkCard extends Vue {

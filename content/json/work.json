@@ -1,4 +1,18 @@
 {
+  "ibm": {
+    "company": "IBM",
+    "position": "Full Stack Developer Intern",
+    "dateWorked": "January 2022 - Present",
+    "points": ["N/A"],
+    "referenceLetter": ""
+  },
+  "ryerson": {
+    "company": "Ryerson University",
+    "position": "Web Developer Research Assistant",
+    "dateWorked": "January 2022 - Present",
+    "points": ["N/A"],
+    "referenceLetter": ""
+  },
   "caseware": {
     "company": "CaseWare",
     "position": "Full Stack Developer Intern",

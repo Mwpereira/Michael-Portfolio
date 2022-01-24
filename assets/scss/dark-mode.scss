@@ -150,6 +150,14 @@ html {
       }
     }
 
+    div.dropdown-content {
+      background-color: $dark-mode-navbar-background-color;
+    }
+
+    a.dropdown-item {
+      background-color: $dark-mode-navbar-background-color;
+    }
+
     .card {
       border-color: $dark-mode-light-border-color;
       color: $grey-lighter;

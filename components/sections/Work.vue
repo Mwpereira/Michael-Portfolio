@@ -10,9 +10,8 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from 'vue-property-decorator'
-import Component from 'vue-class-component'
-import work from '@/assets/json/work.json'
+import { Component, Vue } from 'nuxt-property-decorator'
+import work from '@/content/json/work.json'
 import WorkCard from '~/components/general/WorkCard.vue'
 
 @Component({

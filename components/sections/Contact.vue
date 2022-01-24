@@ -4,9 +4,6 @@
     <hr>
     <div class='columns is-vcentered is-centered'>
       <div class='column'>
-<!--        <p class='is-size-5 has-text-centered' id='comment'>Thank you for checking out my website! Have any open job opportunities available that you think I would be an-->
-<!--          excellent candidate for? Have any questions or would like to just say hi? My inbox is always open and I will-->
-<!--          do my best to get back to you as soon as I can!</p>-->
         <img src='/contact.svg' alt='Contact Me' width='700' />
       </div>
       <div class='column'>
@@ -17,8 +14,7 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from 'vue-property-decorator'
-import Component from 'vue-class-component'
+import { Component, Vue } from 'nuxt-property-decorator'
 import ContactForm from '~/components/general/ContactForm.vue'
 
 @Component({
@@ -27,9 +23,3 @@ import ContactForm from '~/components/general/ContactForm.vue'
 export default class Contact extends Vue {
 }
 </script>
-
-<style scoped>
-#comment {
-  line-height: 600px;
-}
-</style>

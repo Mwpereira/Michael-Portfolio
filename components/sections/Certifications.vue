@@ -14,10 +14,9 @@
 </template>
 
 <script lang='ts'>
-import { Vue } from 'vue-property-decorator'
-import Component from 'vue-class-component'
+import { Component, Vue } from 'nuxt-property-decorator'
 import CertificationCard from '~/components/general/CertificationCard.vue'
-import certificates from '@/assets/json/certifications.json'
+import certificates from "@/content/json/certifications.json"
 
 @Component({
   components: { CertificationCard }
