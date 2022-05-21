@@ -15,24 +15,24 @@
 </template>
 
 <script lang='ts'>
-import { Component, Prop, Vue } from 'nuxt-property-decorator'
+import { Component, Prop, Vue } from 'nuxt-property-decorator';
 
 @Component
 export default class WorkCard extends Vue {
   @Prop()
-  public company!: string
+	public company!: string;
 
   @Prop()
-  public position!: string
+  public position!: string;
 
   @Prop()
-  public dateWorked!: string
+  public dateWorked!: string;
 
   @Prop()
-  public points!: string
+  public points!: string;
 
   @Prop()
-  public referenceLetter!: string
+  public referenceLetter!: string;
 }
 </script>
 

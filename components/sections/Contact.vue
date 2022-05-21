@@ -14,11 +14,11 @@
 </template>
 
 <script lang='ts'>
-import { Component, Vue } from 'nuxt-property-decorator'
-import ContactForm from '~/components/general/ContactForm.vue'
+import { Component, Vue } from 'nuxt-property-decorator';
+import ContactForm from '~/components/general/ContactForm.vue';
 
 @Component({
-  components: { ContactForm }
+	components: { ContactForm }
 })
 export default class Contact extends Vue {
 }

@@ -12,32 +12,32 @@
 </template>
 
 <script lang='ts'>
-import { Component, Vue } from 'nuxt-property-decorator'
-import Hero from '~/components/sections/Hero.vue'
-import Projects from '~/components/sections/Projects.vue'
-import Contact from '~/components/sections/Contact.vue'
-import About from '~/components/sections/About.vue'
-import Jobs from '~/components/sections/Work.vue'
-import Certifications from '~/components/sections/Certifications.vue'
-import Socials from '~/components/general/Socials.vue'
-import Email from '~/components/general/Email.vue'
+import { Component, Vue } from 'nuxt-property-decorator';
+import Hero from '~/components/sections/Hero.vue';
+import Projects from '~/components/sections/Projects.vue';
+import Contact from '~/components/sections/Contact.vue';
+import About from '~/components/sections/About.vue';
+import Jobs from '~/components/sections/Work.vue';
+import Certifications from '~/components/sections/Certifications.vue';
+import Socials from '~/components/general/Socials.vue';
+import Email from '~/components/general/Email.vue';
 
 @Component({
-  components: {
-    Hero,
-    About,
-    Projects,
-    Jobs,
-    Certifications,
-    Contact,
-    Socials,
-    Email
-  }
+	components: {
+		Hero,
+		About,
+		Projects,
+		Jobs,
+		Certifications,
+		Contact,
+		Socials,
+		Email
+	}
 })
 export default class HomePage extends Vue {
-  mounted() {
-    this.$store.commit('loadTheme')
-  }
+	mounted() {
+		this.$store.commit('loadTheme');
+	}
 }
 </script>
 

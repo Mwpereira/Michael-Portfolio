@@ -24,24 +24,24 @@
 </template>
 
 <script lang='ts'>
-import { Component, Prop, Vue } from 'nuxt-property-decorator'
+import { Component, Prop, Vue } from 'nuxt-property-decorator';
 
 @Component
 export default class CertificationTab extends Vue {
   @Prop()
-  public title!: string
+	public title!: string;
 
   @Prop()
-  public dateIssued!: string
+  public dateIssued!: string;
 
   @Prop()
-  public provider!: string
+  public provider!: string;
 
   @Prop()
-  public credentialId!: string
+  public credentialId!: string;
 
   @Prop()
-  public link!: string
+  public link!: string;
 }
 </script>
 

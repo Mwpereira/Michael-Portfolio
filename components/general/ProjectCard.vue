@@ -31,24 +31,24 @@
 </template>
 
 <script lang='ts'>
-import { Component, Prop, Vue } from 'nuxt-property-decorator'
+import { Component, Prop, Vue } from 'nuxt-property-decorator';
 
 @Component
 export default class ProjectCard extends Vue {
   @Prop()
-  public project!: string
+	public project!: string;
 
   @Prop()
-  public desc!: string
+  public desc!: string;
 
   @Prop()
-  public tags!: string
+  public tags!: string;
 
   @Prop()
-  public github!: string
+  public github!: string;
 
   @Prop()
-  public link!: string
+  public link!: string;
 }
 </script>
 
