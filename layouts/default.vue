@@ -16,7 +16,7 @@ import NavBar from '~/components/general/NavBar.vue';
 import Footer from '~/components/general/Footer.vue';
 
 @Component({
-	components: { NavBar, Footer },
+	components: { Footer, NavBar },
 })
 export default class Hero extends Vue {}
 </script>

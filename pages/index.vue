@@ -24,14 +24,14 @@ import Email from '~/components/general/Email.vue';
 
 @Component({
 	components: {
-		Hero,
 		About,
-		Projects,
-		Jobs,
 		Certifications,
 		Contact,
+		Email,
+		Hero,
+		Jobs,
+		Projects,
 		Socials,
-		Email
 	}
 })
 export default class HomePage extends Vue {
