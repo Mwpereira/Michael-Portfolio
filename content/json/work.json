@@ -3,14 +3,14 @@
     "company": "IBM",
     "position": "Full Stack Developer Intern",
     "dateWorked": "January 2022 - Present",
-    "points": ["N/A"],
+    "points": ["Developing client app using Cognos Analytics services using React Native, Javascript, Typescript and IBM's Carbon Design System.", "Worked closely with a team of cloud and full-stack developers, quality assurance engineers and designers.", "Efficiently released quality updates with new features and bug fixes to Apple's App Store and Google's Play app store.", "Encouraged the team to revamp e2e test structure and spec files and lead this operation.", "Provided new create initiatives to the team and executed these ideas such as converting our Javascript React Native code to Typescript."],
     "referenceLetter": ""
   },
   "ryerson": {
     "company": "Ryerson University",
     "position": "Web Developer Research Assistant",
     "dateWorked": "January 2022 - Present",
-    "points": ["N/A"],
+    "points": ["Creating a web platform for clinicians to upload their surgeries to be graded by surgeons and experience professors.", "This platform's client uses Nuxt, Typescript, Buefy, and Ky. Additionally, this platform's server uses Java, Spring Boot, and JWT. Lastly, this platform's cloud infrastructure includes AWS DynamoDB, API Gateway, S3, and EC2.", "Reproducing an existing chrome extension that creates a complex Google event and provides additional in-meeting features.", "This extension was made using HTML, CSS, JS and Bulma."],
     "referenceLetter": ""
   },
   "caseware": {

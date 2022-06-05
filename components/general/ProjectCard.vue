@@ -2,8 +2,9 @@
   <div class='card'>
     <div class='card-content'>
       <div class='content'>
-        <p class='has-text-weight-bold is-size-5 card-desc'>
-          {{ project }}
+        <p class='card-desc'>
+          <span class='has-text-weight-bold is-size-5'>{{ project }}</span> <!--<span class='ml-3'>{{ stars }} <i
+          class='fas fa-star'></i></span>-->
         </p>
         <p id='desc' class='card-desc'>
           {{ desc }}
@@ -49,10 +50,17 @@ export default class ProjectCard extends Vue {
 
   @Prop()
   public link!: string;
+
+  // @Prop()
+  // public stars!: number;
 }
 </script>
 
 <style scoped>
+.fa-star {
+  color: gold;
+}
+
 i:hover {
   color: #908d90;
 }
