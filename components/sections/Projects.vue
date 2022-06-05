@@ -33,7 +33,7 @@ export default class Projects extends Vue {
 	// 		if (!response.ok) {
 	// 			return 0;
 	// 		} else {
-  //       const stars = (await response.json()).length;
+	//       const stars = (await response.json()).length;
 	// 			return stars;
 	// 		}
 	// 	}

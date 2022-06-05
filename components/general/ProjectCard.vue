@@ -51,8 +51,8 @@ export default class ProjectCard extends Vue {
   @Prop()
   public link!: string;
 
-  // @Prop()
-  // public stars!: number;
+	// @Prop()
+	// public stars!: number;
 }
 </script>
 
