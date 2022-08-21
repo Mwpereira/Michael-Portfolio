@@ -1,34 +1,34 @@
 <template>
-  <div class='card'>
-    <div class='card-content'>
-      <div class='content'>
-        <p class='card-desc'>
-          <span class='has-text-weight-bold is-size-5'>{{ project }}</span> <!--<span class='ml-3'>{{ stars }} <i
+    <div class="card">
+        <div class="card-content">
+            <div class="content">
+                <p class="card-desc">
+                    <span class="has-text-weight-bold is-size-5">{{ project }}</span> <!--<span class='ml-3'>{{ stars }} <i
           class='fas fa-star'></i></span>-->
-        </p>
-        <p id='desc' class='card-desc'>
-          {{ desc }}
-        </p>
-      </div>
-      <div class='mt-5 mb-2'>
-        <b-tag v-for="tag in tags.split(' ')" id='tags' :key='tag' type='is-dark'>
-          {{ tag }}
-        </b-tag>
-      </div>
+                </p>
+                <p id="desc" class="card-desc">
+                    {{ desc }}
+                </p>
+            </div>
+            <div class="mt-5 mb-2">
+                <b-tag v-for="tag in tags.split(' ')" id="tags" :key="tag" type="is-dark">
+                    {{ tag }}
+                </b-tag>
+            </div>
+        </div>
+        <footer class="card-footer is-size-5">
+            <div class="card-footer-item">
+                <a id="github" :href="github" rel="noopener" target="_blank">
+                    <i class="fab fa-github" />
+                </a>
+            </div>
+            <div v-if="link" class="card-footer-item">
+                <a id="link" :href="link" rel="noopener" target="_blank">
+                    <i class="fas fa-external-link-alt" />
+                </a>
+            </div>
+        </footer>
     </div>
-    <footer class='card-footer is-size-5'>
-      <div class='card-footer-item'>
-        <a id='github' :href='github' rel='noopener' target='_blank'>
-          <i class='fab fa-github'></i>
-        </a>
-      </div>
-      <div v-if='link' class='card-footer-item'>
-        <a id='link' :href='link' rel='noopener' target='_blank'>
-          <i class='fas fa-external-link-alt'></i>
-        </a>
-      </div>
-    </footer>
-  </div>
 </template>
 
 <script lang='ts'>
@@ -37,7 +37,7 @@ import { Component, Prop, Vue } from 'nuxt-property-decorator';
 @Component
 export default class ProjectCard extends Vue {
   @Prop()
-	public project!: string;
+    public project!: string;
 
   @Prop()
   public desc!: string;
@@ -51,8 +51,8 @@ export default class ProjectCard extends Vue {
   @Prop()
   public link!: string;
 
-	// @Prop()
-	// public stars!: number;
+    // @Prop()
+    // public stars!: number;
 }
 </script>
 

@@ -1,14 +1,14 @@
 <template>
-  <section>
-    <Hero />
-    <About />
-    <Jobs />
-    <Projects />
-    <Certifications />
-    <Contact />
-    <Socials class='is-hidden-mobile' />
-    <Email class='is-hidden-mobile' />
-  </section>
+    <section>
+        <Hero />
+        <About />
+        <Jobs />
+        <Projects />
+        <Certifications />
+        <Contact />
+        <Socials class="is-hidden-mobile" />
+        <Email class="is-hidden-mobile" />
+    </section>
 </template>
 
 <script lang='ts'>
@@ -23,21 +23,21 @@ import Socials from '~/components/general/Socials.vue';
 import Email from '~/components/general/Email.vue';
 
 @Component({
-	components: {
-		About,
-		Certifications,
-		Contact,
-		Email,
-		Hero,
-		Jobs,
-		Projects,
-		Socials,
-	}
+    components: {
+        About,
+        Certifications,
+        Contact,
+        Email,
+        Hero,
+        Jobs,
+        Projects,
+        Socials
+    }
 })
 export default class HomePage extends Vue {
-	mounted() {
-		this.$store.commit('loadTheme');
-	}
+    mounted () {
+        this.$store.commit('loadTheme');
+    }
 }
 </script>
 

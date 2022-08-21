@@ -1,0 +1,7 @@
+.nuxt
+node_modules
+dist
+static
+.git
+.github
+.vscode

@@ -1,11 +1,11 @@
 <template>
-<footer class='footer has-text-centered'>
-  <div class="content has-text-centered">
-    <p>
-     Designed & Built by Michael Pereira
-    </p>
-  </div>
-</footer>
+    <footer class="footer has-text-centered">
+        <div class="content has-text-centered">
+            <p>
+                Designed & Built by Michael Pereira
+            </p>
+        </div>
+    </footer>
 </template>
 
 <script lang="ts">

@@ -1,13 +1,19 @@
 <template>
-  <div id='work' class='section my-6'>
-    <p class='title'>Experience</p>
-    <hr>
-    <div v-for='place in work' :key='place.company' class='mb-6'>
-      <WorkCard
-:company='place.company' :position='place.position' :date-worked='place.dateWorked'
-                :points='place.points' :reference-letter='place.referenceLetter' />
+    <div id="work" class="section my-6">
+        <p class="title">
+            Experience
+        </p>
+        <hr>
+        <div v-for="place in work" :key="place.company" class="mb-6">
+            <WorkCard
+                :company="place.company"
+                :position="place.position"
+                :date-worked="place.dateWorked"
+                :points="place.points"
+                :reference-letter="place.referenceLetter"
+            />
+        </div>
     </div>
-  </div>
 </template>
 
 <script lang='ts'>
@@ -16,10 +22,10 @@ import work from '@/content/json/work.json';
 import WorkCard from '~/components/general/WorkCard.vue';
 
 @Component({
-	components: { WorkCard }
+    components: { WorkCard }
 })
 export default class Work extends Vue {
-	public work = work;
+    public work = work;
 }
 </script>
 

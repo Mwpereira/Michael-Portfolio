@@ -1,26 +1,26 @@
 <template>
-  <div class='card'>
-    <div class='card-content'>
-      <div class='content'>
-        <p class='has-text-weight-bold is-size-5 card-desc'>
-          {{ title }}
-        </p>
-        <p class='card-desc desc'>
-          Credential ID: {{ credentialId }}
-        </p>
-        <p class='card-desc desc'>
-          {{ dateIssued }} by <b> {{ provider }} </b>
-        </p>
-      </div>
+    <div class="card">
+        <div class="card-content">
+            <div class="content">
+                <p class="has-text-weight-bold is-size-5 card-desc">
+                    {{ title }}
+                </p>
+                <p class="card-desc desc">
+                    Credential ID: {{ credentialId }}
+                </p>
+                <p class="card-desc desc">
+                    {{ dateIssued }} by <b> {{ provider }} </b>
+                </p>
+            </div>
+        </div>
+        <footer class="card-footer is-size-5">
+            <div v-if="link" class="card-footer-item">
+                <a id="link" :href="link" rel="noopener" target="_blank">
+                    <i class="fas fa-external-link-alt" />
+                </a>
+            </div>
+        </footer>
     </div>
-    <footer class='card-footer is-size-5'>
-      <div v-if='link' class='card-footer-item'>
-        <a id='link' :href='link' rel='noopener' target='_blank'>
-          <i class='fas fa-external-link-alt'></i>
-        </a>
-      </div>
-    </footer>
-  </div>
 </template>
 
 <script lang='ts'>
@@ -29,7 +29,7 @@ import { Component, Prop, Vue } from 'nuxt-property-decorator';
 @Component
 export default class CertificationTab extends Vue {
   @Prop()
-	public title!: string;
+    public title!: string;
 
   @Prop()
   public dateIssued!: string;

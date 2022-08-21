@@ -1,8 +1,8 @@
 <template>
-  <div id='email' class='section is-size-6'>
-    <a class='mb-5' href='mailto:michael.w.pereira@ryerson.ca' target='_blank' rel='noopener'>michael.w.pereira@ryerson.ca</a>
-    <div class="vertical"></div>
-  </div>
+    <div id="email" class="section is-size-6">
+        <a class="mb-5" href="mailto:michael.w.pereira@ryerson.ca" target="_blank" rel="noopener">michael.w.pereira@ryerson.ca</a>
+        <div class="vertical" />
+    </div>
 </template>
 
 <script lang='ts'>

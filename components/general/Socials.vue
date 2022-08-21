@@ -1,27 +1,27 @@
 <template>
-  <div id='socials' class='section is-size-3'>
-    <a href='https://github.com/Mwpereira' target='_blank' rel='noopener'>
-      <ul>
-        <i class='fab fa-github-square mb-4'></i>
-      </ul>
-    </a>
-    <a href='https://www.linkedin.com/in/michael-pereira-07/' target='_blank' rel='noopener'>
-      <ul>
-        <i class='fab fa-linkedin mb-4'></i>
-      </ul>
-    </a>
-<!--    <a href='https://instagram.com/mwpereira' target='_blank' rel='noopener'>-->
-<!--      <ul>-->
-<!--        <i class="fab fa-instagram-square mb-4"></i>-->
-<!--      </ul>-->
-<!--    </a>-->
-    <a href='https://www.hackerrank.com/mwpereira' target='_blank' rel='noopener'>
-      <ul>
-        <i class='fab fa-hackerrank mb-4'></i>
-      </ul>
-    </a>
-    <div class='vertical'></div>
-  </div>
+    <div id="socials" class="section is-size-3">
+        <a href="https://github.com/Mwpereira" target="_blank" rel="noopener">
+            <ul>
+                <i class="fab fa-github-square mb-4" />
+            </ul>
+        </a>
+        <a href="https://www.linkedin.com/in/michael-pereira-07/" target="_blank" rel="noopener">
+            <ul>
+                <i class="fab fa-linkedin mb-4" />
+            </ul>
+        </a>
+        <!--    <a href='https://instagram.com/mwpereira' target='_blank' rel='noopener'>-->
+        <!--      <ul>-->
+        <!--        <i class="fab fa-instagram-square mb-4"></i>-->
+        <!--      </ul>-->
+        <!--    </a>-->
+        <a href="https://www.hackerrank.com/mwpereira" target="_blank" rel="noopener">
+            <ul>
+                <i class="fab fa-hackerrank mb-4" />
+            </ul>
+        </a>
+        <div class="vertical" />
+    </div>
 </template>
 
 <script lang='ts'>
