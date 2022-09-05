@@ -51,7 +51,7 @@ export default {
 		'@nuxtjs/style-resources'
 	],
 	'google-gtag': {
-		id: 'G-DV6R9X8V7F',
+		id: 'G-S57CPLRGK6',
 		config: {
 			anonymize_ip: true,
 			send_page_view: false,
