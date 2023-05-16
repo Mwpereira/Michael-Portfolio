@@ -19,24 +19,24 @@
                     <p class="mt-4">
                         <i class="far fa-file-code" />
                         <i class="fas fa-angle-right" />
-                        Typescript
+                        JavaScript/Typescript
+                        <i class="fas fa-angle-right mx-1" />
+                        HTML/CSS
                         <i class="fas fa-angle-right mx-1" />
                         Java
                         <i class="fas fa-angle-right mx-1" />
-                        Vue
-                        <i class="fas fa-angle-right mx-1" />
-                        React
+                        PHP
                     </p>
                     <p class="mt-3">
-                        <i class="fab fa-medapps" />
+                        <i class="fab fa-uikit"></i>
                         <i class="fas fa-angle-right" />
-                        AWS
+                        React
                         <i class="fas fa-angle-right mx-1" />
-                        Git
+                        Vue
                         <i class="fas fa-angle-right mx-1" />
-                        Figma
+                        Bulma
                         <i class="fas fa-angle-right mx-1" />
-                        Linux
+                        Tailwind
                     </p>
                     <p class="mt-3">
                         <i class="fas fa-database" />
@@ -45,7 +45,22 @@
                         <i class="fas fa-angle-right mx-1" />
                         DynamoDB
                         <i class="fas fa-angle-right mx-1" />
-                        MSSQL
+                        MySQL
+                        <i class="fas fa-angle-right mx-1" />
+                        PostgreSQL
+                    </p>
+                    <p class="mt-3">
+                        <i class="fas fa-cloud"></i>
+                        <i class="fas fa-angle-right" />
+                        AWS
+                        <i class="fas fa-angle-right mx-1" />
+                        Git
+                        <i class="fas fa-angle-right mx-1" />
+                        Jira
+                        <i class="fas fa-angle-right mx-1" />
+                        Figma
+                        <i class="fas fa-angle-right mx-1" />
+                        Linux
                     </p>
                 </div>
             </div>

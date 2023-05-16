@@ -9,9 +9,11 @@
                     <div class="column is-5-fullhd is-6-widescreen is-7-desktop is-8-tablet is-12-mobile">
                         <p class="is-size-6 mt-5">
                             I am an enthusiastic software engineer with a passion for creating extraordinary software
-                            and apps. Right now I am developing and delivering flawless code on the
-                            <b>MFI Laboratory team</b> while I am working as
-                            <b>Full Stack Developer @ Ryerson University</b>.
+                            and apps.
+                            <br /><br />
+                            Currently, I am developing and delivering impeccably crafted code as a
+                            <b>Full Stack Developer @ Ryerson University & Floatt</b>. <br /><br />
+                            Upcoming <b>Associatee Software Developer @ IBM</b>.
                         </p>
                     </div>
                 </div>
