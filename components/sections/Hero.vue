@@ -13,7 +13,7 @@
                             <br /><br />
                             Currently, I am developing and delivering impeccably crafted code as a
                             <b>Full Stack Developer @ Ryerson University & Floatt</b>. <br /><br />
-                            Upcoming <b>Associatee Software Developer @ IBM</b>.
+                            Upcoming <b>Associate Software Developer @ IBM</b>.
                         </p>
                     </div>
                 </div>
