@@ -9,7 +9,8 @@
                     height="50"
                     viewBox="100 100 100 100"
                     class="iconAbove"
-                ><!---->
+                >
+                    <!---->
                     <defs data-v-fde0c5aa=""><!----></defs>
                     <g
                         id="e63c07c3-44ea-48b6-a662-0950e2179306"
@@ -48,22 +49,16 @@
                         <path
                             d="M94 6H6a6 6 0 0 0-6 6v76a6 6 0 0 0 6 6h88a6 6 0 0 0 6-6V12a6 6 0 0 0-6-6zm-15 4c2.205 0 4 1.794 4 4s-1.795 4-4 4-4-1.794-4-4 1.795-4 4-4zm-11 0c2.205 0 4 1.794 4 4s-1.795 4-4 4-4-1.794-4-4 1.795-4 4-4zm26 78H6V22h88v66zm-4-70c-2.205 0-4-1.794-4-4s1.795-4 4-4 4 1.794 4 4-1.795 4-4 4z"
                         />
-                    </g><!----></svg>
+                    </g>
+                    <!---->
+                </svg>
             </b-navbar-item>
         </template>
         <template #end>
-            <b-navbar-item href="#about" rel="noopener">
-                About
-            </b-navbar-item>
-            <b-navbar-item href="#work" rel="noopener">
-                Experience
-            </b-navbar-item>
-            <b-navbar-item href="#projects" rel="noopener">
-                Projects
-            </b-navbar-item>
-            <b-navbar-item href="#contact" rel="noopener" class="mr-4">
-                Contact
-            </b-navbar-item>
+            <b-navbar-item href="#about" rel="noopener"> About </b-navbar-item>
+            <b-navbar-item href="#work" rel="noopener"> Experience </b-navbar-item>
+            <b-navbar-item href="#projects" rel="noopener"> Projects </b-navbar-item>
+            <b-navbar-item href="#contact" rel="noopener" class="mr-4"> Contact </b-navbar-item>
             <a
                 id="darkModeToggle"
                 class="navbar-item has-divider is-desktop-icon-only is-size-6"
@@ -81,99 +76,100 @@
     </b-navbar>
 </template>
 
-<script lang='ts'>
-import { Component, Vue } from 'nuxt-property-decorator';
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class NavBar extends Vue {
-    private showNavbar = true;
-    private lastScrollPosition = 0;
+    private showNavbar = true
+    private lastScrollPosition = 0
 
-    get isDarkModeActive (): boolean {
-        return this.$store.getters.isDarkModeActive;
+    get isDarkModeActive(): boolean {
+        return this.$store.getters.isDarkModeActive
     }
 
-    darkModeToggle () {
-        this.$store.commit('darkModeToggle');
+    darkModeToggle() {
+        this.$store.commit('darkModeToggle')
     }
 
-    mounted () {
-        window.addEventListener('scroll', this.onScroll);
+    mounted() {
+        window.addEventListener('scroll', this.onScroll)
     }
 
-    destroyed () {
-        window.removeEventListener('scroll', this.onScroll);
+    destroyed() {
+        window.removeEventListener('scroll', this.onScroll)
     }
 
-    onScroll () {
-        const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    onScroll() {
+        const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
         if (currentScrollPosition < 0) {
-            return;
+            return
         }
         if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 60) {
-            return;
+            return
         }
-        this.showNavbar = currentScrollPosition < this.lastScrollPosition;
-        this.lastScrollPosition = currentScrollPosition;
+        this.showNavbar = currentScrollPosition < this.lastScrollPosition
+        this.lastScrollPosition = currentScrollPosition
     }
 }
 </script>
 
 <style scoped>
 .navbar {
-  padding: 1rem 2rem 1rem 2rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+    padding: 1rem 2rem 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navbar-item {
-  padding-bottom: 5px;
-  margin-left: 2px;
-  margin-right: 2px;
-  color: #323232;
+    padding-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #323232;
 }
 
 .navbar-item:focus {
-  color: #323232;
-  background-color: transparent;
+    color: #323232;
+    background-color: transparent;
 }
 
 .navbar-item:hover {
-  color: #323232;
-  border-bottom: 2px solid #323232;
-  background-color: transparent;
+    color: #323232;
+    border-bottom: 2px solid #323232;
+    background-color: transparent;
 }
 
 .navbar-menu.is-active .navbar-item:hover {
-  border-color: transparent !important;
-  color: #323232;
-  background-color: transparent;
+    border-color: transparent !important;
+    color: #323232;
+    background-color: transparent;
 }
 
 .scrolled-down {
-  transform: translateY(-100%);
-  transition: all 0.3s ease-in-out;
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
 }
 
 .scrolled-up {
-  transform: translateY(0);
-  transition: all 0.3s ease-in-out;
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
 }
 
-#logo:hover, #logo:focus {
-  border-bottom: none;
+#logo:hover,
+#logo:focus {
+    border-bottom: none;
 }
 
 #darkModeToggle:hover {
-  border-bottom: none;
-  color: black;
+    border-bottom: none;
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
-  svg {
-    width: 150px;
-  }
+    svg {
+        width: 150px;
+    }
 }
 </style>

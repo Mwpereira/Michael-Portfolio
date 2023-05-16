@@ -3,7 +3,8 @@
         <div class="card-content">
             <div class="content">
                 <p class="card-desc">
-                    <span class="has-text-weight-bold is-size-5">{{ project }}</span> <!--<span class='ml-3'>{{ stars }} <i
+                    <span class="has-text-weight-bold is-size-5">{{ project }}</span>
+                    <!--<span class='ml-3'>{{ stars }} <i
           class='fas fa-star'></i></span>-->
                 </p>
                 <p id="desc" class="card-desc">
@@ -31,25 +32,25 @@
     </div>
 </template>
 
-<script lang='ts'>
-import { Component, Prop, Vue } from 'nuxt-property-decorator';
+<script lang="ts">
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class ProjectCard extends Vue {
-  @Prop()
-    public project!: string;
+    @Prop()
+    public project!: string
 
-  @Prop()
-  public desc!: string;
+    @Prop()
+    public desc!: string
 
-  @Prop()
-  public tags!: string;
+    @Prop()
+    public tags!: string
 
-  @Prop()
-  public github!: string;
+    @Prop()
+    public github!: string
 
-  @Prop()
-  public link!: string;
+    @Prop()
+    public link!: string
 
     // @Prop()
     // public stars!: number;
@@ -58,42 +59,42 @@ export default class ProjectCard extends Vue {
 
 <style scoped>
 .fa-star {
-  color: gold;
+    color: gold;
 }
 
 i:hover {
-  color: #908d90;
+    color: #908d90;
 }
 
 .card:hover {
-  transform: scale(1.025);
+    transform: scale(1.025);
 }
 
 .tag {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 .card-desc {
-  line-height: 16px;
+    line-height: 16px;
 }
 
 #desc {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 #tags {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 @media screen and (min-width: 1100px) {
-  .card {
-    min-width: 385px;
-  }
+    .card {
+        min-width: 385px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
-  .card {
-    min-width: 300px;
-  }
+    .card {
+        min-width: 300px;
+    }
 }
 </style>

@@ -1,62 +1,62 @@
 {
-  "arc": {
-    "name": "Arc",
-    "desc": "A cross-platform, password manager app with advanced security features.",
-    "tags": "Vue Buefy TypeScript Serverless",
-    "github": "https://github.com/Mwpereira/Arc",
-    "link": "https://arc.mwpereira.ca"
-  },
-  "atlaWebScraper": {
-    "name": "ATLA WebScraper",
-    "desc": "Demonstrating web scraping to preview any of your favourite Avatar characters.",
-    "tags": "Bulma Serverless Puppeteer",
-    "github": "https://github.com/Mwpereira/ATLA-WebScraper"
-  },
-  "currencyConverter": {
-    "name": "Currency Converter",
-    "desc": "Simple and easy to use live currency converter.",
-    "tags": "Bulma JavaScript jQuery",
-    "github": "https://github.com/Mwpereira/Currency-Converter",
-    "link": "https://cc.mwpereira.ca"
-  },
-  "embyr": {
-    "name": "Embyr Chat",
-    "desc": "An aesthetic and friendly chat app!",
-    "tags": "C# JavaScript Electron",
-    "github": "https://github.com/Mwpereira/Embyr-Chat"
-  },
-  "hmDashboard": {
-    "name": "HM Dashboard",
-    "desc": "Minimalistic and modern user interface to display your HNT miner's data.",
-    "tags": "Nuxt Buefy TypeScript Ky",
-    "github": "https://github.com/Mwpereira/HNT-Widget",
-    "link": "https://hmdashboard.mwpereira.ca"
-  },
-  "hntWidget": {
-    "name": "HNT Widget",
-    "desc": "A desktop widget to view the latest information on Helium (HNT) coin.",
-    "tags": "Vue Buefy TypeScript Electron",
-    "github": "https://github.com/Mwpereira/HNT-Widget"
-  },
-  "michaelsPortfolio": {
-    "name": "Michael's Portfolio",
-    "desc": "The portfolio you are currently viewing :)",
-    "tags": "Nuxt Buefy TypeScript",
-    "github": "https://github.com/Mwpereira/Michael-Portfolio",
-    "link": "https://mwpereira.ca"
-  },
-  "udbhavsPortfolio": {
-    "name": "Udbhav's Portfolio",
-    "desc": "Udbhav's Data Science Portfolio",
-    "tags": "Nuxt Buefy TypeScript",
-    "github": "https://github.com/Mwpereira/Udbhav-Portfolio",
-    "link": "https://udbhavprasad.com"
-  },
-  "petersBarbershop": {
-    "name": "Peter's Barbershop",
-    "desc": "Peter's Barbershop Website",
-    "tags": "HTML CSS JS Bulma",
-    "github": "https://github.com/Mwpereira/Peters-Barbershop",
-    "link": "https://petersbarbershop.ca/"
-  }
+    "arc": {
+        "name": "Arc",
+        "desc": "A cross-platform, password manager app with advanced security features.",
+        "tags": "Vue Buefy TypeScript Serverless",
+        "github": "https://github.com/Mwpereira/Arc",
+        "link": "https://arc.mwpereira.ca"
+    },
+    "atlaWebScraper": {
+        "name": "ATLA WebScraper",
+        "desc": "Demonstrating web scraping to preview any of your favourite Avatar characters.",
+        "tags": "Bulma Serverless Puppeteer",
+        "github": "https://github.com/Mwpereira/ATLA-WebScraper"
+    },
+    "currencyConverter": {
+        "name": "Currency Converter",
+        "desc": "Simple and easy to use live currency converter.",
+        "tags": "Bulma JavaScript jQuery",
+        "github": "https://github.com/Mwpereira/Currency-Converter",
+        "link": "https://cc.mwpereira.ca"
+    },
+    "embyr": {
+        "name": "Embyr Chat",
+        "desc": "An aesthetic and friendly chat app!",
+        "tags": "C# JavaScript Electron",
+        "github": "https://github.com/Mwpereira/Embyr-Chat"
+    },
+    "hmDashboard": {
+        "name": "HM Dashboard",
+        "desc": "Minimalistic and modern user interface to display your HNT miner's data.",
+        "tags": "Nuxt Buefy TypeScript Ky",
+        "github": "https://github.com/Mwpereira/HNT-Widget",
+        "link": "https://hmdashboard.mwpereira.ca"
+    },
+    "hntWidget": {
+        "name": "HNT Widget",
+        "desc": "A desktop widget to view the latest information on Helium (HNT) coin.",
+        "tags": "Vue Buefy TypeScript Electron",
+        "github": "https://github.com/Mwpereira/HNT-Widget"
+    },
+    "michaelsPortfolio": {
+        "name": "Michael's Portfolio",
+        "desc": "The portfolio you are currently viewing :)",
+        "tags": "Nuxt Buefy TypeScript",
+        "github": "https://github.com/Mwpereira/Michael-Portfolio",
+        "link": "https://mwpereira.ca"
+    },
+    "udbhavsPortfolio": {
+        "name": "Udbhav's Portfolio",
+        "desc": "Udbhav's Data Science Portfolio",
+        "tags": "Nuxt Buefy TypeScript",
+        "github": "https://github.com/Mwpereira/Udbhav-Portfolio",
+        "link": "https://udbhavprasad.com"
+    },
+    "petersBarbershop": {
+        "name": "Peter's Barbershop",
+        "desc": "Peter's Barbershop Website",
+        "tags": "HTML CSS JS Bulma",
+        "github": "https://github.com/Mwpereira/Peters-Barbershop",
+        "link": "https://petersbarbershop.ca/"
+    }
 }

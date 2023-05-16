@@ -1,29 +1,51 @@
 {
-  "ryerson": {
-    "company": "Ryerson University",
-    "position": "Full Stack Developer",
-    "dateWorked": "January 2022 - Present",
-    "points": ["Creating a web platform for clinicians to upload their surgeries to be graded by surgeons and experience professors.", "This platform's client uses Nuxt, Typescript, Buefy, and Ky. Additionally, this platform's server uses Java, Spring Boot, and JWT. Lastly, this platform's cloud infrastructure includes AWS DynamoDB, API Gateway, S3, and EC2.", "Reproducing an existing chrome extension that creates a complex Google event and provides additional in-meeting features.", "This extension was made using HTML, CSS, JS and Bulma."],
-    "referenceLetter": ""
-  },
-  "ibm": {
-    "company": "IBM",
-    "position": "Full Stack Developer Intern",
-    "dateWorked": "January 2022 - August 2022",
-    "points": ["Developing client app using Cognos Analytics services using React Native, Javascript, Typescript and IBM's Carbon Design System.", "Worked closely with a team of cloud and full-stack developers, quality assurance engineers and designers.", "Efficiently released quality updates with new features and bug fixes to Apple's App Store and Google's Play app store.", "Encouraged and lead the operation of revamping our e2e test structure and spec files."],
-    "referenceLetter": "/reference_letter_ibm.pdf"
-  },
-  "caseware": {
-    "company": "CaseWare",
-    "position": "Full Stack Developer Intern",
-    "dateWorked": "May 2021 - August 2021",
-    "points": ["Developing with Angular, Typescript, Spring, Java, C#, and AWS", "Created and executed migration scripts, stored, and retrieved data using MSSQL and MongoDB", "Collaborated closely and effectively with a team of 11 software engineers", "Consistently beat the end of sprint deadlines for bug fixes/feature requests and received appreciation from distributors/clients", "Helped spot and debug any errors before production deployment"],
-    "referenceLetter": "/reference_letter_caseware.pdf"
-  },
-  "casewareOld": {
-    "company": "CaseWare",
-    "position": "Software Developer in Testing Intern",
-    "dateWorked": "September 2020 - April 2021",
-    "points": ["Using Java, TestNG, and Gradle, wrote API tests to verify the back-end server’s logic and its API requests/responses", "Using TypeScript and Cypress, wrote front-end tests to verify elements on the page and to ensure intended client usage/behavior is working accordingly", "Obtained a profound understanding of scalability, deployment procedures, and microservice architecture within a monolithic repository", "Excelled using AWS resources for product features and testing such as Dynamo, SQS, SNS, SES, API Gateway, and Lambda functions", "Created GitHub workflows and actions for CI to run tests on PR and Post Deployment"]
-  }
+    "ryerson": {
+        "company": "Ryerson University",
+        "position": "Full Stack Developer",
+        "dateWorked": "January 2022 - Present",
+        "points": [
+            "Creating a web platform for clinicians to upload their surgeries to be graded by surgeons and experience professors.",
+            "This platform's client uses Nuxt, Typescript, Buefy, and Ky. Additionally, this platform's server uses Java, Spring Boot, and JWT. Lastly, this platform's cloud infrastructure includes AWS DynamoDB, API Gateway, S3, and EC2.",
+            "Reproducing an existing chrome extension that creates a complex Google event and provides additional in-meeting features.",
+            "This extension was made using HTML, CSS, JS and Bulma."
+        ],
+        "referenceLetter": ""
+    },
+    "ibm": {
+        "company": "IBM",
+        "position": "Full Stack Developer Intern",
+        "dateWorked": "January 2022 - August 2022",
+        "points": [
+            "Developing client app using Cognos Analytics services using React Native, Javascript, Typescript and IBM's Carbon Design System.",
+            "Worked closely with a team of cloud and full-stack developers, quality assurance engineers and designers.",
+            "Efficiently released quality updates with new features and bug fixes to Apple's App Store and Google's Play app store.",
+            "Encouraged and lead the operation of revamping our e2e test structure and spec files."
+        ],
+        "referenceLetter": "/reference_letter_ibm.pdf"
+    },
+    "caseware": {
+        "company": "CaseWare",
+        "position": "Full Stack Developer Intern",
+        "dateWorked": "May 2021 - August 2021",
+        "points": [
+            "Developing with Angular, Typescript, Spring, Java, C#, and AWS",
+            "Created and executed migration scripts, stored, and retrieved data using MSSQL and MongoDB",
+            "Collaborated closely and effectively with a team of 11 software engineers",
+            "Consistently beat the end of sprint deadlines for bug fixes/feature requests and received appreciation from distributors/clients",
+            "Helped spot and debug any errors before production deployment"
+        ],
+        "referenceLetter": "/reference_letter_caseware.pdf"
+    },
+    "casewareOld": {
+        "company": "CaseWare",
+        "position": "Software Developer in Testing Intern",
+        "dateWorked": "September 2020 - April 2021",
+        "points": [
+            "Using Java, TestNG, and Gradle, wrote API tests to verify the back-end server’s logic and its API requests/responses",
+            "Using TypeScript and Cypress, wrote front-end tests to verify elements on the page and to ensure intended client usage/behavior is working accordingly",
+            "Obtained a profound understanding of scalability, deployment procedures, and microservice architecture within a monolithic repository",
+            "Excelled using AWS resources for product features and testing such as Dynamo, SQS, SNS, SES, API Gateway, and Lambda functions",
+            "Created GitHub workflows and actions for CI to run tests on PR and Post Deployment"
+        ]
+    }
 }

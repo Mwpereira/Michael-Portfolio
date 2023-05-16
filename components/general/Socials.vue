@@ -24,29 +24,28 @@
     </div>
 </template>
 
-<script lang='ts'>
-import { Component, Vue } from 'nuxt-property-decorator';
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component
-export default class Socials extends Vue {
-}
+export default class Socials extends Vue {}
 </script>
 
 <style scoped>
 #socials {
-  position: fixed;
-  bottom: 0;
-  left: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0px;
 }
 
 .vertical {
-  border-left: 4px solid #202020;
-  height: 200px;
-  position: absolute;
-  left: 50%;
+    border-left: 4px solid #202020;
+    height: 200px;
+    position: absolute;
+    left: 50%;
 }
 
 i:hover {
-  color: #908d90;
+    color: #908d90;
 }
 </style>

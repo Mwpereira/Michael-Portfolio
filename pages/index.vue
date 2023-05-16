@@ -11,16 +11,16 @@
     </section>
 </template>
 
-<script lang='ts'>
-import { Component, Vue } from 'nuxt-property-decorator';
-import Hero from '~/components/sections/Hero.vue';
-import Projects from '~/components/sections/Projects.vue';
-import Contact from '~/components/sections/Contact.vue';
-import About from '~/components/sections/About.vue';
-import Jobs from '~/components/sections/Work.vue';
-import Certifications from '~/components/sections/Certifications.vue';
-import Socials from '~/components/general/Socials.vue';
-import Email from '~/components/general/Email.vue';
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
+import Hero from '~/components/sections/Hero.vue'
+import Projects from '~/components/sections/Projects.vue'
+import Contact from '~/components/sections/Contact.vue'
+import About from '~/components/sections/About.vue'
+import Jobs from '~/components/sections/Work.vue'
+import Certifications from '~/components/sections/Certifications.vue'
+import Socials from '~/components/general/Socials.vue'
+import Email from '~/components/general/Email.vue'
 
 @Component({
     components: {
@@ -31,43 +31,46 @@ import Email from '~/components/general/Email.vue';
         Hero,
         Jobs,
         Projects,
-        Socials
-    }
+        Socials,
+    },
 })
 export default class HomePage extends Vue {
-    mounted () {
-        this.$store.commit('loadTheme');
+    mounted() {
+        this.$store.commit('loadTheme')
     }
 }
 </script>
 
 <style>
 * {
-  font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding: 75px 0 0 50px;
+    scroll-behavior: smooth;
+    scroll-padding: 75px 0 0 50px;
 }
 
-html, body {
-  overflow-x: hidden;
+html,
+body {
+    overflow-x: hidden;
 }
 
-p, i {
-  color: #323232;
+p,
+i {
+    color: #323232;
 }
 
 @media screen and (max-width: 1100px) {
-  Socials, Email {
-    display: none;
-  }
+    Socials,
+    Email {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  p.title {
-    font-size: 1.75rem;
-  }
+    p.title {
+        font-size: 1.75rem;
+    }
 }
 </style>

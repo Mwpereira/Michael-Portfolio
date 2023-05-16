@@ -10,13 +10,13 @@
     </div>
 </template>
 
-<script lang='ts'>
-import { Component, Vue } from 'nuxt-property-decorator';
-import NavBar from '~/components/general/NavBar.vue';
-import Footer from '~/components/general/Footer.vue';
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
+import NavBar from '~/components/general/NavBar.vue'
+import Footer from '~/components/general/Footer.vue'
 
 @Component({
-    components: { Footer, NavBar }
+    components: { Footer, NavBar },
 })
 export default class Hero extends Vue {}
 </script>

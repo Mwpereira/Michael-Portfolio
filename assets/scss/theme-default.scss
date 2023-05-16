@@ -1,11 +1,11 @@
-@import "~bulma/sass/utilities/initial-variables";
+@import '~bulma/sass/utilities/initial-variables';
 
 /* Base: Size  */
 $size-base: 1rem;
 $default-padding: $size-base * 1.5;
 
 /* Default font */
-$family-sans-serif: "Nunito", sans-serif;
+$family-sans-serif: 'Nunito', sans-serif;
 
 /* Base color */
 $base-color: #ffffff;
@@ -34,25 +34,20 @@ $navbar-input-color: $grey-darker;
 $navbar-input-placeholder-color: $grey-lighter;
 $navbar-box-shadow: 0 1px $base-color-light;
 $navbar-divider-border: 1px solid $base-color-light;
-$navbar-item-h-padding: $default-padding * .75;
+$navbar-item-h-padding: $default-padding * 0.75;
 
 /* Footer: Bulma override */
 $footer-background-color: transparent;
-$footer-padding: $default-padding * .33 $default-padding;
+$footer-padding: $default-padding * 0.33 $default-padding;
 
 /* Status/State colors (based on Bulma's) */
-$state-colors:
-    ('primary', $white, $white),
-    ('info', $blue, $white),
-    ('success', $green, $white),
-    ('warning', $yellow, $grey-darker),
-    ('danger', $red, $white),
-    ('dark', $grey-darker, $white),
+$state-colors: ('primary', $white, $white), ('info', $blue, $white), ('success', $green, $white),
+    ('warning', $yellow, $grey-darker), ('danger', $red, $white), ('dark', $grey-darker, $white),
     ('white', $white, $black-ter);
 
 /* Dark Mode */
-$dark-mode-color: #DBDBDB;
-$dark-mode-background-color: #181C27;
+$dark-mode-color: #dbdbdb;
+$dark-mode-background-color: #181c27;
 $dark-mode-navbar-background-color: #141720;
 $dark-mode-navbar-hover-color: transparent;
 $dark-mode-lighter-background-color: $grey-darker;
@@ -61,7 +56,7 @@ $dark-mode-border: 1px solid $dark-mode-border-color;
 $dark-mode-light-border-color: white;
 $dark-mode-light-border: 1px solid $dark-mode-light-border-color;
 $dark-mode-link-color: $white;
-$dark-mode-overlay-background-color: rgba($black, .85);
+$dark-mode-overlay-background-color: rgba($black, 0.85);
 $dark-mode-button-color: $white-ter;
 $dark-mode-button-hover-color: $black-ter;
 $dark-mode-card-header-button-color: $grey;
@@ -69,4 +64,6 @@ $dark-mode-card-header-button-hover-color: $black-ter;
 $dark-mode-footer-background-color: #181b26;
 
 /* CSS */
-hr {background-color: #dbdbdb;}
+hr {
+    background-color: #dbdbdb;
+}

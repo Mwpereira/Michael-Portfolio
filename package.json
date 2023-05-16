@@ -11,8 +11,10 @@
     "start": "nuxt start --modern",
     "generate": "nuxt generate --modern",
     "lint": "eslint --ext \".ts,.vue,.js\" --ignore-path .gitignore .",
-    "lint:fix": "npm run lint -- --fix",
-    "prepare": "husky install"
+    "lint:fix": "npm run lint -- --fix && npm run prettier:fix",
+    "prepare": "husky install",
+    "prettier": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write ."
   },
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",
@@ -34,6 +36,8 @@
     "eslint-plugin-nuxt": "^3.2.0",
     "eslint-plugin-vue": "^9.3.0",
     "husky": "^8.0.1",
+    "prettier": "2.8.1",
+    "prettier-plugin-organize-imports": "^3.2.1",
     "sass": "^1.38.0",
     "sass-loader": "10.2.0"
   }
