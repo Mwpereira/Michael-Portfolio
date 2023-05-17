@@ -49,7 +49,7 @@
         "name": "Movie Recommender System",
         "desc": "Recommender system based off of User Based Collaborative Filtering.",
         "tags": "Nuxt Buefy TypeScript Express",
-        "github": "https://github.com/Mwpereira/Movie-Recommender-System",
+        "github": "https://github.com/Mwpereira/Movie-Recommender-System"
     },
     "udbhavsPortfolio": {
         "name": "Udbhav's Portfolio",
