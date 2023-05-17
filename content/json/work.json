@@ -4,9 +4,11 @@
         "position": "Full Stack Developer",
         "dateWorked": "January 2022 - Present",
         "points": [
+            "Creating a web platform for clinicians to upload ob-gyn-related dicom files to be processed by various machine learning models/algorithms for advanced evaluation.",
+            "The platform's client uses React, Typescript, Tailwind, and Ky. Additionally, this platform's server uses Typescript, Node Express, Redis, and Passport. Lastly, the platform's infrastructure includes AWS EC2.",
             "Creating a web platform for clinicians to upload their surgeries to be graded by surgeons and experience professors.",
             "This platform's client uses Nuxt, Typescript, Buefy, and Ky. Additionally, this platform's server uses Java, Spring Boot, and JWT. Lastly, this platform's cloud infrastructure includes AWS DynamoDB, API Gateway, S3, and EC2.",
-            "Reproducing an existing chrome extension that creates a complex Google event and provides additional in-meeting features.",
+            "Creating a Google Chrome extension that creates a complex Google event and provides additional in-meeting features.",
             "This extension was made using HTML, CSS, JS and Bulma."
         ],
         "referenceLetter": ""
