@@ -72,7 +72,7 @@ h2 {
 
 @media screen and (max-width: 1500px) {
     .hero-section {
-        padding-top: 25px;
+        padding-top: 0px;
     }
 }
 

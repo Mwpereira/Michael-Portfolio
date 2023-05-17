@@ -6,7 +6,7 @@
             <div
                 v-for="certificate in certificates"
                 :key="certificate.title"
-                class="column is-half-tablet-only is-half-desktop-only is-6-widescreen is-6-fullhd"
+                class="column is-half is-full-mobile"
             >
                 <CertificationCard
                     :title="certificate.title"

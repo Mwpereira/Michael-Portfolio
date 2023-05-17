@@ -6,7 +6,7 @@
             <div
                 v-for="project in projects"
                 :key="project.name"
-                class="column is-half-tablet-only is-half-desktop-only"
+                class="column is-half is-full-mobile"
             >
                 <ProjectCard
                     :project="project.name"
