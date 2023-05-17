@@ -45,6 +45,12 @@
         "github": "https://github.com/Mwpereira/Michael-Portfolio",
         "link": "https://mwpereira.ca"
     },
+    "movieRecommenderSystem": {
+        "name": "Movie Recommender System",
+        "desc": "Recommender system based off of User Based Collaborative Filtering.",
+        "tags": "Nuxt Buefy TypeScript Express",
+        "github": "https://github.com/Mwpereira/Movie-Recommender-System",
+    },
     "udbhavsPortfolio": {
         "name": "Udbhav's Portfolio",
         "desc": "Udbhav's Data Science Portfolio",
@@ -58,5 +64,19 @@
         "tags": "HTML CSS JS Bulma",
         "github": "https://github.com/Mwpereira/Peters-Barbershop",
         "link": "https://petersbarbershop.ca/"
+    },
+    "weatherApp": {
+        "name": "Weather App",
+        "desc": "A website app with a simplistic design to display weather info and time.",
+        "tags": "HTML CSS JS JQuery",
+        "github": "https://github.com/Mwpereira/Weather-App",
+        "link": "https://weather.mwpereira.ca/"
+    },
+    "willowBank": {
+        "name": "Willow Bank",
+        "desc": "A modern online bank with an elegant and flawless user experience.",
+        "tags": "Vue Buefy TypeScript",
+        "github": "https://github.com/Mwpereira/Willow-Bank",
+        "link": "https://willowbank.mwpereira.ca/"
     }
 }
