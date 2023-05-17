@@ -51,16 +51,23 @@
         "tags": "Nuxt Buefy TypeScript Express",
         "github": "https://github.com/Mwpereira/Movie-Recommender-System"
     },
+    "routingAlgorithmsVisualizer": {
+        "name": "Routing Algorithms Visualizer",
+        "desc": "Dijkstra's & Distance Vector Algorithms Visualized.",
+        "tags": "React Bulma JavaScript JQuery",
+        "github": "https://github.com/Mwpereira/Routing-Algorithms-Visualizer",
+        "link": "https://routing-algorithms-visualizer.netlify.app/"
+    },
     "udbhavsPortfolio": {
         "name": "Udbhav's Portfolio",
-        "desc": "Udbhav's Data Science Portfolio",
+        "desc": "Udbhav's Data Science Portfolio.",
         "tags": "Nuxt Buefy TypeScript",
         "github": "https://github.com/Mwpereira/Udbhav-Portfolio",
         "link": "https://udbhavprasad.com"
     },
     "petersBarbershop": {
         "name": "Peter's Barbershop",
-        "desc": "Peter's Barbershop Website",
+        "desc": "Peter's Barbershop Website.",
         "tags": "HTML CSS JS Bulma",
         "github": "https://github.com/Mwpereira/Peters-Barbershop",
         "link": "https://petersbarbershop.ca/"
