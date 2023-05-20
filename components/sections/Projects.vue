@@ -3,11 +3,7 @@
         <p class="title">Side Projects</p>
         <hr />
         <div class="columns is-vcentered is-multiline mb-6">
-            <div
-                v-for="project in projects"
-                :key="project.name"
-                class="column is-half is-full-mobile"
-            >
+            <div v-for="project in projects" :key="project.name" class="column is-half is-full-mobile">
                 <ProjectCard
                     :project="project.name"
                     :desc="project.desc"

@@ -28,7 +28,7 @@
                         PHP
                     </p>
                     <p class="mt-3">
-                        <i class="fab fa-uikit"></i>
+                        <i class="fab fa-uikit" />
                         <i class="fas fa-angle-right" />
                         React
                         <i class="fas fa-angle-right mx-1" />
@@ -50,7 +50,7 @@
                         PostgreSQL
                     </p>
                     <p class="mt-3">
-                        <i class="fas fa-cloud"></i>
+                        <i class="fas fa-cloud" />
                         <i class="fas fa-angle-right" />
                         AWS
                         <i class="fas fa-angle-right mx-1" />

@@ -3,11 +3,7 @@
         <p class="title">Certifications</p>
         <hr />
         <div class="columns is-vcentered is-multiline mb-6">
-            <div
-                v-for="certificate in certificates"
-                :key="certificate.title"
-                class="column is-half is-full-mobile"
-            >
+            <div v-for="certificate in certificates" :key="certificate.title" class="column is-half is-full-mobile">
                 <CertificationCard
                     :title="certificate.title"
                     :credential-id="certificate.credentialId"
