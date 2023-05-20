@@ -45,6 +45,12 @@
         "github": "https://github.com/Mwpereira/Michael-Portfolio",
         "link": "https://mwpereira.ca"
     },
+    "momentsGallery": {
+        "name": "Moments Gallery",
+        "desc": "Preserve and showcase your memories with our simple, modern, and elegant image storage platform.",
+        "tags": "React ChakaraUI TypeScript Express",
+        "github": "https://github.com/Mwpereira/Moments-Gallery"
+    },
     "movieRecommenderSystem": {
         "name": "Movie Recommender System",
         "desc": "Recommender system based off of User Based Collaborative Filtering.",
