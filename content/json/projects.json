@@ -47,7 +47,7 @@
     },
     "momentsGallery": {
         "name": "Moments Gallery",
-        "desc": "Preserve and showcase your memories with our simple and modern image storage platform.",
+        "desc": "Showcase your memories with our simple and modern image storage platform.",
         "tags": "React ChakaraUI TypeScript Express",
         "github": "https://github.com/Mwpereira/Moments-Gallery"
     },
