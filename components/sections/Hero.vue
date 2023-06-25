@@ -11,18 +11,17 @@
                             I am an enthusiastic software engineer with a passion for creating extraordinary software
                             and apps.
                             <br /><br />
-                            Currently, I am developing and delivering impeccably crafted code as a
-                            <b>Full Stack Developer @ Ryerson University & Floatt</b>. <br /><br />
-                            Upcoming <b>Associate Software Developer @ IBM</b>.
+                            Currently, I am developing and delivering impeccably crafted code as an
+                            <b>Associate Software Developer @ IBM</b>. <br /><br />
                         </p>
                     </div>
                 </div>
-                <div class="is-grouped mt-3">
+                <div class="is-grouped">
                     <a href="#contact" rel="noopener">
-                        <b-button class="is-size-6 mt-3 has-text-weight-bold">Contact Me</b-button>
+                        <b-button class="is-size-6 has-text-weight-bold">Contact Me</b-button>
                     </a>
                     <a href="/resume.pdf" target="_blank" rel="noopener">
-                        <b-button class="is-size-6 is-dark mt-3">Resume</b-button>
+                        <b-button class="is-size-6 is-dark">Resume</b-button>
                     </a>
                 </div>
             </div>
@@ -53,7 +52,7 @@ h1 {
 }
 
 h2 {
-    color: #b2b0b3;
+    color: #8D8985;
 }
 
 .title {
