@@ -1,4 +1,10 @@
 {
+    "ibm": {
+        "company": "IBM",
+        "position": "Associate Software Developer",
+        "dateWorked": "June 2023 - Present",
+        "points": []
+    },
     "ryerson": {
         "company": "Ryerson University",
         "position": "Full Stack Developer",
@@ -20,7 +26,7 @@
         "points": [],
         "referenceLetter": ""
     },
-    "ibm": {
+    "ibm-internship": {
         "company": "IBM",
         "position": "Full Stack Developer Intern",
         "dateWorked": "January 2022 - August 2022",
