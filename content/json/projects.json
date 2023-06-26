@@ -3,8 +3,7 @@
         "name": "Arc",
         "desc": "A cross-platform, password manager app with advanced security features.",
         "tags": "Vue Buefy TypeScript Serverless",
-        "github": "https://github.com/Mwpereira/Arc",
-        "link": "https://arc.mwpereira.ca"
+        "github": "https://github.com/Mwpereira/Arc"
     },
     "atlaWebScraper": {
         "name": "ATLA WebScraper",
