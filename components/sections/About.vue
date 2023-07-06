@@ -34,6 +34,8 @@
                         <i class="fas fa-angle-right mx-1" />
                         Vue
                         <i class="fas fa-angle-right mx-1" />
+                        Angular
+                        <i class="fas fa-angle-right mx-1" />
                         Bulma
                         <i class="fas fa-angle-right mx-1" />
                         Tailwind

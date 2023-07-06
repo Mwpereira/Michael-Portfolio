@@ -32,10 +32,10 @@
         "position": "Full Stack Developer Intern",
         "dateWorked": "January 2022 - August 2022",
         "points": [
-            "Developed a client app using Cognos Analytics services using React Native, Javascript, Typescript and IBM's Carbon Design System.",
-            "Worked closely with a team of cloud and full-stack developers, quality assurance engineers and designers.",
-            "Efficiently released quality updates with new features and bug fixes to Apple's App Store and Google's Play app store.",
-            "Encouraged and lead the operation of revamping our e2e test structure and spec files."
+            "Developed a client app using Cognos Analytics services using React Native, Javascript, Typescript and IBM's Carbon Design System",
+            "Worked closely with a team of cloud and full-stack developers, quality assurance engineers and designers",
+            "Efficiently released quality updates with new features and bug fixes to Apple's App Store and Google's Play app store",
+            "Encouraged and lead the operation of revamping our e2e test structure and spec files"
         ],
         "referenceLetter": "/reference_letter_ibm.pdf"
     },
@@ -57,8 +57,8 @@
         "position": "Software Developer in Testing Intern",
         "dateWorked": "September 2020 - April 2021",
         "points": [
-            "Using Java, TestNG, and Gradle, wrote API tests to verify the back-end server’s logic and its API requests/responses",
-            "Using TypeScript and Cypress, wrote front-end tests to verify elements on the page and to ensure intended client usage/behavior is working accordingly",
+            "Used Java, TestNG, and Gradle, to wrote API tests to verify the back-end server’s logic and its API requests/responses",
+            "Worked with TypeScript and Cypress, to write front-end tests to verify elements on the page and to ensure intended client usage/behaviour is working accordingly",
             "Obtained a profound understanding of scalability, deployment procedures, and microservice architecture within a monolithic repository",
             "Excelled using AWS resources for product features and testing such as Dynamo, SQS, SNS, SES, API Gateway, and Lambda functions",
             "Created GitHub workflows and actions for CI to run tests on PR and Post Deployment"

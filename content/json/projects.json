@@ -11,6 +11,13 @@
         "tags": "Bulma Serverless Puppeteer",
         "github": "https://github.com/Mwpereira/ATLA-WebScraper"
     },
+    "brewCulture": {
+        "name": "BrewCulture",
+        "desc": "Discover the perfect blend of convenience and ambiance.",
+        "tags": "Angular TypeScript Tailwind",
+        "github": "https://github.com/Mwpereira/BrewCulture",
+        "link": "https://brewculture.mwpereira.ca"
+    },
     "currencyConverter": {
         "name": "Currency Converter",
         "desc": "Simple and easy to use live currency converter.",
@@ -67,8 +74,7 @@
         "name": "Udbhav's Portfolio",
         "desc": "Udbhav's Data Science Portfolio.",
         "tags": "Nuxt Buefy TypeScript",
-        "github": "https://github.com/Mwpereira/Udbhav-Portfolio",
-        "link": "https://udbhavprasad.com"
+        "github": "https://github.com/Mwpereira/Udbhav-Portfolio"
     },
     "petersBarbershop": {
         "name": "Peter's Barbershop",
