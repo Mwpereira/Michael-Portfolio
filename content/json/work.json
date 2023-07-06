@@ -11,8 +11,8 @@
         "dateWorked": "January 2022 - Present",
         "points": [
             "Creating a web platform for clinicians to upload ob-gyn-related dicom files to be processed by various machine learning models/algorithms for advanced evaluation. The platform's client uses React, Typescript, Tailwind, and Ky. Additionally, this platform's server uses Typescript, Node Express, Redis, and Passport. Lastly, the platform's infrastructure includes MySQL and AWS EC2.",
-            "Creating a web platform for clinicians to upload their surgeries to be graded by surgeons and experience professors. This platform's client uses Nuxt, Typescript, Buefy, and Ky. Additionally, this platform's server uses Java, Spring Boot, and JWT. Lastly, this platform's cloud infrastructure includes AWS DynamoDB, API Gateway, S3, and EC2.",
-            "Creating a Google Chrome extension that creates a complex Google event and provides additional in-meeting features. This extension was made using HTML, CSS, JS and Bulma."
+            "Developed a web platform for clinicians to upload their surgeries to be graded by surgeons and experience professors. This platform's client uses Nuxt, Typescript, Buefy, and Ky. Additionally, this platform's server uses Java, Spring Boot, and JWT. Lastly, this platform's cloud infrastructure includes AWS DynamoDB, API Gateway, S3, and EC2.",
+            "Launched a Google Chrome extension that creates a complex Google event and provides additional in-meeting features. This extension was made using HTML, CSS, JS and Bulma."
         ],
         "referenceLetter": ""
     },
@@ -20,7 +20,11 @@
         "company": "Floatt",
         "position": "Full Stack Developer",
         "dateWorked": "November 2022 - Present",
-        "points": [],
+        "points": [
+            "Developed a dynamic and complex dashboard for a client using modern web technologies such as React, Tailwind, Chart.js, and Figma, resulting in a sleek and intuitive user interface",
+            "Collaborated closely with the client to gather requirements, understand their needs, and communicate project progress effectively, ensuring a seamless development process and high client satisfaction",
+            "Leveraged project management tools like Jira to track tasks, assign priorities, and coordinate with the development team, ensuring efficient and timely delivery of the dashboard to the client"
+        ],
         "referenceLetter": ""
     },
     "ibm-internship": {
@@ -28,7 +32,7 @@
         "position": "Full Stack Developer Intern",
         "dateWorked": "January 2022 - August 2022",
         "points": [
-            "Developing client app using Cognos Analytics services using React Native, Javascript, Typescript and IBM's Carbon Design System.",
+            "Developed a client app using Cognos Analytics services using React Native, Javascript, Typescript and IBM's Carbon Design System.",
             "Worked closely with a team of cloud and full-stack developers, quality assurance engineers and designers.",
             "Efficiently released quality updates with new features and bug fixes to Apple's App Store and Google's Play app store.",
             "Encouraged and lead the operation of revamping our e2e test structure and spec files."
@@ -40,9 +44,9 @@
         "position": "Full Stack Developer Intern",
         "dateWorked": "May 2021 - August 2021",
         "points": [
-            "Developing with Angular, Typescript, Spring, Java, C#, and AWS",
+            "Worked on CaseWare's cloud portal using Angular, Typescript, Spring, Java, C#, and AWS",
             "Created and executed migration scripts, stored, and retrieved data using MSSQL and MongoDB",
-            "Collaborated closely and effectively with a team of 11 software engineers",
+            "Leveraged CaseWare’s Nova CSS framework to create elegant and effective user interfaces",
             "Consistently beat the end of sprint deadlines for bug fixes/feature requests and received appreciation from distributors/clients",
             "Helped spot and debug any errors before production deployment"
         ],
