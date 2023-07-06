@@ -4,15 +4,15 @@
             <input type="hidden" name="form-name" value="contact" />
 
             <b-field label="Name">
-                <b-input placeholder="name" type="text" name="Name" />
+                <b-input placeholder="name" type="text" name="Name" required />
             </b-field>
 
             <b-field label="Email" class="mt-5 mb-5">
-                <b-input placeholder="email" type="email" name="Email" />
+                <b-input placeholder="email" type="email" name="Email" required />
             </b-field>
 
             <b-field label="Message" class="mb-1">
-                <b-input maxlength="250" type="textarea" name="Message" placeholder="message" />
+                <b-input maxlength="250" type="textarea" name="Message" placeholder="message" required />
             </b-field>
 
             <button class="button is-dark">Send Message</button>
