@@ -1,7 +1,7 @@
 <template>
     <div id="email" class="section is-size-6">
         <a class="mb-5" href="mailto:mwpereira07@gmail.com" target="_blank" rel="noopener"
-            >mwpereira07@gmail.com/a
+            >mwpereira07@gmail.com</a
         >
         <div class="vertical" />
     </div>
