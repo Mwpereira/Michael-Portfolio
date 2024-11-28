@@ -1,54 +1,58 @@
 {
     "ibm": {
         "company": "IBM",
-        "position": "Associate Software Developer",
+        "position": "Software Developer",
         "dateWorked": "June 2023 - Present",
-        "points": []
+        "points": [
+            "Designed and implemented new features for a dynamic front-end application's payments and travel options pages using Angular, TypeScript, and Bootstrap CSS, enhancing user experience and functionality.",
+            "Optimized and updated front-end accounts and transactions micro-apps for mobile responsiveness and design, leveraging Angular and TypeScript. Enhanced testing with Jest and deployed updates via CI/CD pipelines using Bitbucket and Jenkins, consistently exceeding code quality standards.",
+            "Enhanced application performance and accessibility by optimizing components and services.",
+            "Proactively resolved high-priority defects to ensure seamless user experience and adherence to project timelines.",
+            "Collaborated with product owners, stakeholders, and cross-functional teams in Agile environments to translate complex requirements into actionable technical solutions, ensuring alignment and successful outcomes."
+        ]
     },
     "ryerson": {
         "company": "Toronto Metropolitan University",
-        "position": "Full Stack Developer",
-        "dateWorked": "January 2022 - June 2023",
+        "position": "Full-Stack Software Developer",
+        "dateWorked": "January 2022 - May 2023",
         "points": [
-            "Creating a web platform for clinicians to upload ob-gyn-related dicom files to be processed by various machine learning models/algorithms for advanced evaluation. The platform's client uses React, Typescript, Tailwind, and Ky. Additionally, this platform's server uses Typescript, Node Express, Redis, and Passport. Lastly, the platform's infrastructure includes MySQL and AWS EC2.",
-            "Developed a web platform for clinicians to upload their surgeries to be graded by surgeons and experience professors. This platform's client uses Nuxt, Typescript, Buefy, and Ky. Additionally, this platform's server uses Java, Spring Boot, and JWT. Lastly, this platform's cloud infrastructure includes AWS DynamoDB, API Gateway, S3, and EC2.",
-            "Launched a Google Chrome extension that creates a complex Google event and provides additional in-meeting features. This extension was made using HTML, CSS, JS and Bulma."
-        ],
-        "referenceLetter": ""
+            "Developed a cross-platform user interface with Electron, React, TypeScript, NextUI, and Tailwind to control an advanced Arduino system for MRI sequence development and testing.",
+            "Created a web platform for clinicians to upload OB-GYN-related DICOM files for advanced evaluation by custom machine learning models, integrating React, NextUI, TypeScript, and Tailwind on the client side, and Node.js, Express, Redis, and Passport on the server side. Leveraged AWS RDS for MySQL, ElastiCache, and EC2 for infrastructure.",
+            "Developed a web platform enabling clinicians to upload surgeries for grading by surgeons and professors, using Nuxt, TypeScript, Buefy, and Ky for the client side, and Java, Spring Boot, and JWT for the server side. Leveraged AWS services, including DynamoDB, API Gateway, S3, and EC2, to create a scalable and reliable cloud infrastructure."
+        ]
     },
     "floatt": {
         "company": "Floatt",
-        "position": "Full Stack Developer",
+        "position": "Full-Stack Software Developer",
         "dateWorked": "November 2022 - May 2023",
         "points": [
-            "Developed a dynamic and complex dashboard for a client using modern web technologies such as React, Tailwind, Chart.js, and Figma, resulting in a sleek and intuitive user interface",
-            "Collaborated closely with the client to gather requirements, understand their needs, and communicate project progress effectively, ensuring a seamless development process and high client satisfaction",
-            "Leveraged project management tools like Jira to track tasks, assign priorities, and coordinate with the development team, ensuring efficient and timely delivery of the dashboard to the client"
-        ],
-        "referenceLetter": ""
+            "Built a dynamic dashboard with React, TypeScript, Tailwind, and Chart.js, providing a user-friendly interface for client analytics.",
+            "Developed middleware with TypeScript, Express, and Redis to integrate Airtable APIs, streamlining data access.",
+            "Collaborated directly with clients to gather requirements, address feedback, and provide project updates, ensuring high satisfaction and seamless delivery.",
+            "Utilized project management tools like Jira to prioritize tasks, coordinate with the team, and ensure timely dashboard deployment."
+        ]
     },
     "ibm-internship": {
         "company": "IBM",
-        "position": "Full Stack Developer Intern",
+        "position": "Full-Stack Software Developer Intern",
         "dateWorked": "January 2022 - August 2022",
         "points": [
-            "Developed a client app using Cognos Analytics services using React Native, Javascript, Typescript and IBM's Carbon Design System",
-            "Worked closely with a team of cloud and full-stack developers, quality assurance engineers and designers",
-            "Efficiently released quality updates with new features and bug fixes to Apple's App Store and Google's Play app store",
-            "Encouraged and lead the operation of revamping our e2e test structure and spec files"
+            "Developed a client application leveraging React Native, TypeScript, and IBM’s Carbon Design System with Cognos Analytics services.",
+            "Collaborated with cloud and full-stack developers, QA engineers, and designers to deliver features and enhancements.",
+            "Released high-quality updates with bug fixes and new features for both Apple’s App Store and Google’s Play Store.",
+            "Led the revamp of e2e test structures and spec files, improving testing efficiency and coverage."
         ],
         "referenceLetter": "/reference_letter_ibm.pdf"
     },
     "caseware": {
         "company": "CaseWare",
-        "position": "Full Stack Developer Intern",
+        "position": "Full-Stack Software Developer Intern",
         "dateWorked": "May 2021 - August 2021",
         "points": [
-            "Worked on CaseWare's cloud portal using Angular, Typescript, Spring, Java, C#, and AWS",
-            "Created and executed migration scripts, stored, and retrieved data using MSSQL and MongoDB",
-            "Leveraged CaseWare’s Nova CSS framework to create elegant and effective user interfaces",
-            "Consistently beat the end of sprint deadlines for bug fixes/feature requests and received appreciation from distributors/clients",
-            "Helped spot and debug any errors before production deployment"
+            "Contributed to the maintenance and development of new features for an accounting software suite, leveraging full-stack technologies including Angular, TypeScript, Spring, Java, C#, and AWS.",
+            "Created and executed migration scripts for data handling with MSSQL and MongoDB.",
+            "Designed effective user interfaces with CaseWare’s Nova CSS framework, enhancing usability and aesthetics.",
+            "Consistently exceeded sprint deadlines for bug fixes and features, earning client and stakeholder recognition."
         ],
         "referenceLetter": "/reference_letter_caseware.pdf"
     },
@@ -57,11 +61,10 @@
         "position": "Software Developer in Testing Intern",
         "dateWorked": "September 2020 - April 2021",
         "points": [
-            "Used Java, TestNG, and Gradle, to wrote API tests to verify the back-end server’s logic and its API requests/responses",
-            "Worked with TypeScript and Cypress, to write front-end tests to verify elements on the page and to ensure intended client usage/behaviour is working accordingly",
-            "Obtained a profound understanding of scalability, deployment procedures, and microservice architecture within a monolithic repository",
-            "Excelled using AWS resources for product features and testing such as Dynamo, SQS, SNS, SES, API Gateway, and Lambda functions",
-            "Created GitHub workflows and actions for CI to run tests on PR and Post Deployment"
+            "Used Java, TestNG, and Gradle to write API tests verifying the back-end server’s logic and API.",
+            "Worked with TypeScript and Cypress to write front-end tests ensuring proper client usage and functionality.",
+            "Excelled in leveraging AWS resources for product features and testing, including DynamoDB, SQS, SNS, SES, API Gateway, and Lambda functions.",
+            "Created GitHub workflows and actions for CI to run tests on PRs and post-deployment."
         ]
     }
 }

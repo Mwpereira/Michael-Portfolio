@@ -15,11 +15,11 @@
         <!--        <i class="fab fa-instagram-square mb-4"></i>-->
         <!--      </ul>-->
         <!--    </a>-->
-        <a href="https://www.hackerrank.com/mwpereira" target="_blank" rel="noopener">
+        <!-- <a href="https://www.hackerrank.com/mwpereira" target="_blank" rel="noopener">
             <ul>
                 <i class="fab fa-hackerrank mb-4" />
             </ul>
-        </a>
+        </a>-->
         <div class="vertical" />
     </div>
 </template>

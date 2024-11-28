@@ -36,9 +36,9 @@
                         <i class="fas fa-angle-right mx-1" />
                         Angular
                         <i class="fas fa-angle-right mx-1" />
-                        Bulma
-                        <i class="fas fa-angle-right mx-1" />
                         Tailwind
+                        <i class="fas fa-angle-right mx-1" />
+                        Bulma
                     </p>
                     <p class="mt-3">
                         <i class="fas fa-database" />
