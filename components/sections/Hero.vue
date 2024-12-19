@@ -1,8 +1,8 @@
 <template>
     <div class="hero is-fullheight">
-        <div class="hero-head section has-padding-top-6 py-6 pt-4-fullhd">
+        <div class="hero-head section mt-6 pt-6">
             <div class="hero-section">
-                <h3 class="mt-3 mb-5">Welcome, my name is</h3>
+                <h3 class="mt-5 mb-5">Welcome, my name is</h3>
                 <h1 class="title is-size-3-mobile">Michael Pereira</h1>
                 <h2 class="title is-size-3-mobile">Full Stack Developer</h2>
                 <div class="columns">

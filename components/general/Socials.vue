@@ -2,12 +2,12 @@
     <div id="socials" class="section is-size-3">
         <a href="https://github.com/Mwpereira" target="_blank" rel="noopener">
             <ul>
-                <i class="fab fa-github-square mb-4" />
+                <i class="fab fa-github-square" />
             </ul>
         </a>
         <a href="https://www.linkedin.com/in/michael-pereira-07/" target="_blank" rel="noopener">
             <ul>
-                <i class="fab fa-linkedin mb-4" />
+                <i class="fab fa-linkedin mb-5" />
             </ul>
         </a>
         <!--    <a href='https://instagram.com/mwpereira' target='_blank' rel='noopener'>-->
