@@ -3,8 +3,44 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Github, Linkedin, Send } from 'lucide-react';
 import personalData from '@/content/personal.json';
+import { useState } from 'react';
 
 export function Contact() {
+  const [formState, setFormState] = useState<
+    'idle' | 'submitting' | 'success' | 'error'
+  >('idle');
+
+  const handleFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setFormState('submitting');
+
+    const formData = new FormData(event.currentTarget);
+
+    try {
+      const response = await fetch('/__forms.html', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData as any).toString(),
+      });
+
+      if (response.ok) {
+        setFormState('success');
+        // Reset form
+        (event.target as HTMLFormElement).reset();
+        // Reset state after 5 seconds
+        setTimeout(() => setFormState('idle'), 5000);
+      } else {
+        setFormState('error');
+        // Reset state after 5 seconds
+        setTimeout(() => setFormState('idle'), 5000);
+      }
+    } catch (error) {
+      setFormState('error');
+      // Reset state after 5 seconds
+      setTimeout(() => setFormState('idle'), 5000);
+    }
+  };
+
   const contactInfo = [
     {
       icon: Mail,
@@ -149,8 +185,7 @@ export function Contact() {
 
             <form
               name="contact"
-              method="POST"
-              data-netlify="true"
+              onSubmit={handleFormSubmit}
               className="space-y-6"
             >
               <input type="hidden" name="form-name" value="contact" />
@@ -208,12 +243,33 @@ export function Contact() {
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-primary-600 hover:bg-primary-700 dark:bg-primary-500 dark:hover:bg-primary-600 text-white rounded-lg font-medium transition-colors duration-200 flex items-center justify-center space-x-2"
+                disabled={formState === 'submitting'}
+                className="w-full px-6 py-3 bg-primary-600 hover:bg-primary-700 dark:bg-primary-500 dark:hover:bg-primary-600 text-white rounded-lg font-medium transition-colors duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Send className="h-5 w-5" />
-                <span>Send Message</span>
+                <span>
+                  {formState === 'submitting' ? 'Sending...' : 'Send Message'}
+                </span>
               </button>
             </form>
+
+            {/* Form Status Messages */}
+            {formState === 'success' && (
+              <div className="mt-4 p-4 bg-green-100 dark:bg-green-900/30 border border-green-200 dark:border-green-800 rounded-lg">
+                <p className="text-green-800 dark:text-green-200">
+                  Thank you for your message! I&apos;ll get back to you soon.
+                </p>
+              </div>
+            )}
+
+            {formState === 'error' && (
+              <div className="mt-4 p-4 bg-red-100 dark:bg-red-900/30 border border-red-200 dark:border-red-800 rounded-lg">
+                <p className="text-red-800 dark:text-red-200">
+                  There was an error sending your message. Please try again or
+                  contact me directly.
+                </p>
+              </div>
+            )}
           </motion.div>
         </div>
       </div>
