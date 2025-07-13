@@ -1,0 +1,132 @@
+{
+  "categories": {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "icon": "SiTypescript",
+        "color": "#3178C6"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "SiJavascript",
+        "color": "#F7DF1E"
+      },
+      {
+        "name": "Java",
+        "icon": "SiJava",
+        "color": "#ED8B00",
+        "logo": "app-logos/java.png"
+      },
+      { "name": "Python", "icon": "SiPython", "color": "#3776AB" },
+      { "name": "HTML5", "icon": "SiHtml5", "color": "#E34F26" },
+      { "name": "CSS3", "icon": "SiCss3", "color": "#1572B6" }
+    ],
+    "frameworks": [
+      {
+        "name": "React",
+        "icon": "SiReact",
+        "color": "#61DAFB"
+      },
+      { "name": "Vue.js", "icon": "SiVuedotjs", "color": "#4FC08D" },
+      {
+        "name": "Angular",
+        "icon": "SiAngular",
+        "color": "#DD0031"
+      },
+      {
+        "name": "Next.js",
+        "icon": "SiNextdotjs",
+        "color": "#000000"
+      },
+      { "name": "Nuxt.js", "icon": "SiNuxtdotjs", "color": "#00DC82" },
+      { "name": "Express.js", "icon": "SiExpress", "color": "#000000" }
+    ],
+    "styling": [
+      {
+        "name": "Tailwind CSS",
+        "icon": "SiTailwindcss",
+        "color": "#06B6D4"
+      },
+      { "name": "Bootstrap", "icon": "SiBootstrap", "color": "#7952B3" },
+      { "name": "Material-UI", "icon": "SiMui", "color": "#0081CB" },
+      {
+        "name": "Styled Components",
+        "icon": "SiStyledcomponents",
+        "color": "#DB7093"
+      },
+      { "name": "Sass", "icon": "SiSass", "color": "#CC6699" },
+      { "name": "Figma", "icon": "SiFigma", "color": "#F24E1E" }
+    ],
+    "databases": [
+      {
+        "name": "MongoDB",
+        "icon": "SiMongodb",
+        "color": "#47A248"
+      },
+      { "name": "PostgreSQL", "icon": "SiPostgresql", "color": "#336791" },
+      { "name": "MySQL", "icon": "SiMysql", "color": "#4479A1" },
+      { "name": "Redis", "icon": "SiRedis", "color": "#DC382D" },
+      {
+        "name": "DynamoDB",
+        "icon": "SiAmazonaws",
+        "color": "#232F3E",
+        "logo": "app-logos/dynamodb.png"
+      },
+      { "name": "SQLite", "icon": "SiSqlite", "color": "#003B57" }
+    ],
+    "tools": [
+      {
+        "name": "AWS",
+        "icon": "SiAmazonaws",
+        "color": "#232F3E",
+        "logo": "app-logos/aws.png"
+      },
+      {
+        "name": "Docker",
+        "icon": "SiDocker",
+        "color": "#2496ED"
+      },
+      { "name": "Git", "icon": "SiGit", "color": "#F05032" },
+      { "name": "Jenkins", "icon": "SiJenkins", "color": "#D24939" },
+      { "name": "Jira", "icon": "SiJira", "color": "#0052CC" },
+      { "name": "Travis CI", "icon": "SiTravisci", "color": "#3EAAAF" }
+    ],
+    "aiTools": [
+      {
+        "name": "OpenAI",
+        "icon": "SiOpenai",
+        "color": "#412991"
+      },
+      {
+        "name": "Claude",
+        "icon": "SiBrain",
+        "color": "#D4731F",
+        "logo": "app-logos/claude.png"
+      },
+      {
+        "name": "Langflow",
+        "icon": "SiDatadog",
+        "color": "#632CA6",
+        "logo": "app-logos/langflow.png"
+      },
+      {
+        "name": "LM Studio",
+        "icon": "SiStudiovinari",
+        "color": "#FF6B6B",
+        "logo": "app-logos/lmstudio.png"
+      },
+      {
+        "name": "Msty",
+        "icon": "SiMattermost",
+        "color": "#0072C6",
+        "logo": "app-logos/msty.png"
+      },
+      {
+        "name": "AutogenStudio",
+        "icon": "SiAutodesk",
+        "color": "#0696D7",
+        "logo": "app-logos/autogenstudio.png"
+      }
+    ]
+  }
+}

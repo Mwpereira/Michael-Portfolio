@@ -1,0 +1,157 @@
+{
+  "certifications": [
+    {
+      "id": "aws-cloud-practitioner",
+      "title": "AWS Cloud Practitioner",
+      "issuer": "AWS",
+      "credentialId": "7460a634-2614-440b-9d91-397451fc9ca5",
+      "issueDate": "January 2025",
+      "category": "AWS",
+      "link": "https://www.credly.com/badges/7460a634-2614-440b-9d91-397451fc9ca5/public_url"
+    },
+    {
+      "id": "reactive-angular-rxjs",
+      "title": "Reactive Angular Course (with RxJs, Angular 19)",
+      "issuer": "Udemy",
+      "credentialId": "UC-440f6999-a494-403c-91fe-5674b5bd12c3",
+      "issueDate": "December 2024",
+      "category": "Angular"
+    },
+    {
+      "id": "docker-kubernetes-guide",
+      "title": "Docker & Kubernetes: The Practical Guide [2024 Edition]",
+      "issuer": "Udemy",
+      "credentialId": "UC-cb07d6d-5b3e-4314-8581-538ca27300c0",
+      "issueDate": "February 2024",
+      "category": "DevOps"
+    },
+    {
+      "id": "ngrx-complete-guide",
+      "title": "NgRx (with NgRx Data) - The Complete Guide (Angular 19)",
+      "issuer": "Udemy",
+      "credentialId": "UC-440f6999-a494-403c-91fe-5674b5bd12c3",
+      "issueDate": "November 2023",
+      "category": "Angular"
+    },
+    {
+      "id": "research-ethics-tcps2",
+      "title": "Research Ethics based on the Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2: CORE 2022)",
+      "issuer": "Panel on Research Ethics",
+      "credentialId": "Certificate # 0000961914",
+      "issueDate": "September 2023",
+      "category": "Research Ethics"
+    },
+    {
+      "id": "es6-javascript",
+      "title": "ES6 Javascript Development from scratch",
+      "issuer": "Udemy",
+      "credentialId": "UC-b82909d4-4689-4699-9663-1eecc6d28aa5",
+      "issueDate": "June 2023",
+      "category": "JavaScript"
+    },
+    {
+      "id": "tailwind-css",
+      "title": "Tailwind CSS - A new way to Think CSS",
+      "issuer": "Udemy",
+      "credentialId": "UC-fd235ac8-4244-4c7e-9f61-9283b1cf490f",
+      "issueDate": "April 2022",
+      "category": "CSS"
+    },
+    {
+      "id": "mern-stack",
+      "title": "MERN Stack Front To Back",
+      "issuer": "Udemy",
+      "credentialId": "UC-78636652-beef-4d6a-b4a6-9198371b8281",
+      "issueDate": "October 2021",
+      "category": "Full Stack"
+    },
+    {
+      "id": "nuxt-js",
+      "title": "Nuxt.js - Vue.js on Steroids",
+      "issuer": "Udemy",
+      "credentialId": "UC-34b638ba-b348-457e-b1b4-5c316a07bace",
+      "issueDate": "October 2021",
+      "category": "Vue.js"
+    },
+    {
+      "id": "react-complete",
+      "title": "React - The Complete Guide",
+      "issuer": "Udemy",
+      "credentialId": "UC-8b177050-79c1-4140-aa58-05bf8881432d",
+      "issueDate": "October 2021",
+      "category": "React"
+    },
+    {
+      "id": "sql-basic",
+      "title": "SQL (Basic)",
+      "issuer": "HackerRank",
+      "credentialId": "7fa8ab83fa17",
+      "issueDate": "September 2021",
+      "category": "Database"
+    },
+    {
+      "id": "java-basic",
+      "title": "Java (Basic)",
+      "issuer": "HackerRank",
+      "credentialId": "5c5633f946ec",
+      "issueDate": "September 2021",
+      "category": "Java"
+    },
+    {
+      "id": "javascript-intermediate",
+      "title": "JavaScript (Intermediate)",
+      "issuer": "HackerRank",
+      "credentialId": "75127ba580cd",
+      "issueDate": "August 2021",
+      "category": "JavaScript"
+    },
+    {
+      "id": "javascript-basic",
+      "title": "JavaScript (Basic)",
+      "issuer": "HackerRank",
+      "credentialId": "a4732de67970",
+      "issueDate": "August 2021",
+      "category": "JavaScript"
+    },
+    {
+      "id": "ux-design",
+      "title": "User Experience Design Fundamentals",
+      "issuer": "Udemy",
+      "credentialId": "UC-71ca5f8a-18eb-44d8-a0e1-fe1b8df912af",
+      "issueDate": "August 2021",
+      "category": "UX Design"
+    },
+    {
+      "id": "jamstack",
+      "title": "JAMStack: The Complete Guide",
+      "issuer": "Udemy",
+      "credentialId": "UC-97924aad-4e3d-4038-9757-344412d01682",
+      "issueDate": "July 2021",
+      "category": "JAMStack"
+    },
+    {
+      "id": "typescript",
+      "title": "Understanding TypeScript - 2021 Edition",
+      "issuer": "Udemy",
+      "credentialId": "UC-f24d9edc-0876-4639-8958-271c6f1c9efe",
+      "issueDate": "June 2021",
+      "category": "TypeScript"
+    },
+    {
+      "id": "web-developer-bootcamp",
+      "title": "The Web Developer Bootcamp",
+      "issuer": "Udemy",
+      "credentialId": "UC-f8159de1-011b-498c-9a94-af718399ec84",
+      "issueDate": "June 2021",
+      "category": "Web Development"
+    },
+    {
+      "id": "csharp-masterclass",
+      "title": "C# Masterclass",
+      "issuer": "Udemy",
+      "credentialId": "UC-KXQECQB3",
+      "issueDate": "January 2020",
+      "category": "C#"
+    }
+  ]
+}

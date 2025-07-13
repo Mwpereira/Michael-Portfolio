@@ -1,0 +1,138 @@
+{
+  "projects": [
+    {
+      "id": "arc",
+      "title": "Arc",
+      "description": "A cross-platform, password manager app with advanced security features.",
+      "technologies": ["Vue", "Buefy", "TypeScript", "Serverless"],
+      "category": "Security",
+      "featured": true,
+      "link": "https://github.com/Mwpereira/Arc",
+      "lastUpdated": "2023-06"
+    },
+    {
+      "id": "atla-webscraper",
+      "title": "ATLA WebScraper",
+      "description": "Demonstrating web scraping to preview any of your favourite Avatar characters.",
+      "technologies": ["Bulma", "Serverless", "Puppeteer"],
+      "category": "Web Scraping",
+      "featured": true,
+      "link": "https://github.com/Mwpereira/ATLA-WebScraper",
+      "lastUpdated": "2021-06"
+    },
+    {
+      "id": "brewculture",
+      "title": "BrewCulture",
+      "description": "Discover the perfect blend of convenience and ambiance.",
+      "technologies": ["Angular", "TypeScript", "Tailwind"],
+      "category": "Web Application",
+      "featured": true,
+      "link": "https://github.com/Mwpereira/BrewCulture",
+      "appLink": "https://brewculture.netlify.app/",
+      "lastUpdated": "2023-07"
+    },
+    {
+      "id": "currency-converter",
+      "title": "Currency Converter",
+      "description": "Simple and easy to use live currency converter.",
+      "technologies": ["Bulma", "JavaScript", "jQuery"],
+      "category": "Utility",
+      "featured": false,
+      "link": "https://github.com/Mwpereira/Currency-Converter",
+      "lastUpdated": "2021-08"
+    },
+    {
+      "id": "embyr-chat",
+      "title": "Embyr Chat",
+      "description": "An aesthetic and friendly chat app!",
+      "technologies": ["C#", "JavaScript", "Electron"],
+      "category": "Chat Application",
+      "featured": false,
+      "link": "https://github.com/Mwpereira/Embyr-Chat",
+      "lastUpdated": "2020-08"
+    },
+    {
+      "id": "hm-dashboard",
+      "title": "HM Dashboard",
+      "description": "Minimalistic and modern user interface to display your HNT miner's data.",
+      "technologies": ["Nuxt", "Buefy", "TypeScript", "Ky"],
+      "category": "Dashboard",
+      "featured": false,
+      "link": "https://github.com/Mwpereira/HM-Dashboard",
+      "lastUpdated": "2022-06"
+    },
+    {
+      "id": "hnt-widget",
+      "title": "HNT Widget",
+      "description": "A desktop widget to view the latest information on Helium (HNT) coin.",
+      "technologies": ["Vue", "Buefy", "TypeScript", "Electron"],
+      "category": "Desktop Application",
+      "featured": false,
+      "link": "https://github.com/Mwpereira/HNT-Widget",
+      "lastUpdated": "2021-11"
+    },
+    {
+      "id": "moments-gallery",
+      "title": "Moments Gallery",
+      "description": "Showcase your memories with our simple and modern image storage platform.",
+      "technologies": ["React", "ChakraUI", "TypeScript", "Express"],
+      "category": "Image Gallery",
+      "featured": true,
+      "link": "https://github.com/Mwpereira/Moments-Gallery",
+      "lastUpdated": "2023-05"
+    },
+    {
+      "id": "movie-recommender",
+      "title": "Movie Recommender System",
+      "description": "Recommender system based off of User Based Collaborative Filtering.",
+      "technologies": ["Nuxt", "Buefy", "TypeScript", "Express"],
+      "category": "Machine Learning",
+      "featured": false,
+      "link": "https://github.com/Mwpereira/Movie-Recommender-System",
+      "lastUpdated": "2023-05"
+    },
+    {
+      "id": "routing-visualizer",
+      "title": "Routing Algorithms Visualizer",
+      "description": "Dijkstra's & Distance Vector Algorithms Visualized.",
+      "technologies": ["React", "Bulma", "JavaScript", "jQuery"],
+      "category": "Visualization",
+      "featured": false,
+      "link": "https://github.com/Mwpereira/Routing-Algorithms-Visualizer",
+      "appLink": "https://routing-algorithms-visualizer.netlify.app/",
+      "lastUpdated": "2023-05"
+    },
+    {
+      "id": "peters-barbershop",
+      "title": "Peter's Barbershop",
+      "description": "Peter's Barbershop Website.",
+      "technologies": ["JavaScript", "HTML", "CSS", "NextJS", "Tailwind"],
+      "category": "Business Website",
+      "featured": true,
+      "link": "https://github.com/Mwpereira/Peters-Barbershop-v3",
+      "appLink": "https://petersbarbershop.ca/",
+      "lastUpdated": "2025-07"
+    },
+    {
+      "id": "weather-app",
+      "title": "Weather App",
+      "description": "A website app with a simplistic design to display weather info and time.",
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+      "category": "Weather Application",
+      "featured": false,
+      "link": "https://github.com/Mwpereira/Weather-App",
+      "appLink": "https://weather.mwpereira.ca/",
+      "lastUpdated": "2021-08"
+    },
+    {
+      "id": "willow-bank",
+      "title": "Willow Bank",
+      "description": "A modern online bank with an elegant and flawless user experience.",
+      "technologies": ["Vue", "Buefy", "TypeScript"],
+      "category": "Banking Application",
+      "featured": false,
+      "link": "https://github.com/Mwpereira/Willow-Bank",
+      "lastUpdated": "2022-01"
+    }
+  ]
+}

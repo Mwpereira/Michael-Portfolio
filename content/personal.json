@@ -1,0 +1,21 @@
+{
+  "name": "Michael Pereira",
+  "title": "Full Stack Software Developer",
+  "location": "Toronto, Ontario, Canada",
+  "currentRole": "Full-Stack Software Developer II @ IBM",
+  "email": "mwpereira07@gmail.com",
+  "about": "I'm a passionate Full Stack Software Developer with 2+ years of professional experience building scalable web applications and mobile solutions. Currently working at IBM as a Software Developer, where I was promoted from an internship position after demonstrating exceptional technical skills and leadership qualities.\n\nI specialize in full-stack development using React, Angular, TypeScript, Node.js, and Java, with extensive experience in AWS and CI/CD pipelines. My work spans healthcare, fintech, and enterprise software, contributing to applications serving millions of users.\n\nI'm driven by solving complex technical challenges while creating exceptional user experiences. I'm passionate about writing clean, maintainable code and mentoring junior developers, and I thrive in collaborative environments delivering high-quality solutions on time.",
+  "intro": "I am a results-driven Full Stack Software Developer with a passion for creating innovative solutions that make a real impact. With experience at leading tech companies like IBM and a strong foundation in modern web technologies, I bring both technical expertise and leadership skills to deliver exceptional results.",
+  "highlights": [
+    "2+ years of professional development experience",
+    "Started as an intern and was hired as a full-time developer at IBM following my graduation",
+    "Experience with healthcare, fintech, and enterprise applications",
+    "Strong background in cloud architecture and CI/CD",
+    "Proven track record of mentoring and leadership"
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/michael-pereira-07/",
+    "github": "https://github.com/mwpereira",
+    "website": "https://mwpereira.ca/"
+  }
+}

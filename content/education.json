@@ -1,0 +1,17 @@
+{
+  "education": [
+    {
+      "id": "tmu-cs",
+      "institution": "Toronto Metropolitan University",
+      "location": "Toronto, ON",
+      "degree": "Computer Science Co-op, Bachelor of Science (Honours)",
+      "duration": "2018 - 2023",
+      "graduationDate": "June 2023",
+      "highlights": [
+        "Specialized in full-stack development and software engineering",
+        "Participated in cooperative education program with industry placements",
+        "Completed coursework in data structures, algorithms, databases, and web development"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "experiences": [
+    {
+      "id": "ibm-full-stack-developer-ii",
+      "position": "Full Stack Developer II, watsonx.ai & Cloud Pak for Data",
+      "company": "IBM",
+      "location": "Markham, Ontario, Canada",
+      "duration": "June 2024 - Present",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "description": [
+        "Currently working on cutting-edge AI and data analytics platforms, developing full-stack solutions for IBM's watsonx.ai and Cloud Pak for Data products.",
+        "Utilizing advanced JavaScript, Node.js, and modern web technologies to build scalable enterprise applications.",
+        "Contributing to IBM's AI-powered data science and machine learning platform used by organizations worldwide.",
+        "Collaborating with cross-functional teams to deliver innovative features and enhancements for cloud-based analytics solutions."
+      ],
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "watsonx.ai",
+        "Cloud Pak for Data",
+        "AI/ML",
+        "Cloud Technologies",
+        "Enterprise Software"
+      ],
+      "achievements": [
+        "Promoted to Developer II role",
+        "Contributing to IBM's flagship AI platform",
+        "Working on enterprise-scale cloud solutions"
+      ]
+    },
+    {
+      "id": "ibm-software-developer",
+      "position": "Software Developer, Digital Experience",
+      "company": "IBM",
+      "location": "Toronto, Ontario, Canada",
+      "duration": "March 2024 - June 2024",
+      "type": "Full-time",
+      "workMode": "Remote",
+      "description": [
+        "Developed and maintained digital experience platforms for IBM's customer-facing applications.",
+        "Worked on enhancing user interfaces and optimizing application performance for better customer engagement.",
+        "Collaborated with UX/UI designers and product managers to implement user-centric features and improvements.",
+        "Contributed to IBM's digital transformation initiatives through innovative web development solutions."
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "Bootstrap",
+        "Digital Experience Platforms",
+        "Web Development"
+      ],
+      "achievements": [
+        "Enhanced digital customer experience",
+        "Improved application performance",
+        "Contributed to digital transformation initiatives"
+      ]
+    },
+    {
+      "id": "ibm-associate-software-developer",
+      "position": "Associate Software Developer, Digital Experience",
+      "company": "IBM",
+      "location": "Toronto, Ontario, Canada",
+      "duration": "June 2023 - March 2024",
+      "type": "Full-time",
+      "workMode": "Remote",
+      "description": [
+        "Designed and implemented new features for a dynamic front-end application's payments and travel options pages using Angular, TypeScript, and Bootstrap CSS, enhancing user experience and functionality.",
+        "Optimized and updated front-end accounts and transactions micro-apps for mobile responsiveness and design, leveraging Angular and TypeScript. Enhanced testing with Jest and deployed updates via CI/CD pipelines using Bitbucket and Jenkins, consistently exceeding code quality standards.",
+        "Enhanced application performance and accessibility by optimizing components and services.",
+        "Proactively resolved high-priority defects to ensure seamless user experience and adherence to project timelines.",
+        "Collaborated with product owners, stakeholders, and cross-functional teams in Agile environments to translate complex requirements into actionable technical solutions, ensuring alignment and successful outcomes."
+      ],
+      "technologies": [
+        "Angular",
+        "Bootstrap",
+        "TypeScript",
+        "NgRx",
+        "Jira",
+        "Bitbucket",
+        "OpenShift",
+        "Jenkins"
+      ],
+      "achievements": [
+        "Exceeded code quality standards",
+        "Enhanced mobile responsiveness",
+        "Resolved high-priority defects efficiently",
+        "Improved accessibility compliance"
+      ]
+    },
+    {
+      "id": "floatt-developer",
+      "position": "Full Stack Developer",
+      "company": "Floatt",
+      "location": "Toronto, Ontario, Canada",
+      "duration": "November 2022 - May 2023",
+      "type": "Freelance",
+      "workMode": "Remote",
+      "description": [
+        "Built a dynamic dashboard with React, TypeScript, Tailwind, and Chart.js, providing a user-friendly interface for client analytics.",
+        "Developed middleware with TypeScript, Express, and Redis to integrate Airtable APIs, streamlining data access.",
+        "Collaborated directly with clients to gather requirements, address feedback, and provide project updates, ensuring high satisfaction and seamless delivery.",
+        "Utilized project management tools like Jira to prioritize tasks, coordinate with the team, and ensure timely dashboard deployment."
+      ],
+      "technologies": [
+        "Redis",
+        "Tailwind CSS",
+        "Passport.js",
+        "TypeScript",
+        "OAuth",
+        "Express.js",
+        "React",
+        "Terraform",
+        "Jira"
+      ],
+      "achievements": [
+        "Delivered user-friendly analytics dashboard",
+        "Streamlined data access with middleware",
+        "Maintained high client satisfaction",
+        "Ensured timely project delivery"
+      ]
+    },
+    {
+      "id": "tmu-developer",
+      "position": "Full Stack Developer - Research Assistant",
+      "company": "Toronto Metropolitan University",
+      "location": "Toronto, Ontario, Canada",
+      "duration": "January 2022 - May 2023",
+      "type": "Contract Part-time",
+      "workMode": "Remote",
+      "description": [
+        "Developed a cross-platform user interface with Electron, React, TypeScript, NextUI, and Tailwind to control an advanced Arduino system for MRI sequence development and testing.",
+        "Created a web platform for clinicians to upload OB-GYN-related DICOM files for advanced evaluation by custom machine learning models, integrating React, NextUI, TypeScript, and Tailwind on the client side, and Node.js, Express, Redis, and Passport on the server side. Leveraged AWS RDS for MySQL, ElastiCache, and EC2 for infrastructure.",
+        "Developed a web platform enabling clinicians to upload surgeries for grading by surgeons and professors, using Nuxt, TypeScript, Buefy, and Ky for the client side, and Java, Spring Boot, and JWT for the server side. Leveraged AWS services, including DynamoDB, API Gateway, S3, and EC2, to create a scalable and reliable cloud infrastructure.",
+        "Launched a Google Chrome extension that creates an advanced Google event and provides additional in-meeting features. This extension was made using HTML, CSS, JS and Bulma."
+      ],
+      "technologies": [
+        "Java",
+        "AWS",
+        "Spring Boot",
+        "Bulma",
+        "MySQL",
+        "Redis",
+        "Tailwind CSS",
+        "JWT",
+        "Passport.js",
+        "TypeScript",
+        "Nuxt",
+        "React",
+        "Electron",
+        "Terraform"
+      ],
+      "achievements": [
+        "Built cross-platform MRI control interface",
+        "Created DICOM file evaluation platform",
+        "Developed surgical grading system",
+        "Launched Chrome extension for meeting enhancement"
+      ]
+    },
+    {
+      "id": "ibm-coop-developer",
+      "position": "Full Stack Developer",
+      "company": "IBM",
+      "location": "Markham, Ontario, Canada",
+      "duration": "January 2022 - August 2022",
+      "type": "Co-op",
+      "workMode": "Hybrid",
+      "description": [
+        "Developed a client application leveraging React Native, TypeScript, and IBM's Carbon Design System with Cognos Analytics services.",
+        "Collaborated with cloud and full-stack developers, QA engineers, and designers to deliver features and enhancements.",
+        "Released high-quality updates with bug fixes and new features for both Apple's App Store and Google's Play Store.",
+        "Led the revamp of e2e test structures and spec files, improving testing efficiency and coverage."
+      ],
+      "technologies": [
+        "Jenkins",
+        "Jest",
+        "IBM Cognos Analytics",
+        "Android Studio",
+        "Xcode",
+        "JavaScript",
+        "TypeScript",
+        "React Native"
+      ],
+      "achievements": [
+        "Delivered mobile app updates to both major app stores",
+        "Improved e2e testing efficiency and coverage",
+        "Collaborated effectively with cross-functional teams",
+        "Enhanced mobile application performance"
+      ]
+    },
+    {
+      "id": "caseware-cloud-developer",
+      "position": "Cloud Software Developer",
+      "company": "CaseWare International Inc.",
+      "location": "Toronto, Ontario, Canada",
+      "duration": "May 2021 - August 2021",
+      "type": "Co-op",
+      "workMode": "Remote",
+      "description": [
+        "Contributed to the maintenance and development of new features for an accounting software suite, leveraging full-stack technologies including Angular, TypeScript, Spring, Java, C#, and AWS.",
+        "Created and executed migration scripts for data handling with MSSQL and MongoDB.",
+        "Designed effective user interfaces with CaseWare's Nova CSS framework, enhancing usability and aesthetics.",
+        "Consistently exceeded sprint deadlines for bug fixes and features, earning client and stakeholder recognition."
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "Spring",
+        "Java",
+        "C#",
+        "AWS",
+        "MSSQL",
+        "MongoDB",
+        "Nova CSS",
+        "Spring Boot"
+      ],
+      "achievements": [
+        "Exceeded sprint deadlines consistently",
+        "Earned client and stakeholder recognition",
+        "Successfully executed data migration scripts",
+        "Enhanced UI usability and aesthetics"
+      ]
+    },
+    {
+      "id": "caseware-test-developer",
+      "position": "Cloud Software Test Developer",
+      "company": "CaseWare International Inc.",
+      "location": "Toronto, Ontario, Canada",
+      "duration": "September 2020 - April 2021",
+      "type": "Co-op",
+      "workMode": "Remote",
+      "description": [
+        "Used Java, TestNG, and Gradle, to write API tests to verify the back-end server's logic and its API requests/responses.",
+        "Worked with TypeScript and Cypress, to write front-end tests to verify elements on the page and to ensure intended client usage/behaviour is working accordingly.",
+        "Obtained a profound understanding of scalability, deployment procedures, and microservice architecture within a monolithic repository.",
+        "Excelled using AWS resources for product features and testing such as Dynamo, SQS, SNS, SES, API Gateway, and Lambda functions.",
+        "Created GitHub workflows and actions for CI to run tests on PR and Post Deployment.",
+        "Hosted agile meetings such as daily stand-up and sprint retrospectives, contributed to weekly design and architecture meetings and participated in bi-weekly demos."
+      ],
+      "technologies": [
+        "Cypress.io",
+        "Java",
+        "TestNG",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "achievements": [
+        "Implemented comprehensive testing framework",
+        "Mastered AWS cloud services",
+        "Created CI/CD workflows",
+        "Led agile ceremonies and meetings"
+      ]
+    }
+  ]
+}
