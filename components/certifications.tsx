@@ -112,24 +112,22 @@ export function Certifications() {
                 </div>
               </div>
 
-              <div className="pt-4 border-t border-gray-200 dark:border-dark-700">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs text-gray-500 dark:text-gray-400">
-                    ID: {certification.credentialId}
-                  </span>
-                  {certification.link && (
+              {certification.link && (
+                <div className="pt-4 border-t border-gray-200 dark:border-dark-700">
+                  <div className="flex justify-end">
                     <a
                       href={certification.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-1 rounded hover:bg-gray-100 dark:hover:bg-dark-800 transition-colors"
+                      className="inline-flex items-center px-3 py-1 text-xs font-medium text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-dark-800 rounded-lg transition-colors duration-200"
                       aria-label="View certificate"
                     >
-                      <ExternalLink className="h-4 w-4 text-gray-400 dark:text-gray-500 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors" />
+                      <ExternalLink className="h-3 w-3 mr-1" />
+                      View Certificate
                     </a>
-                  )}
+                  </div>
                 </div>
-              </div>
+              )}
             </motion.div>
           ))}
         </div>

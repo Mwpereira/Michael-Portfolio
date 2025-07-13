@@ -41,6 +41,7 @@ const keywords = [
 ];
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mwpereira.ca'),
   title: title,
   description: description,
   keywords: keywords,
