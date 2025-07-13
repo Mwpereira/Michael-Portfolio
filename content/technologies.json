@@ -95,7 +95,7 @@
       {
         "name": "OpenAI",
         "icon": "SiOpenai",
-        "color": "#412991"
+        "color": "#FFF"
       },
       {
         "name": "Claude",
