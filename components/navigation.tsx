@@ -62,6 +62,7 @@ export function Navigation() {
                 width={32}
                 height={32}
                 className="rounded-md"
+                unoptimized
               />
             </a>
           </motion.div>

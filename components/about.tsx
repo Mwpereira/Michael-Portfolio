@@ -72,6 +72,7 @@ export function About() {
                   fill
                   className="object-cover"
                   priority
+                  unoptimized
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/20 to-transparent" />
               </div>
@@ -126,6 +127,7 @@ export function About() {
                   fill
                   className="object-cover"
                   priority
+                  unoptimized
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/20 to-transparent" />
               </div>
