@@ -145,14 +145,14 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 1.2 }}
             className="flex md:hidden justify-center pt-4"
           >
-            <motion.div
+            {/* <motion.div
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
               className="flex flex-col items-center space-y-2 text-gray-400 dark:text-gray-600"
             >
               <span className="text-sm">Scroll down</span>
               <ArrowDown className="h-5 w-5" />
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </div>
@@ -164,7 +164,7 @@ export function Hero() {
         transition={{ duration: 0.6, delay: 1.2 }}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:block"
       >
-        <motion.div
+        {/* <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
           className="flex flex-col items-center space-y-2 text-gray-400 dark:text-gray-600"
@@ -172,7 +172,7 @@ export function Hero() {
           <span className="text-sm">Scroll down</span>
           <ArrowDown className="h-5 w-5" />
         </motion.div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 }
