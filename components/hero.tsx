@@ -171,8 +171,8 @@ export function Hero() {
         >
           <span className="text-sm">Scroll down</span>
           <ArrowDown className="h-5 w-5" />
-        </motion.div>
-      </motion.div> */}
+        </motion.div> */}
+      </motion.div>
     </section>
   );
 }
