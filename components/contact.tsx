@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import personalData from '@/content/personal.json';
 import { useState } from 'react';
 
@@ -58,12 +59,12 @@ export function Contact() {
 
   const socialLinks = [
     {
-      icon: Github,
+      icon: FaGithub,
       label: 'GitHub',
       href: personalData.social.github,
     },
     {
-      icon: Linkedin,
+      icon: FaLinkedin,
       label: 'LinkedIn',
       href: personalData.social.linkedin,
     },

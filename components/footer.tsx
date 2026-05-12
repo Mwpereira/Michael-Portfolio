@@ -1,15 +1,16 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Heart, ArrowUp } from 'lucide-react';
+import { Mail, Heart, ArrowUp } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import personalData from '@/content/personal.json';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: personalData.social.github, label: 'GitHub' },
-    { icon: Linkedin, href: personalData.social.linkedin, label: 'LinkedIn' },
+    { icon: FaGithub, href: personalData.social.github, label: 'GitHub' },
+    { icon: FaLinkedin, href: personalData.social.linkedin, label: 'LinkedIn' },
     { icon: Mail, href: `mailto:${personalData.email}`, label: 'Email' },
   ];
 

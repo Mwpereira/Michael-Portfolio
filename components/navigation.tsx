@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
+import { Menu, X, Mail } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { ThemeToggle } from './theme-toggle';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
@@ -27,9 +28,9 @@ export function Navigation() {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/mwpereira', label: 'GitHub' },
+    { icon: FaGithub, href: 'https://github.com/mwpereira', label: 'GitHub' },
     {
-      icon: Linkedin,
+      icon: FaLinkedin,
       href: 'https://www.linkedin.com/in/michael-pereira-07/',
       label: 'LinkedIn',
     },

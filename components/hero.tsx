@@ -1,15 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import {
-  ArrowDown,
-  Download,
-  Github,
-  Link,
-  Linkedin,
-  Mail,
-  MapPin,
-} from 'lucide-react';
+import { ArrowDown, Download, Link, Mail, MapPin } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import personalData from '@/content/personal.json';
 
 export function Hero() {
@@ -110,12 +103,12 @@ export function Hero() {
           >
             {[
               {
-                icon: Github,
+                icon: FaGithub,
                 href: personalData.social.github,
                 label: 'GitHub',
               },
               {
-                icon: Linkedin,
+                icon: FaLinkedin,
                 href: personalData.social.linkedin,
                 label: 'LinkedIn',
               },

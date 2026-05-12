@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Folder, Star, ChevronDown } from 'lucide-react';
+import { ExternalLink, Folder, Star, ChevronDown } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
 import { useState } from 'react';
 import projectsData from '@/content/projects.json';
 
@@ -145,7 +146,7 @@ export function Projects() {
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
                   >
-                    <Github className="h-5 w-5" />
+                    <FaGithub className="h-5 w-5" />
                   </a>
                   {project.appLink && (
                     <a
@@ -228,7 +229,7 @@ export function Projects() {
                       rel="noopener noreferrer"
                       className="p-1 rounded text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
                     >
-                      <Github className="h-4 w-4" />
+                      <FaGithub className="h-4 w-4" />
                     </a>
                     {project.appLink && (
                       <a
@@ -297,7 +298,7 @@ export function Projects() {
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 px-6 py-3 bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 rounded-lg font-medium transition-all duration-200 transform hover:scale-105"
           >
-            <Github className="h-5 w-5" />
+            <FaGithub className="h-5 w-5" />
             <span>View on GitHub</span>
           </a>
         </motion.div>
