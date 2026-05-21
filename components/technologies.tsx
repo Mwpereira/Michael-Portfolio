@@ -35,8 +35,6 @@ export function Technologies() {
         return Code;
       case 'msty':
         return Sparkles;
-      case 'autogenstudio':
-        return Zap;
       default:
         return SimpleIcons.SiReact; // Default fallback
     }
@@ -54,8 +52,6 @@ export function Technologies() {
         return '#FF6B6B';
       case 'msty':
         return '#0072C6';
-      case 'autogenstudio':
-        return '#0696D7';
       default:
         return originalColor;
     }

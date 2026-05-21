@@ -18,8 +18,7 @@
         "logo": "app-logos/java.png"
       },
       { "name": "Python", "icon": "SiPython", "color": "#3776AB" },
-      { "name": "HTML5", "icon": "SiHtml5", "color": "#E34F26" },
-      { "name": "CSS3", "icon": "SiCss3", "color": "#1572B6" }
+      { "name": "HTML5 + CSS3", "icon": "SiHtml5", "color": "#E34F26" }
     ],
     "frameworks": [
       {
@@ -29,17 +28,12 @@
       },
       { "name": "Vue.js", "icon": "SiVuedotjs", "color": "#4FC08D" },
       {
-        "name": "Angular",
-        "icon": "SiAngular",
-        "color": "#DD0031"
-      },
-      {
         "name": "Next.js",
         "icon": "SiNextdotjs",
         "color": "#000000"
       },
-      { "name": "Nuxt.js", "icon": "SiNuxtdotjs", "color": "#00DC82" },
-      { "name": "Express.js", "icon": "SiExpress", "color": "#000000" }
+      { "name": "Express.js", "icon": "SiExpress", "color": "#000000" },
+      { "name": "Fastify", "icon": "SiFastify", "color": "#dd1818" }
     ],
     "styling": [
       {
@@ -48,7 +42,6 @@
         "color": "#06B6D4"
       },
       { "name": "Bootstrap", "icon": "SiBootstrap", "color": "#7952B3" },
-      { "name": "Material-UI", "icon": "SiMui", "color": "#0081CB" },
       {
         "name": "Styled Components",
         "icon": "SiStyledcomponents",
@@ -71,8 +64,7 @@
         "icon": "SiAmazonaws",
         "color": "#232F3E",
         "logo": "app-logos/dynamodb.png"
-      },
-      { "name": "SQLite", "icon": "SiSqlite", "color": "#003B57" }
+      }
     ],
     "tools": [
       {
@@ -88,8 +80,7 @@
       },
       { "name": "Git", "icon": "SiGit", "color": "#F05032" },
       { "name": "Jenkins", "icon": "SiJenkins", "color": "#D24939" },
-      { "name": "Jira", "icon": "SiJira", "color": "#0052CC" },
-      { "name": "Travis CI", "icon": "SiTravisci", "color": "#3EAAAF" }
+      { "name": "Jira", "icon": "SiJira", "color": "#0052CC" }
     ],
     "aiTools": [
       {
@@ -120,12 +111,6 @@
         "icon": "SiMattermost",
         "color": "#0072C6",
         "logo": "app-logos/msty.png"
-      },
-      {
-        "name": "AutogenStudio",
-        "icon": "SiAutodesk",
-        "color": "#0696D7",
-        "logo": "app-logos/autogenstudio.png"
       }
     ]
   }
