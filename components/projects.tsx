@@ -97,7 +97,7 @@ export function Projects() {
               <ChevronDown className="h-4 w-4" />
             </button>
             {dropdownOpen && (
-              <div className="absolute top-full left-0 mt-2 w-48 glass-card rounded-xl shadow-lg z-10 overflow-hidden">
+              <div className="absolute top-full left-0 mt-2 w-48 rounded-xl shadow-lg z-10 overflow-hidden bg-white dark:bg-[#1a1a1a] border border-black/[0.06] dark:border-white/[0.08]">
                 <button
                   onClick={() => {
                     setSortBy('lastUpdated');
