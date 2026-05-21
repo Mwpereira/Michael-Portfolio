@@ -25,16 +25,16 @@ const config: Config = {
           900: '#0c4a6e',
         },
         dark: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569',
-          700: '#334155',
-          800: '#1e293b',
-          900: '#0f172a',
+          50: '#fafafa',
+          100: '#f5f5f5',
+          200: '#e5e5e5',
+          300: '#d4d4d4',
+          400: '#a3a3a3',
+          500: '#737373',
+          600: '#525252',
+          700: '#2a2a2a',
+          800: '#1a1a1a',
+          900: '#0d0d0d',
         },
       },
       fontFamily: {
@@ -47,6 +47,7 @@ const config: Config = {
         'slide-down': 'slideDown 0.5s ease-out',
         'scale-in': 'scaleIn 0.3s ease-out',
         glow: 'glow 2s ease-in-out infinite alternate',
+        shimmer: 'shimmer 3s ease-in-out infinite',
       },
       keyframes: {
         fadeIn: {
@@ -66,14 +67,21 @@ const config: Config = {
           '100%': { transform: 'scale(1)', opacity: '1' },
         },
         glow: {
-          '0%': { boxShadow: '0 0 5px rgba(14, 165, 233, 0.5)' },
-          '100%': { boxShadow: '0 0 20px rgba(14, 165, 233, 0.8)' },
+          '0%': { boxShadow: '0 0 5px rgba(14, 165, 233, 0.3)' },
+          '100%': { boxShadow: '0 0 20px rgba(14, 165, 233, 0.6)' },
+        },
+        shimmer: {
+          '0%, 100%': { opacity: '0.5' },
+          '50%': { opacity: '1' },
         },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      backdropBlur: {
+        xs: '2px',
       },
     },
   },

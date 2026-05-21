@@ -11,13 +11,11 @@ export function Projects() {
   const [sortBy, setSortBy] = useState<'name' | 'lastUpdated'>('lastUpdated');
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  // Sort projects based on selected option
   const sortProjects = (projectList: typeof projects) => {
     return [...projectList].sort((a, b) => {
       if (sortBy === 'name') {
         return a.title.localeCompare(b.title);
       } else {
-        // Sort by lastUpdated (YYYY-MM format) in descending order (newest first)
         const dateA = a.lastUpdated || '0000-00';
         const dateB = b.lastUpdated || '0000-00';
         return dateB.localeCompare(dateA);
@@ -33,40 +31,42 @@ export function Projects() {
   );
 
   const getCategoryColor = (category: string) => {
-    const colors = {
-      Security: 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400',
+    const colors: Record<string, string> = {
+      Security:
+        'bg-red-500/[0.08] text-red-700 dark:bg-red-500/[0.12] dark:text-red-300',
       'Web Scraping':
-        'bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400',
+        'bg-orange-500/[0.08] text-orange-700 dark:bg-orange-500/[0.12] dark:text-orange-300',
       'Web Application':
-        'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400',
+        'bg-blue-500/[0.08] text-blue-700 dark:bg-blue-500/[0.12] dark:text-blue-300',
       'Image Gallery':
-        'bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-400',
+        'bg-purple-500/[0.08] text-purple-700 dark:bg-purple-500/[0.12] dark:text-purple-300',
       'Chat Application':
-        'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400',
+        'bg-primary-500/[0.08] text-primary-700 dark:bg-primary-500/[0.12] dark:text-primary-300',
       Dashboard:
-        'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400',
+        'bg-yellow-500/[0.08] text-yellow-700 dark:bg-yellow-500/[0.12] dark:text-yellow-300',
       'Desktop Application':
-        'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/30 dark:text-indigo-400',
+        'bg-indigo-500/[0.08] text-indigo-700 dark:bg-indigo-500/[0.12] dark:text-indigo-300',
       'Machine Learning':
-        'bg-pink-100 text-pink-800 dark:bg-pink-900/30 dark:text-pink-400',
+        'bg-pink-500/[0.08] text-pink-700 dark:bg-pink-500/[0.12] dark:text-pink-300',
       Visualization:
-        'bg-cyan-100 text-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-400',
+        'bg-cyan-500/[0.08] text-cyan-700 dark:bg-cyan-500/[0.12] dark:text-cyan-300',
       'Banking Application':
-        'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-400',
+        'bg-emerald-500/[0.08] text-emerald-700 dark:bg-emerald-500/[0.12] dark:text-emerald-300',
       'Business Website':
-        'bg-violet-100 text-violet-800 dark:bg-violet-900/30 dark:text-violet-400',
+        'bg-violet-500/[0.08] text-violet-700 dark:bg-violet-500/[0.12] dark:text-violet-300',
       Utility:
-        'bg-teal-100 text-teal-800 dark:bg-teal-900/30 dark:text-teal-400',
+        'bg-teal-500/[0.08] text-teal-700 dark:bg-teal-500/[0.12] dark:text-teal-300',
       'Weather Application':
-        'bg-sky-100 text-sky-800 dark:bg-sky-900/30 dark:text-sky-400',
-      default:
-        'bg-gray-100 text-gray-800 dark:bg-zinc-900/30 dark:text-gray-400',
+        'bg-sky-500/[0.08] text-sky-700 dark:bg-sky-500/[0.12] dark:text-sky-300',
     };
-    return colors[category as keyof typeof colors] || colors.default;
+    return (
+      colors[category] ||
+      'bg-neutral-500/[0.08] text-neutral-700 dark:bg-neutral-500/[0.12] dark:text-neutral-300'
+    );
   };
 
   return (
-    <section id="projects" className="py-20 bg-gray-50 dark:bg-dark-800">
+    <section id="projects" className="py-20">
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -75,10 +75,10 @@ export function Projects() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-zinc-900 dark:text-white mb-4">
+          <h2 className="text-4xl font-bold text-neutral-900 dark:text-white mb-4">
             Featured Projects
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-500 dark:text-neutral-400 max-w-3xl mx-auto">
             A collection of projects I&apos;ve worked on, showcasing different
             technologies and approaches
           </p>
@@ -89,7 +89,7 @@ export function Projects() {
           <div className="relative">
             <button
               onClick={() => setDropdownOpen(!dropdownOpen)}
-              className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-dark-900 border border-gray-200 dark:border-dark-700 rounded-lg text-gray-700 dark:text-gray-300 hover:border-primary-300 dark:hover:border-primary-600 transition-colors"
+              className="flex items-center space-x-2 px-4 py-2.5 glass-card rounded-xl text-neutral-600 dark:text-neutral-300 hover:bg-black/[0.02] dark:hover:bg-white/[0.03] transition-colors text-sm font-medium"
             >
               <span>
                 Sort by: {sortBy === 'name' ? 'Name' : 'Last Updated'}
@@ -97,13 +97,13 @@ export function Projects() {
               <ChevronDown className="h-4 w-4" />
             </button>
             {dropdownOpen && (
-              <div className="absolute top-full left-0 mt-2 w-48 bg-white dark:bg-dark-900 border border-gray-200 dark:border-dark-700 rounded-lg shadow-lg z-10">
+              <div className="absolute top-full left-0 mt-2 w-48 glass-card rounded-xl shadow-lg z-10 overflow-hidden">
                 <button
                   onClick={() => {
                     setSortBy('lastUpdated');
                     setDropdownOpen(false);
                   }}
-                  className="w-full px-4 py-2 text-left hover:bg-gray-50 dark:hover:bg-dark-800 text-gray-700 dark:text-gray-300"
+                  className="w-full px-4 py-2.5 text-left hover:bg-black/[0.03] dark:hover:bg-white/[0.05] text-neutral-600 dark:text-neutral-300 text-sm transition-colors"
                 >
                   Last Updated
                 </button>
@@ -112,7 +112,7 @@ export function Projects() {
                     setSortBy('name');
                     setDropdownOpen(false);
                   }}
-                  className="w-full px-4 py-2 text-left hover:bg-gray-50 dark:hover:bg-dark-800 text-gray-700 dark:text-gray-300"
+                  className="w-full px-4 py-2.5 text-left hover:bg-black/[0.03] dark:hover:bg-white/[0.05] text-neutral-600 dark:text-neutral-300 text-sm transition-colors"
                 >
                   Name
                 </button>
@@ -122,7 +122,7 @@ export function Projects() {
         </div>
 
         {/* Featured Projects */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {featuredProjects.map((project, index) => (
             <motion.div
               key={project.id}
@@ -130,63 +130,63 @@ export function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-white dark:bg-dark-900 rounded-xl p-6 border border-gray-200 dark:border-dark-700 card-hover group"
+              className="glass-card p-6 card-hover group"
             >
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-primary-100 dark:bg-primary-900/30 rounded-lg">
+                  <div className="p-2 bg-primary-500/[0.08] dark:bg-primary-500/[0.12] rounded-xl">
                     <Folder className="h-5 w-5 text-primary-600 dark:text-primary-400" />
                   </div>
-                  <Star className="h-5 w-5 text-yellow-500 fill-current" />
+                  <Star className="h-4 w-4 text-amber-400 fill-current" />
                 </div>
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center space-x-1">
                   <a
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-lg text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                    className="p-2 rounded-lg text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
                   >
-                    <FaGithub className="h-5 w-5" />
+                    <FaGithub className="h-4 w-4" />
                   </a>
                   {project.appLink && (
                     <a
                       href={project.appLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-lg text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                      className="p-2 rounded-lg text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
                     >
-                      <ExternalLink className="h-5 w-5" />
+                      <ExternalLink className="h-4 w-4" />
                     </a>
                   )}
                 </div>
               </div>
 
-              <h3 className="text-xl font-semibold text-zinc-900 dark:text-white mb-2">
+              <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-2">
                 {project.title}
               </h3>
 
-              <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
+              <p className="text-neutral-500 dark:text-neutral-400 mb-4 leading-relaxed text-sm">
                 {project.description}
               </p>
 
               <div className="flex items-center justify-between">
                 <span
-                  className={`px-2 py-1 text-xs font-medium rounded-full ${getCategoryColor(project.category)}`}
+                  className={`px-2.5 py-1 text-xs font-medium rounded-full ${getCategoryColor(project.category)}`}
                 >
                   {project.category}
                 </span>
                 {project.lastUpdated && (
-                  <span className="text-xs text-gray-500 dark:text-gray-400">
+                  <span className="text-xs text-neutral-400">
                     Updated {project.lastUpdated}
                   </span>
                 )}
               </div>
 
-              <div className="flex flex-wrap gap-2 mt-4">
+              <div className="flex flex-wrap gap-1.5 mt-4">
                 {project.technologies.map(tech => (
                   <span
                     key={tech}
-                    className="px-2 py-1 text-xs font-medium rounded bg-gray-100 dark:bg-dark-800 text-gray-700 dark:text-gray-300"
+                    className="px-2 py-1 text-xs font-medium rounded-lg bg-black/[0.03] dark:bg-white/[0.05] text-neutral-600 dark:text-neutral-300"
                   >
                     {tech}
                   </span>
@@ -204,11 +204,11 @@ export function Projects() {
           viewport={{ once: true }}
           className="space-y-6"
         >
-          <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white text-center mb-8">
+          <h3 className="text-2xl font-semibold text-neutral-900 dark:text-white text-center mb-8">
             Other Projects
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {otherProjects.map((project, index) => (
               <motion.div
                 key={project.id}
@@ -216,46 +216,46 @@ export function Projects() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 viewport={{ once: true }}
-                className="bg-white dark:bg-dark-900 rounded-lg p-4 border border-gray-200 dark:border-dark-700 hover:border-primary-300 dark:hover:border-primary-600 transition-all duration-200"
+                className="glass-card p-4 hover:bg-black/[0.01] dark:hover:bg-white/[0.02] transition-all duration-200"
               >
                 <div className="flex items-center justify-between mb-3">
-                  <h4 className="font-semibold text-zinc-900 dark:text-white">
+                  <h4 className="font-semibold text-neutral-900 dark:text-white text-sm">
                     {project.title}
                   </h4>
-                  <div className="flex items-center space-x-2">
+                  <div className="flex items-center space-x-1">
                     <a
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-1 rounded text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                      className="p-1 rounded text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
                     >
-                      <FaGithub className="h-4 w-4" />
+                      <FaGithub className="h-3.5 w-3.5" />
                     </a>
                     {project.appLink && (
                       <a
                         href={project.appLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-1 rounded text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                        className="p-1 rounded text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
                       >
-                        <ExternalLink className="h-4 w-4" />
+                        <ExternalLink className="h-3.5 w-3.5" />
                       </a>
                     )}
                   </div>
                 </div>
 
-                <p className="text-gray-600 dark:text-gray-400 text-sm mb-3">
+                <p className="text-neutral-500 dark:text-neutral-400 text-xs mb-3 leading-relaxed">
                   {project.description}
                 </p>
 
                 <div className="flex items-center justify-between mb-3">
                   <span
-                    className={`px-2 py-1 text-xs font-medium rounded-full ${getCategoryColor(project.category)}`}
+                    className={`px-2 py-0.5 text-xs font-medium rounded-full ${getCategoryColor(project.category)}`}
                   >
                     {project.category}
                   </span>
                   {project.lastUpdated && (
-                    <span className="text-xs text-gray-500 dark:text-gray-400">
+                    <span className="text-xs text-neutral-400">
                       {project.lastUpdated}
                     </span>
                   )}
@@ -265,13 +265,13 @@ export function Projects() {
                   {project.technologies.slice(0, 3).map(tech => (
                     <span
                       key={tech}
-                      className="px-2 py-1 text-xs rounded bg-gray-100 dark:bg-dark-800 text-gray-600 dark:text-gray-400"
+                      className="px-2 py-0.5 text-xs rounded-md bg-black/[0.03] dark:bg-white/[0.05] text-neutral-500 dark:text-neutral-400"
                     >
                       {tech}
                     </span>
                   ))}
                   {project.technologies.length > 3 && (
-                    <span className="px-2 py-1 text-xs rounded bg-gray-100 dark:bg-dark-800 text-gray-600 dark:text-gray-400">
+                    <span className="px-2 py-0.5 text-xs rounded-md bg-black/[0.03] dark:bg-white/[0.05] text-neutral-500 dark:text-neutral-400">
                       +{project.technologies.length - 3} more
                     </span>
                   )}
@@ -289,14 +289,14 @@ export function Projects() {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <p className="text-gray-600 dark:text-gray-400 mb-6">
+          <p className="text-neutral-500 dark:text-neutral-400 mb-6">
             Want to see more of my work?
           </p>
           <a
             href="https://github.com/mwpereira"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center space-x-2 px-6 py-3 bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 rounded-lg font-medium transition-all duration-200 transform hover:scale-105"
+            className="inline-flex items-center space-x-2 px-6 py-3 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 rounded-xl font-medium transition-all duration-200 transform hover:scale-[1.02]"
           >
             <FaGithub className="h-5 w-5" />
             <span>View on GitHub</span>

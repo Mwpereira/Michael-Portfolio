@@ -19,7 +19,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-zinc-900 dark:bg-slate-950 text-white">
+    <footer className="bg-neutral-900 dark:bg-black text-white">
       <div className="section-container">
         <div className="py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -34,14 +34,14 @@ export function Footer() {
               <h3 className="text-2xl font-bold gradient-text">
                 {personalData.name}
               </h3>
-              <div className="flex space-x-4">
+              <div className="flex space-x-3">
                 {socialLinks.map(link => (
                   <a
                     key={link.label}
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-lg bg-zinc-800 dark:bg-zinc-900 text-gray-400 hover:text-white hover:bg-primary-600 transition-all duration-200"
+                    className="p-2 rounded-xl bg-white/[0.05] text-neutral-400 hover:text-white hover:bg-primary-600 transition-all duration-200"
                     aria-label={link.label}
                   >
                     <link.icon className="h-5 w-5" />
@@ -69,7 +69,7 @@ export function Footer() {
                   <li key={link.name}>
                     <a
                       href={link.href}
-                      className="text-gray-400 hover:text-white transition-colors duration-200"
+                      className="text-neutral-400 hover:text-white transition-colors duration-200 text-sm"
                     >
                       {link.name}
                     </a>
@@ -88,28 +88,32 @@ export function Footer() {
             >
               <h4 className="text-lg font-semibold">Get In Touch</h4>
               <div className="space-y-2">
-                <p className="text-gray-400">{personalData.location}</p>
+                <p className="text-neutral-400 text-sm">
+                  {personalData.location}
+                </p>
                 <a
                   href={`mailto:${personalData.email}`}
-                  className="text-gray-400 hover:text-white transition-colors duration-200 block"
+                  className="text-neutral-400 hover:text-white transition-colors duration-200 block text-sm"
                 >
                   {personalData.email}
                 </a>
-                <p className="text-gray-400">{personalData.currentRole}</p>
+                <p className="text-neutral-400 text-sm">
+                  {personalData.currentRole}
+                </p>
               </div>
             </motion.div>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-zinc-800 dark:border-gray-700 py-6">
+        <div className="border-t border-white/[0.06] py-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="flex items-center space-x-2 text-gray-400"
+              className="flex items-center space-x-2 text-neutral-400 text-sm"
             >
               <span>
                 © {currentYear} {personalData.name}.
@@ -122,7 +126,7 @@ export function Footer() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
               onClick={scrollToTop}
-              className="mt-4 md:mt-0 p-2 rounded-lg bg-zinc-800 dark:bg-zinc-900 text-gray-400 hover:text-white hover:bg-primary-600 transition-all duration-200"
+              className="mt-4 md:mt-0 p-2 rounded-xl bg-white/[0.05] text-neutral-400 hover:text-white hover:bg-primary-600 transition-all duration-200"
               aria-label="Scroll to top"
             >
               <ArrowUp className="h-5 w-5" />

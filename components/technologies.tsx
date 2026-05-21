@@ -11,12 +11,10 @@ export function Technologies() {
   const { categories } = technologiesData;
   const [imageErrors, setImageErrors] = useState<Set<string>>(new Set());
 
-  // Helper function to handle image load errors
   const handleImageError = (techName: string) => {
     setImageErrors(prev => new Set(prev).add(techName));
   };
 
-  // Helper function to get icon component with fallbacks
   const getIcon = (iconName: string, techName: string) => {
     const IconComponent = SimpleIcons[iconName as keyof typeof SimpleIcons];
 
@@ -24,7 +22,6 @@ export function Technologies() {
       return IconComponent;
     }
 
-    // Custom fallbacks for AI tools and other missing icons
     switch (techName.toLowerCase()) {
       case 'langflow':
         return Bot;
@@ -36,11 +33,10 @@ export function Technologies() {
       case 'msty':
         return Sparkles;
       default:
-        return SimpleIcons.SiReact; // Default fallback
+        return SimpleIcons.SiReact;
     }
   };
 
-  // Helper function to get custom colors for fallback icons
   const getCustomColor = (techName: string, originalColor: string) => {
     switch (techName.toLowerCase()) {
       case 'langflow':
@@ -58,7 +54,7 @@ export function Technologies() {
   };
 
   return (
-    <section id="technologies" className="py-20 bg-gray-50 dark:bg-dark-800">
+    <section id="technologies" className="py-20">
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -67,16 +63,16 @@ export function Technologies() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-zinc-900 dark:text-white mb-4">
+          <h2 className="text-4xl font-bold text-neutral-900 dark:text-white mb-4">
             Technologies & Tools
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-500 dark:text-neutral-400 max-w-3xl mx-auto">
             My preferred technologies and tools for building modern, scalable
             applications
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {Object.entries(categories).map(
             ([categoryName, techs], categoryIndex) => (
               <motion.div
@@ -85,12 +81,12 @@ export function Technologies() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: categoryIndex * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white dark:bg-dark-900 rounded-xl p-6 border border-gray-200 dark:border-dark-700 card-hover"
+                className="glass-card p-6 card-hover"
               >
-                <h3 className="text-xl font-semibold text-zinc-900 dark:text-white mb-6 capitalize">
+                <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-5 capitalize">
                   {categoryName === 'aiTools' ? 'AI Tools' : categoryName}
                 </h3>
-                <div className="space-y-4">
+                <div className="space-y-2.5">
                   {techs.map((tech, techIndex) => {
                     const IconComponent = getIcon(tech.icon, tech.name);
                     const iconColor = getCustomColor(tech.name, tech.color);
@@ -107,27 +103,27 @@ export function Technologies() {
                           delay: categoryIndex * 0.1 + techIndex * 0.05,
                         }}
                         viewport={{ once: true }}
-                        className="flex items-center space-x-3 p-3 rounded-lg bg-gray-50 dark:bg-dark-800 border border-gray-200 dark:border-dark-700 hover:border-primary-300 dark:hover:border-primary-600 transition-colors duration-200 group"
+                        className="flex items-center space-x-3 p-2.5 rounded-xl bg-black/[0.02] dark:bg-white/[0.02] border border-black/[0.03] dark:border-white/[0.04] hover:border-primary-500/20 dark:hover:border-primary-500/20 transition-all duration-200 group"
                       >
-                        <div className="p-2 rounded-lg bg-white dark:bg-dark-700 shadow-sm group-hover:shadow-md transition-shadow duration-200">
+                        <div className="p-2 rounded-lg bg-white dark:bg-white/[0.05] shadow-sm group-hover:shadow-md transition-shadow duration-200">
                           {hasLogo ? (
                             <Image
                               src={`/${(tech as any).logo}`}
                               alt={`${tech.name} logo`}
-                              width={24}
-                              height={24}
-                              className="w-6 h-6 object-contain"
+                              width={20}
+                              height={20}
+                              className="w-5 h-5 object-contain"
                               unoptimized
                               onError={() => handleImageError(tech.name)}
                             />
                           ) : (
                             <IconComponent
-                              className="w-6 h-6 transition-colors duration-200"
+                              className="w-5 h-5 transition-colors duration-200"
                               style={{ color: iconColor }}
                             />
                           )}
                         </div>
-                        <span className="font-medium text-zinc-900 dark:text-white">
+                        <span className="font-medium text-neutral-800 dark:text-neutral-200 text-sm">
                           {tech.name}
                         </span>
                       </motion.div>
@@ -147,10 +143,10 @@ export function Technologies() {
           viewport={{ once: true }}
           className="mt-16 text-center"
         >
-          <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white mb-8">
+          <h3 className="text-2xl font-semibold text-neutral-900 dark:text-white mb-8">
             Additional Skills & Methodologies
           </h3>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-2.5">
             {[
               'REST APIs',
               'GraphQL',

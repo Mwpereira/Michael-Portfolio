@@ -31,7 +31,7 @@ export function About() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white dark:bg-dark-900">
+    <section id="about" className="py-20">
       <div className="section-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Content */}
@@ -43,13 +43,13 @@ export function About() {
             className="space-y-6"
           >
             <div className="space-y-4">
-              <h2 className="text-4xl font-bold text-zinc-900 dark:text-white">
+              <h2 className="text-4xl font-bold text-neutral-900 dark:text-white">
                 About Me
               </h2>
               <div className="w-20 h-1 bg-primary-500 rounded-full" />
             </div>
 
-            <div className="space-y-4 text-gray-600 dark:text-gray-400 leading-relaxed">
+            <div className="space-y-4 text-neutral-600 dark:text-neutral-400 leading-relaxed">
               {personalData.about.split('\n\n').map((paragraph, index) => (
                 <p key={index} className="text-lg">
                   {paragraph}
@@ -74,35 +74,35 @@ export function About() {
                   priority
                   unoptimized
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent" />
               </div>
             </motion.div>
 
-            {/* Education - Back on the left side */}
+            {/* Education */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
-              className="bg-gray-50 dark:bg-dark-800 rounded-xl p-6 border border-gray-200 dark:border-dark-700"
+              className="glass-card p-6"
             >
-              <h3 className="text-xl font-semibold text-zinc-900 dark:text-white mb-4">
+              <h3 className="text-xl font-semibold text-neutral-900 dark:text-white mb-4">
                 Education
               </h3>
               {educationData.education.map(edu => (
                 <div key={edu.id} className="space-y-3">
                   <div className="flex flex-col xl:flex-row xl:items-center xl:justify-between gap-2">
-                    <h4 className="font-medium text-zinc-900 dark:text-white text-base leading-tight">
+                    <h4 className="font-medium text-neutral-900 dark:text-white text-base leading-tight">
                       {edu.degree}
                     </h4>
-                    <span className="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap">
+                    <span className="text-sm text-neutral-500 dark:text-neutral-400 whitespace-nowrap">
                       {edu.duration}
                     </span>
                   </div>
                   <p className="text-primary-600 dark:text-primary-400 font-medium leading-tight">
                     {edu.institution}
                   </p>
-                  <p className="text-gray-600 dark:text-gray-400 leading-tight">
+                  <p className="text-neutral-600 dark:text-neutral-400 leading-tight">
                     {edu.location}
                   </p>
                 </div>
@@ -129,7 +129,7 @@ export function About() {
                   priority
                   unoptimized
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent" />
               </div>
             </motion.div>
 
@@ -139,7 +139,7 @@ export function About() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
-              className="grid grid-cols-1 sm:grid-cols-2 gap-6"
+              className="grid grid-cols-1 sm:grid-cols-2 gap-4"
             >
               {interests.map((interest, index) => (
                 <motion.div
@@ -148,17 +148,17 @@ export function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.6 + index * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-white dark:bg-dark-800 rounded-xl p-6 border border-gray-200 dark:border-dark-700 card-hover"
+                  className="glass-card p-5 card-hover"
                 >
-                  <div className="flex items-center space-x-4 mb-3">
-                    <div className="p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg">
-                      <interest.icon className="h-6 w-6 text-primary-600 dark:text-primary-400" />
+                  <div className="flex items-center space-x-3 mb-3">
+                    <div className="p-2.5 bg-primary-500/[0.08] dark:bg-primary-500/[0.12] rounded-xl">
+                      <interest.icon className="h-5 w-5 text-primary-600 dark:text-primary-400" />
                     </div>
-                    <h4 className="font-semibold text-zinc-900 dark:text-white leading-tight">
+                    <h4 className="font-semibold text-neutral-900 dark:text-white text-sm leading-tight">
                       {interest.title}
                     </h4>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                  <p className="text-neutral-500 dark:text-neutral-400 text-sm leading-relaxed">
                     {interest.description}
                   </p>
                 </motion.div>

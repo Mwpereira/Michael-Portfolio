@@ -8,11 +8,10 @@ import personalData from '@/content/personal.json';
 export function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
-      {/* Background Elements */}
+      {/* Background Elements - subtle liquid orbs */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-primary-500/10 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000" />
-        <div className="absolute top-3/4 left-1/2 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-2000" />
+        <div className="absolute top-1/3 left-1/4 w-80 h-80 bg-primary-500/[0.06] dark:bg-primary-500/[0.04] rounded-full blur-[80px] animate-pulse" />
+        <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-primary-400/[0.04] dark:bg-primary-400/[0.03] rounded-full blur-[100px] animate-pulse delay-1000" />
       </div>
 
       <div className="section-container">
@@ -39,10 +38,10 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="space-y-4"
           >
-            <h2 className="text-3xl md:text-5xl font-bold text-zinc-800 dark:text-gray-200">
+            <h2 className="text-3xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-100">
               {personalData.title}
             </h2>
-            <div className="flex items-center justify-center space-x-2 text-gray-600 dark:text-gray-400">
+            <div className="flex items-center justify-center space-x-2 text-neutral-500 dark:text-neutral-400">
               <MapPin className="h-5 w-5" />
               <span className="text-lg">{personalData.location}</span>
             </div>
@@ -53,7 +52,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-4xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-neutral-500 dark:text-neutral-400 max-w-4xl mx-auto leading-relaxed"
           >
             {personalData.intro}
           </motion.p>
@@ -63,9 +62,9 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="inline-flex items-center px-6 py-3 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-800 dark:text-primary-300 border border-primary-200 dark:border-primary-800"
+            className="inline-flex items-center px-6 py-3 rounded-full glass-card"
           >
-            <span className="text-lg font-medium">
+            <span className="text-lg font-medium text-neutral-700 dark:text-neutral-200">
               Currently: {personalData.currentRole}
             </span>
           </motion.div>
@@ -79,7 +78,7 @@ export function Hero() {
           >
             <a
               href="#contact"
-              className="group px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-primary-500/25"
+              className="group px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white rounded-xl font-semibold transition-all duration-200 transform hover:scale-[1.02] shadow-lg shadow-primary-600/20 hover:shadow-primary-600/30"
             >
               Get In Touch
             </a>
@@ -87,7 +86,7 @@ export function Hero() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="group px-8 py-4 bg-white dark:bg-dark-800 text-zinc-800 dark:text-gray-200 border border-gray-300 dark:border-dark-600 rounded-lg font-semibold hover:bg-gray-50 dark:hover:bg-dark-700 transition-all duration-200 transform hover:scale-105 flex items-center space-x-2"
+              className="group px-8 py-4 glass-card text-neutral-700 dark:text-neutral-200 rounded-xl font-semibold hover:bg-black/[0.02] dark:hover:bg-white/[0.04] transition-all duration-200 transform hover:scale-[1.02] flex items-center space-x-2"
             >
               <Link className="h-5 w-5" />
               <span>View Resume</span>
@@ -99,7 +98,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1.0 }}
-            className="flex justify-center space-x-6"
+            className="flex justify-center space-x-4"
           >
             {[
               {
@@ -123,49 +122,23 @@ export function Hero() {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-white dark:bg-dark-800 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 border border-gray-200 dark:border-dark-700 hover:border-primary-300 dark:hover:border-primary-600 transition-all duration-200 transform hover:scale-110 shadow-md hover:shadow-lg"
+                className="p-3 rounded-xl glass-card text-neutral-500 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-200 transform hover:scale-110"
                 aria-label={social.label}
               >
-                <social.icon className="h-6 w-6" />
+                <social.icon className="h-5 w-5" />
               </a>
             ))}
           </motion.div>
 
-          {/* Scroll Indicator - Below social links on mobile */}
+          {/* Scroll Indicator */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1.2 }}
             className="flex md:hidden justify-center pt-4"
-          >
-            {/* <motion.div
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 2, repeat: Infinity }}
-              className="flex flex-col items-center space-y-2 text-gray-400 dark:text-gray-600"
-            >
-              <span className="text-sm">Scroll down</span>
-              <ArrowDown className="h-5 w-5" />
-            </motion.div> */}
-          </motion.div>
+          />
         </div>
       </div>
-
-      {/* Scroll Indicator - Desktop only, positioned at bottom */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.6, delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:block"
-      >
-        {/* <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          className="flex flex-col items-center space-y-2 text-gray-400 dark:text-gray-600"
-        >
-          <span className="text-sm">Scroll down</span>
-          <ArrowDown className="h-5 w-5" />
-        </motion.div> */}
-      </motion.div>
     </section>
   );
 }

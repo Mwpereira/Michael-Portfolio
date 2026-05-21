@@ -42,9 +42,7 @@ export function Navigation() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-white/80 dark:bg-dark-900/80 backdrop-blur-md border-b border-gray-200 dark:border-dark-700'
-          : 'bg-transparent'
+        isScrolled ? 'glass-nav shadow-sm' : 'bg-transparent'
       }`}
     >
       <div className="section-container">
@@ -78,7 +76,7 @@ export function Navigation() {
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 * (index + 2) }}
-                  className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200 font-medium"
+                  className="text-neutral-600 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200 font-medium text-sm"
                 >
                   {item.name}
                 </motion.a>
@@ -87,7 +85,7 @@ export function Navigation() {
           </div>
 
           {/* Desktop Actions */}
-          <div className="hidden md:flex items-center space-x-4 flex-shrink-0">
+          <div className="hidden md:flex items-center space-x-3 flex-shrink-0">
             {socialLinks.map((link, index) => (
               <motion.a
                 key={link.label}
@@ -97,10 +95,10 @@ export function Navigation() {
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.1 * (index + 6) }}
-                className="p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-dark-800 transition-colors duration-200"
+                className="p-2 rounded-xl text-neutral-500 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-black/[0.03] dark:hover:bg-white/[0.05] transition-all duration-200"
                 aria-label={link.label}
               >
-                <link.icon className="h-5 w-5" />
+                <link.icon className="h-[18px] w-[18px]" />
               </motion.a>
             ))}
             <motion.div
@@ -117,13 +115,13 @@ export function Navigation() {
             <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-dark-800 transition-colors duration-200"
+              className="p-2 rounded-xl text-neutral-600 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-black/[0.03] dark:hover:bg-white/[0.05] transition-all duration-200"
               aria-label="Toggle menu"
             >
               {isOpen ? (
-                <X className="h-6 w-6" />
+                <X className="h-5 w-5" />
               ) : (
-                <Menu className="h-6 w-6" />
+                <Menu className="h-5 w-5" />
               )}
             </button>
           </div>
@@ -136,27 +134,27 @@ export function Navigation() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="md:hidden border-t border-gray-200 dark:border-dark-700 bg-white/95 dark:bg-dark-900/95 backdrop-blur-md"
+              className="md:hidden glass-card mt-2 mb-4"
             >
-              <div className="py-4 space-y-4">
+              <div className="py-4 space-y-1">
                 {navItems.map(item => (
                   <a
                     key={item.name}
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className="block px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200 font-medium"
+                    className="block px-4 py-2.5 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200 font-medium text-sm rounded-lg hover:bg-black/[0.02] dark:hover:bg-white/[0.03]"
                   >
                     {item.name}
                   </a>
                 ))}
-                <div className="flex items-center justify-center space-x-4 pt-4 border-t border-gray-200 dark:border-dark-700">
+                <div className="flex items-center justify-center space-x-4 pt-4 mt-2 border-t border-black/[0.04] dark:border-white/[0.06]">
                   {socialLinks.map(link => (
                     <a
                       key={link.label}
                       href={link.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-dark-800 transition-colors duration-200"
+                      className="p-2 rounded-xl text-neutral-500 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-black/[0.03] dark:hover:bg-white/[0.05] transition-all duration-200"
                       aria-label={link.label}
                     >
                       <link.icon className="h-5 w-5" />

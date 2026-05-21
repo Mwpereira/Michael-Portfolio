@@ -26,18 +26,14 @@ export function Contact() {
 
       if (response.ok) {
         setFormState('success');
-        // Reset form
         (event.target as HTMLFormElement).reset();
-        // Reset state after 5 seconds
         setTimeout(() => setFormState('idle'), 5000);
       } else {
         setFormState('error');
-        // Reset state after 5 seconds
         setTimeout(() => setFormState('idle'), 5000);
       }
     } catch (error) {
       setFormState('error');
-      // Reset state after 5 seconds
       setTimeout(() => setFormState('idle'), 5000);
     }
   };
@@ -71,7 +67,7 @@ export function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-white dark:bg-dark-900">
+    <section id="contact" className="py-20">
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -80,10 +76,10 @@ export function Contact() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-zinc-900 dark:text-white mb-4">
+          <h2 className="text-4xl font-bold text-neutral-900 dark:text-white mb-4">
             Get In Touch
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-500 dark:text-neutral-400 max-w-3xl mx-auto">
             I&apos;m always open to discussing new opportunities, interesting
             projects, or just having a chat about technology
           </p>
@@ -99,10 +95,10 @@ export function Contact() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white mb-6">
+              <h3 className="text-2xl font-semibold text-neutral-900 dark:text-white mb-6">
                 Let&apos;s Connect
               </h3>
-              <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-8">
+              <p className="text-neutral-500 dark:text-neutral-400 leading-relaxed mb-8">
                 Whether you&apos;re looking to hire, collaborate, or just want
                 to say hello, I&apos;d love to hear from you. Feel free to reach
                 out through any of the channels below.
@@ -110,7 +106,7 @@ export function Contact() {
             </div>
 
             {/* Contact Details */}
-            <div className="space-y-6">
+            <div className="space-y-5">
               {contactInfo.map((info, index) => (
                 <motion.div
                   key={index}
@@ -120,11 +116,11 @@ export function Contact() {
                   viewport={{ once: true }}
                   className="flex items-center space-x-4"
                 >
-                  <div className="bg-primary-100 dark:bg-primary-900/30 p-3 rounded-lg">
-                    <info.icon className="h-6 w-6 text-primary-600 dark:text-primary-400" />
+                  <div className="p-2.5 bg-primary-500/[0.08] dark:bg-primary-500/[0.12] rounded-xl">
+                    <info.icon className="h-5 w-5 text-primary-600 dark:text-primary-400" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-zinc-900 dark:text-white">
+                    <h4 className="font-medium text-neutral-900 dark:text-white text-sm">
                       {info.title}
                     </h4>
                     {info.href !== '#' ? (
@@ -132,12 +128,12 @@ export function Contact() {
                         href={info.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                        className="text-neutral-500 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors text-sm"
                       >
                         {info.value}
                       </a>
                     ) : (
-                      <span className="text-gray-600 dark:text-gray-400">
+                      <span className="text-neutral-500 dark:text-neutral-400 text-sm">
                         {info.value}
                       </span>
                     )}
@@ -147,11 +143,11 @@ export function Contact() {
             </div>
 
             {/* Social Links */}
-            <div className="pt-8 border-t border-gray-200 dark:border-dark-700">
-              <h4 className="font-semibold text-zinc-900 dark:text-white mb-4">
+            <div className="pt-8 border-t border-black/[0.04] dark:border-white/[0.06]">
+              <h4 className="font-semibold text-neutral-900 dark:text-white mb-4 text-sm">
                 Follow Me
               </h4>
-              <div className="flex space-x-4">
+              <div className="flex space-x-3">
                 {socialLinks.map((link, index) => (
                   <motion.a
                     key={index}
@@ -162,7 +158,7 @@ export function Contact() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.6, delay: index * 0.1 }}
                     viewport={{ once: true }}
-                    className="p-2 rounded-lg bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 hover:text-white hover:bg-primary-600 dark:hover:bg-primary-700 transition-all duration-200"
+                    className="p-2.5 rounded-xl glass-card text-neutral-500 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-200"
                     aria-label={link.label}
                   >
                     <link.icon className="h-5 w-5" />
@@ -178,23 +174,23 @@ export function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="bg-gray-50 dark:bg-dark-800 rounded-xl p-8 border border-gray-200 dark:border-dark-700"
+            className="glass-card p-8"
           >
-            <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white mb-6">
+            <h3 className="text-2xl font-semibold text-neutral-900 dark:text-white mb-6">
               Send a Message
             </h3>
 
             <form
               name="contact"
               onSubmit={handleFormSubmit}
-              className="space-y-6"
+              className="space-y-5"
             >
               <input type="hidden" name="form-name" value="contact" />
 
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                  className="block text-sm font-medium text-neutral-600 dark:text-neutral-300 mb-2"
                 >
                   Name
                 </label>
@@ -203,7 +199,7 @@ export function Contact() {
                   id="name"
                   name="name"
                   required
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-dark-600 bg-white dark:bg-dark-900 text-zinc-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
+                  className="w-full px-4 py-3 rounded-xl border border-black/[0.06] dark:border-white/[0.08] bg-white/50 dark:bg-white/[0.03] text-neutral-900 dark:text-white focus:ring-2 focus:ring-primary-500/30 focus:border-primary-500/50 transition-all backdrop-blur-sm placeholder:text-neutral-400"
                   placeholder="Your name"
                 />
               </div>
@@ -211,7 +207,7 @@ export function Contact() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                  className="block text-sm font-medium text-neutral-600 dark:text-neutral-300 mb-2"
                 >
                   Email
                 </label>
@@ -220,7 +216,7 @@ export function Contact() {
                   id="email"
                   name="email"
                   required
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-dark-600 bg-white dark:bg-dark-900 text-zinc-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
+                  className="w-full px-4 py-3 rounded-xl border border-black/[0.06] dark:border-white/[0.08] bg-white/50 dark:bg-white/[0.03] text-neutral-900 dark:text-white focus:ring-2 focus:ring-primary-500/30 focus:border-primary-500/50 transition-all backdrop-blur-sm placeholder:text-neutral-400"
                   placeholder="your.email@example.com"
                 />
               </div>
@@ -228,7 +224,7 @@ export function Contact() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                  className="block text-sm font-medium text-neutral-600 dark:text-neutral-300 mb-2"
                 >
                   Message
                 </label>
@@ -237,7 +233,7 @@ export function Contact() {
                   name="message"
                   required
                   rows={6}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-dark-600 bg-white dark:bg-dark-900 text-zinc-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors resize-none"
+                  className="w-full px-4 py-3 rounded-xl border border-black/[0.06] dark:border-white/[0.08] bg-white/50 dark:bg-white/[0.03] text-neutral-900 dark:text-white focus:ring-2 focus:ring-primary-500/30 focus:border-primary-500/50 transition-all backdrop-blur-sm resize-none placeholder:text-neutral-400"
                   placeholder="Your message..."
                 />
               </div>
@@ -245,9 +241,9 @@ export function Contact() {
               <button
                 type="submit"
                 disabled={formState === 'submitting'}
-                className="w-full px-6 py-3 bg-primary-600 hover:bg-primary-700 dark:bg-primary-500 dark:hover:bg-primary-600 text-white rounded-lg font-medium transition-colors duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full px-6 py-3.5 bg-primary-600 hover:bg-primary-700 text-white rounded-xl font-medium transition-all duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-primary-600/20"
               >
-                <Send className="h-5 w-5" />
+                <Send className="h-4 w-4" />
                 <span>
                   {formState === 'submitting' ? 'Sending...' : 'Send Message'}
                 </span>
@@ -256,16 +252,16 @@ export function Contact() {
 
             {/* Form Status Messages */}
             {formState === 'success' && (
-              <div className="mt-4 p-4 bg-green-100 dark:bg-green-900/30 border border-green-200 dark:border-green-800 rounded-lg">
-                <p className="text-green-800 dark:text-green-200">
+              <div className="mt-4 p-4 bg-primary-500/[0.08] border border-primary-500/20 rounded-xl">
+                <p className="text-primary-700 dark:text-primary-300 text-sm">
                   Thank you for your message! I&apos;ll get back to you soon.
                 </p>
               </div>
             )}
 
             {formState === 'error' && (
-              <div className="mt-4 p-4 bg-red-100 dark:bg-red-900/30 border border-red-200 dark:border-red-800 rounded-lg">
-                <p className="text-red-800 dark:text-red-200">
+              <div className="mt-4 p-4 bg-red-500/[0.08] border border-red-500/20 rounded-xl">
+                <p className="text-red-700 dark:text-red-300 text-sm">
                   There was an error sending your message. Please try again or
                   contact me directly.
                 </p>
