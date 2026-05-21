@@ -23,7 +23,7 @@ export function Navigation() {
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Certifications', href: '#certifications' },
-    { name: 'Projects', href: '#projects' },
+    { name: 'Publications', href: '#publications' },
     { name: 'Contact', href: '#contact' },
   ];
 
